@@ -1,31 +1,39 @@
-# 収録・再現・訂正の方針
+# Archiving, Reproduction, and Corrections
 
-初回集約日：2026 10 07。
+**English** · [日本語](ARCHIVE_NOTES.ja.md)
 
-## 収録範囲
+First archive: **2026 10 07**. English editions introduced: **2026 10 08**.
 
-数学探索プロジェクトの保存フォルダ全体と、そこから参照されるP対NP・W₂中心・X01・独立探索3枝の関連成果物を回収しました。原稿、別ファイルとして残っていた査読、探索ノート、ZIP、HTMLに埋め込まれていた再現資料を収録しています。2026 10 06の横断研究については、総合HTMLと残存する導出・検算メモも含めました。
+## Scope
 
-初期台帳の添付コピーと保存版は同一内容のため、`project/initial-ledger-2026-09-08.md` に一本化しています。チャット会話の全発言、保存されていない中間ファイル、消失した過去の実行環境を復元したものではありません。
+This archive gathers the saved mathematics-exploration project and the related artifacts it references for P versus NP, Wasserstein centers, X01, and the three independent exploration branches. It includes manuscripts, separately saved reviews, exploration notes, ZIP bundles, and reproducibility materials embedded in HTML. The cross-disciplinary work of 2026 10 06 includes its combined HTML report and surviving derivation and verification notes.
 
-## 原本と抽出物
+The attached and saved copies of the initial ledger were identical, so they are represented by one file, `project/initial-ledger-2026-09-08.md`. This archive does not reconstruct every chat message, unsaved intermediate file, or lost execution environment.
 
-- `provenance/source-manifest.json` に、元のファイル名、移設先、サイズ、SHA-256を記録しています。原稿の本文は変更していません。
-- `provenance/` の抽出記録には、HTMLの埋込キーやZIP内のメンバー名を記録しています。未知のJavaScriptは実行せず、データを静的に復元しました。
-- 原稿と、その中に埋め込まれていたZIPやコードが重複する場合があります。単独で取得して再利用できるよう両方を保持しており、別の成果として数えません。
-- `artifacts/` 内のファイル名・README・検証ログは、その時点の資料を保持しています。元の作業ディレクトリや古いリンクが残る場合は、上位のテーマ目次と抽出記録から辿ってください。
-- 原本中の `sandbox:` リンクや当時の作業パスは歴史的参照です。元ファイルが回収できた場合は、このリポジトリ内の対応物を利用してください。
+## Languages and editions
 
-## 検証の意味
+English is the primary language of repository navigation and the translated current reports. Japanese navigation is available through `README.ja.md` and `CATALOG.ja.md`. English report filenames contain `.en`; Japanese source reports retain their original paths. Historical drafts, raw execution logs, code, downloadable bundles, and review records remain in their original language unless a separate English edition is provided.
 
-移設時に確認するのは、回収物の同一性、抽出したデータの整合性、目次からの到達可能性です。保存された数値結果を新しく再現したこと、全文を専門家が査読したこと、学術的新規性を確定したことを意味しません。
+Translations preserve the assumptions, conclusions, proof status, limitations, and corrections in the sources. Translation does not establish novelty or constitute a new mathematical verification. Original source bytes remain unchanged so that a reader can check an English edition against its Japanese source. Each completed translation is published as a small update.
 
-特にX01は、`MomentIslands.lean` の14宣言について過去のLean実行成功ログがあります。追加33宣言は未コンパイルで、通常証明を含む本文全体の形式化ではありません。公開範囲は [CATALOG.md](CATALOG.md) と原本を優先してください。
+## Originals and extracted materials
 
-再実行する場合は、Python/Leanと依存ライブラリの版、入力、seed、実行日時、新しい出力を記録してください。元の結果JSONやログを上書きせず、作業コピーを別ディレクトリで実行する方法を推奨します。ZIPの付属説明やコード中の保存先も確認してください。
+- `provenance/source-manifest.json` records original filenames, archive paths, sizes, and SHA-256 hashes. Source manuscripts are preserved unchanged.
+- Extraction records in `provenance/` record HTML attachment keys and ZIP member names. Embedded data was recovered statically, without executing unknown JavaScript.
+- A manuscript may duplicate the ZIP or code embedded inside it. Both are retained so the materials can be downloaded and reused independently; they are not counted as separate research results.
+- Filenames, READMEs, and verification logs inside `artifacts/` preserve the historical materials. If they contain old working directories or links, use the theme's entry page and extraction records to locate the corresponding archived file.
+- `sandbox:` links and working paths inside originals are historical references. When the target was recovered, use its counterpart in this repository.
 
-## 訂正と出典
+## What the verification establishes
 
-原稿内の既知結果への帰属、引用、ライセンス表示は引き継ぎます。一例外対称性の元ファイル名はv5ですが、現行本文は第6版で、奇数クリーク一般への予想Kの反証を反映しています。古いノートでの予想や新規性評価は、後続の訂正と併せて読んでください。
+Archive checks establish the identity of recovered files, the integrity of extracted data, and reachability from the navigation pages. They do not mean that saved numerical results were freshly reproduced, that experts reviewed every proof, or that research novelty was established.
 
-第三者論文の調査で取得したOpenAIのPDF・Lean・カタログ原本は同梱していません。比較した内容は [関連研究メモ](project/openai-math-comparison-2026-10-07.md) に原出典へのリンクとともに記録します。
+In particular, X01 has a historical successful Lean execution log for 14 declarations in `MomentIslands.lean`. Another 33 declarations have not been compiled. This is not a formalization of the entire manuscript and all its ordinary mathematical proofs. Consult [CATALOG.md](CATALOG.md) and the source reports for the exact scope.
+
+When rerunning an experiment, record the Python or Lean version, dependency versions, inputs, random seed, execution date, and new outputs. Preserve the original result JSON and logs; run a working copy in a separate directory. Also check the instructions supplied with each ZIP and the output paths used by its code.
+
+## Corrections and attribution
+
+Attribution to known results, citations, and license notices inside the sources are retained. The source filename for one-exception symmetry includes `v5`, but the current report is the sixth edition and incorporates a counterexample to Conjecture K for general odd cliques. Read conjectures and novelty assessments in earlier notes together with later corrections.
+
+OpenAI PDFs, Lean files, and catalog sources downloaded when studying third-party papers are not bundled here. The [related-work comparison](project/openai-math-comparison-2026-10-07.en.md) records the comparison and links to the original sources.

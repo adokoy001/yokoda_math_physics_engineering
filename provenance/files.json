@@ -11,9 +11,14 @@
       "sha256": "46a8165c52753d8a8758899c74e53580a6b8d05c6b2f098fd252be8780bfbbe9"
     },
     {
-      "path": "ARCHIVE_NOTES.md",
+      "path": "ARCHIVE_NOTES.ja.md",
       "bytes": 3479,
       "sha256": "8add9d386860c3e86e7f1559ba7230e3c7a3df39f14382eeb46e42ff325761e3"
+    },
+    {
+      "path": "ARCHIVE_NOTES.md",
+      "bytes": 4282,
+      "sha256": "fbda656de9fd49858fe846ffc89dff6d1ff7219d5c21e5a24b11cff848927cf8"
     },
     {
       "path": "CATALOG.md",
@@ -31,14 +36,24 @@
       "sha256": "da993b4f6f1e39b848ce5ec44b4c9752e0725f3c4a39e90023421a848e7da63e"
     },
     {
-      "path": "project/claim-template.md",
+      "path": "project/claim-template.ja.md",
       "bytes": 623,
       "sha256": "d37d07e142eddf3169c872f996c7cd64c1c3685dd5ac96c693410436216dacdd"
+    },
+    {
+      "path": "project/claim-template.md",
+      "bytes": 757,
+      "sha256": "f17917adcbe42e4d725c367bae341412b0a340c17ec88996aafab26e0df69e32"
     },
     {
       "path": "project/initial-ledger-2026-09-08.md",
       "bytes": 11886,
       "sha256": "6c8d589ef700492b649cd33257974b4afd28e082503df55b66b2f5ff7b5fc448"
+    },
+    {
+      "path": "project/openai-math-comparison-2026-10-07.en.md",
+      "bytes": 2531,
+      "sha256": "6a30bd1eea92372442134426a65a9fbcb8876f6b571a99729b010d74fcb2d108"
     },
     {
       "path": "project/openai-math-comparison-2026-10-07.md",
