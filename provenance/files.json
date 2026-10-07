@@ -21,9 +21,14 @@
       "sha256": "e7aac81bacc8129c21fc086185c29e885ec11563e3d411f21835f5117dee2bfd"
     },
     {
-      "path": "README.md",
+      "path": "README.ja.md",
       "bytes": 4881,
       "sha256": "e59dd7e1fd3cf4906e5d1f85d9063ea82c3e0a9c1f59b030abf6e5f93061ad8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5045,
+      "sha256": "da993b4f6f1e39b848ce5ec44b4c9752e0725f3c4a39e90023421a848e7da63e"
     },
     {
       "path": "project/claim-template.md",
@@ -1331,36 +1336,6 @@
       "sha256": "e57e3ee0f13b473e990552249cac17fc41c8cea42851e5d560afcebe1875192f"
     },
     {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_robust_verify.py",
-      "bytes": 4618,
-      "sha256": "6f36ab3bc84cfa834507a09b7811bf63c05dadecbd22c8a2626313bb2d91da58"
-    },
-    {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_structure_verify.py",
-      "bytes": 3683,
-      "sha256": "5c6a4c186b459228e79d4dbc8ce8afb290319f8cdb51cc1c1c1b89d89853c65d"
-    },
-    {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_verification_results_2026-09-15.json",
-      "bytes": 4880,
-      "sha256": "f7eb6a0040b5b3f6a98f1072d7011b05cd2716d5070965b13446d7dc1df68ebd"
-    },
-    {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/paired_core_verify.py",
-      "bytes": 1387,
-      "sha256": "f5d37566fab6b20a2f7582fab3ef05acaa5148ecf6d28841ca9e20e235aa0090"
-    },
-    {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/verification_results_2026-09-15.json",
-      "bytes": 2058,
-      "sha256": "cf0b311a1e608b8d5a151eaed45e10584786afec63559110e2558a3a14b4dde3"
-    },
-    {
-      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/weighted_verify.py",
-      "bytes": 3425,
-      "sha256": "cd4eb94b248185733ebfec0b7eb218919c5517859761ea5a2252c2ca8b409408"
-    },
-    {
       "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/exception_family_results_2026-09-15.json",
       "bytes": 10236,
       "sha256": "a1c8d0aae2528fef28a671596c89c038ebb67318eb4855c3f19db8538e656aa9"
@@ -1407,6 +1382,36 @@
     },
     {
       "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/weighted_verify.py",
+      "bytes": 3425,
+      "sha256": "cd4eb94b248185733ebfec0b7eb218919c5517859761ea5a2252c2ca8b409408"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_robust_verify.py",
+      "bytes": 4618,
+      "sha256": "6f36ab3bc84cfa834507a09b7811bf63c05dadecbd22c8a2626313bb2d91da58"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_structure_verify.py",
+      "bytes": 3683,
+      "sha256": "5c6a4c186b459228e79d4dbc8ce8afb290319f8cdb51cc1c1c1b89d89853c65d"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_verification_results_2026-09-15.json",
+      "bytes": 4880,
+      "sha256": "f7eb6a0040b5b3f6a98f1072d7011b05cd2716d5070965b13446d7dc1df68ebd"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/paired_core_verify.py",
+      "bytes": 1387,
+      "sha256": "f5d37566fab6b20a2f7582fab3ef05acaa5148ecf6d28841ca9e20e235aa0090"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/verification_results_2026-09-15.json",
+      "bytes": 2058,
+      "sha256": "cf0b311a1e608b8d5a151eaed45e10584786afec63559110e2558a3a14b4dde3"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/weighted_verify.py",
       "bytes": 3425,
       "sha256": "cd4eb94b248185733ebfec0b7eb218919c5517859761ea5a2252c2ca8b409408"
     },
@@ -1995,5 +2000,6 @@
       "bytes": 2189,
       "sha256": "f19ffd75bd75bf5ca7703214c65db380aae8c05e864778e340cbb7d6ee7bf6d2"
     }
-  ]
+  ],
+  "updated_on": "2026 10 08"
 }

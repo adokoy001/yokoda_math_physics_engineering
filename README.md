@@ -1,58 +1,58 @@
-# 横田の数学・物理・工学探索
+# Yokoda — Mathematics, Physics & Engineering
 
-横田とAIが一緒に進めてきた探索研究の原稿、証明、計算実験、査読・訂正記録を集めたリポジトリです。
+**English** · [日本語](README.ja.md)
 
-AIが候補の探索・定式化・反例探索・証明・文献照合を担い、人間が目的を伝え、方向性と結論を監査する。その過程で得た知識を、他の人が検証・応用・拡張できる形で残します。
+Exploratory research by Yokoda and AI collaborators: manuscripts, mathematical proofs, computational experiments, reviews, and corrections.
 
-初回集約：**2026 10 07**。数学的な証明の状態、形式検証の状態、学術的新規性は、それぞれ別に記録します。
+AI collaborators explore candidates, formulate claims, search for counterexamples, develop proofs, and compare the literature. Human oversight sets the purpose and audits the direction and conclusions. We preserve the resulting work so that others can check, apply, and extend it.
 
-## 入口
+First archive: **2026 10 07**. English editions are being added from **2026 10 08**, one theme at a time. Mathematical proof, formal verification, and research novelty are recorded separately.
 
-- **[研究目次と検証範囲](CATALOG.md)** — 何が分かり、何が未解決か。
-- **[横断報告：何を守って、どこまで縮められるか](reports/research-deepening-2026-10-06.html)** — 2026 10 06の抽象化と4方向の追加研究。
-- **[プロジェクトの出発点](project/initial-ledger-2026-09-08.md)** — 研究方針と最初の成果台帳。
-- **[収録・再現・訂正の方針](ARCHIVE_NOTES.md)** — 原本、過去ログ、復元したコードの扱い。
+## Start here
 
-## テーマ
+- [Research catalog and verification scope](CATALOG.md) — results, assumptions, open questions, and limitations.
+- [Cross-disciplinary report: what must be preserved, and how far can a model be reduced?](reports/research-deepening-2026-10-06.html) — the original report from 2026 10 06.
+- [Initial project charter and research ledger](project/initial-ledger-2026-09-08.md).
+- [Archiving, reproduction, and corrections](ARCHIVE_NOTES.md).
 
-| テーマ | 問い | 原稿と資料 |
+English is the primary navigation language. Each theme links to its English edition when available and to the preserved Japanese original. Historical drafts, review records, code comments, and execution logs retain their original language. During this staged translation, some destinations still open the Japanese edition.
+
+## Research themes
+
+| Theme | Question | Reports and materials |
 | --- | --- | --- |
-| 小回路の更新・P対NP探索 | 出力の一部を変えるには、何個のゲートを追加すればよいか | [incremental-circuits](research/incremental-circuits/) |
-| Wasserstein中心 | 範囲・平均・分散だけが分かる分布族を、どの分布で代表するか | [wasserstein-center](research/wasserstein-center/) |
-| モーメント・順位差・位相 | 平均と分散から、順位の間隔や許容集合の形をどこまで保証できるか | [moment-rank-gap](research/moment-rank-gap/) |
-| 丸め・集計・比較監査 | 不偏丸めの代価、集計からの復元、最少の三角監査 | [rounding-aggregation-audit](research/rounding-aggregation-audit/) |
-| ゲーム理論・監査設計 | 評価に共通誤差があるとき、改善の循環と監査の限界は何か | [game-theory](research/game-theory/) |
-| 空間の観測と接続 | 雑音のある距離測定と、不確実な位置でのネットワーク設計 | [spatial](research/spatial/) |
-| 一例外対称性 | 一つの例外を許した対称構造からゲーム値を決められるか | [one-exception-symmetry](research/one-exception-symmetry/) |
-| 形式意味論・候補保持 | 圧縮して候補を捨てると、将来の選択肢をどこまで失うか | [formal-semantics](research/formal-semantics/) |
-| 物理的記憶と縮約 | 熱・RC回路の内部状態を、応答と容量を守ってどこまで減らせるか | [physical-memory](research/physical-memory/) |
+| Circuit updates and P versus NP | How many gates must be added when only part of an output is changed? | [Incremental circuits](research/incremental-circuits/) |
+| Wasserstein centers | How should a family of distributions with specified range, mean, and variance be represented by one distribution? | [Wasserstein center](research/wasserstein-center/) |
+| Moments, rank gaps, and topology | What do the mean and variance guarantee about rank separation and the shape of the feasible set? | [Moment–rank gap](research/moment-rank-gap/) |
+| Rounding, aggregation, and comparison audits | What are the costs of unbiased rounding, reconstruction from aggregates, and minimal triangle audits? | [Rounding and aggregation](research/rounding-aggregation-audit/) |
+| Game theory and audit design | Under shared evaluation errors, when can improvement cycle, and what limits auditing? | [Game theory](research/game-theory/) |
+| Spatial observation and connectivity | How do noisy distance measurements and uncertain positions constrain observation and network design? | [Spatial research](research/spatial/) |
+| One-exception symmetry | Can a symmetry with one exception determine the value of a combinatorial game? | [One-exception symmetry](research/one-exception-symmetry/) |
+| Formal semantics and candidate retention | When compression discards candidates, how much can it lose in future choices? | [Formal semantics](research/formal-semantics/) |
+| Physical memory and model reduction | How far can internal states in thermal and RC circuits be reduced while preserving response and capacity? | [Physical memory](research/physical-memory/) |
 
-各フォルダの `report.html` または `report.md` が本文です。`notes/` は探索・導出、`reviews/` は査読と先行研究照合、`artifacts/` はHTMLから復元したコード等、`experiments/` は追加の検証コードと当時の結果、`archives/` は保存されていたZIPです。テーマにより収録物は異なります。
+Each theme's README is the entry point. English reports use `report.en.html` or `report.en.md`; the original `report.html` or `report.md` remains available as the Japanese source. `notes/` contains explorations and derivations, `reviews/` reviews and prior-art checks, `artifacts/` material recovered from HTML, `experiments/` additional checks and their recorded results, and `archives/` saved ZIP bundles. Contents vary by theme.
 
-## 読み方と検証
+## Reading and verification
 
-HTMLはダウンロードしてブラウザで開けます。リポジトリ全体を取得した場合は、ルートで次を実行すると相対リンクを辿れます。
+Download an HTML report and open it in a browser. To browse a local checkout with working relative links, run this command at the repository root:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-GitHub上ではMarkdownとソースコードを直接読めます。HTMLの数式・図解・操作部はブラウザで確認してください。一部の原稿は外部CDNを参照するため、通信が必要です。
+GitHub displays Markdown and source code directly. Use a browser for HTML equations, diagrams, and interactive controls. Some original reports use external CDNs and require an internet connection.
 
-収録ファイルのハッシュと新しい目次のリンクは、次で確認できます。
+Verify file hashes and navigation links with:
 
 ```bash
 python3 tools/verify_archive.py
 ```
 
-数学の検算には各テーマのコードと説明を参照してください。保存ログは当時の実行記録であり、今回の移設時に全計算を再実行した記録ではありません。X01のLeanについては、14宣言の過去の成功記録と、追加33宣言の未実行コードを区別しています。
+For mathematical checks, follow the code and instructions in the relevant theme. Saved logs record earlier runs; the archival and translation work does not rerun every experiment. For X01, the successful historical Lean check of 14 declarations is distinguished from 33 additional declarations that have not been compiled.
 
-## 更新
+## Continuing the research
 
-新しい結果には、正確な仮定・結論、証明、既知結果との関係、検証方法、残る問いを付けます。反例や訂正も保存し、旧稿は現行の結論と混同しない位置に置きます。成果の記録には [命題記録テンプレート](project/claim-template.md) を使えます。
+New results should state precise assumptions and conclusions, supply proofs, explain their relationship to known results, describe verification, and identify remaining questions. We preserve counterexamples and corrections and identify earlier drafts so they are not confused with current conclusions. Use the [claim template](project/claim-template.md) to record a result.
 
-第三者の研究は出典として参照します。OpenAIの `openai/math` に収録された原稿・Leanコードは、このリポジトリの成果には含めていません。
-
----
-
-This repository preserves exploratory research by Yokoda and AI collaborators: manuscripts, proofs, computational checks, reviews, and corrections. Proof status, formal verification, and novelty are tracked separately. Most manuscripts are in Japanese; the moment/rank-gap report also includes English. See [CATALOG.md](CATALOG.md) for scope and limitations.
+Third-party research is cited as prior work. Manuscripts and Lean code from OpenAI's `openai/math` repository are not included among this project's results.
