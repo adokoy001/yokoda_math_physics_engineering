@@ -1,0 +1,31 @@
+[
+  {
+    "n": 2,
+    "witnesses_verified": 16,
+    "prefix_trie_invariants_verified": true,
+    "independent_redundant_program_counts_by_size": [
+      1,
+      24,
+      840,
+      40320
+    ],
+    "independent_minimum_sizes_through_3_match": true
+  },
+  {
+    "n": 3,
+    "witnesses_verified": 203,
+    "prefix_trie_invariants_verified": true,
+    "independent_redundant_program_counts_by_size": [
+      1,
+      35,
+      1680,
+      105840
+    ],
+    "independent_minimum_sizes_through_3_match": true
+  },
+  {
+    "n": 4,
+    "witnesses_verified": 886,
+    "prefix_trie_invariants_verified": true
+  }
+]

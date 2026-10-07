@@ -1,0 +1,1999 @@
+{
+  "created_on": "2026 10 07",
+  "excludes": [
+    ".git/",
+    "provenance/files.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "46a8165c52753d8a8758899c74e53580a6b8d05c6b2f098fd252be8780bfbbe9"
+    },
+    {
+      "path": "ARCHIVE_NOTES.md",
+      "bytes": 3479,
+      "sha256": "8add9d386860c3e86e7f1559ba7230e3c7a3df39f14382eeb46e42ff325761e3"
+    },
+    {
+      "path": "CATALOG.md",
+      "bytes": 27702,
+      "sha256": "e7aac81bacc8129c21fc086185c29e885ec11563e3d411f21835f5117dee2bfd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4881,
+      "sha256": "e59dd7e1fd3cf4906e5d1f85d9063ea82c3e0a9c1f59b030abf6e5f93061ad8e"
+    },
+    {
+      "path": "project/claim-template.md",
+      "bytes": 623,
+      "sha256": "d37d07e142eddf3169c872f996c7cd64c1c3685dd5ac96c693410436216dacdd"
+    },
+    {
+      "path": "project/initial-ledger-2026-09-08.md",
+      "bytes": 11886,
+      "sha256": "6c8d589ef700492b649cd33257974b4afd28e082503df55b66b2f5ff7b5fc448"
+    },
+    {
+      "path": "project/openai-math-comparison-2026-10-07.md",
+      "bytes": 2348,
+      "sha256": "443c78c6f4c19730306c85f0a9ec979e7324623c64c764fed2f8bcf28262fae5"
+    },
+    {
+      "path": "provenance/extraction-manifest.json",
+      "bytes": 220535,
+      "sha256": "147b048784c3465456f4161f2740cf071203c5ae642f9d7e7369623e5bd69d22"
+    },
+    {
+      "path": "provenance/source-manifest.json",
+      "bytes": 13627,
+      "sha256": "3d9e54789f0523a0837beae6c1e454839c9dbccf75f76bfeb19d25a2e75034c3"
+    },
+    {
+      "path": "reports/artifacts/embedded/dynamic_progress_results.json",
+      "bytes": 310,
+      "sha256": "d3ca20c98e91657a33220dee9b3c06ae9b3a05c874560edacd81dbc3cc9b2c83"
+    },
+    {
+      "path": "reports/artifacts/embedded/verify_dynamic_progress.py",
+      "bytes": 3725,
+      "sha256": "f226cf3af21ee0d863d7e14f74a1fa5f9b27e4e9d4cc674678e93ea6784d8f3b"
+    },
+    {
+      "path": "reports/artifacts/embedded/verify_physical_capacity.json",
+      "bytes": 1629,
+      "sha256": "5a2fce56d02931c413272fd63a0673e9af1b35d6192593728a705312ba124f47"
+    },
+    {
+      "path": "reports/artifacts/embedded/verify_physical_capacity.py",
+      "bytes": 3251,
+      "sha256": "53ebc39a90593b241e8fc6afdfa635fae20126d6a236eeab355a6a614fcaae1f"
+    },
+    {
+      "path": "reports/artifacts/embedded/w2_validation.py",
+      "bytes": 5064,
+      "sha256": "aa4bd9f20039925ae15dde06cbb0933f0155395dae792e117f4b7245b3c5d3d3"
+    },
+    {
+      "path": "reports/artifacts/embedded/w2_validation_results.json",
+      "bytes": 1089,
+      "sha256": "f17ff1070757a16040a198aa90cf4e494f9bea69b360e5812a6198968e72b285"
+    },
+    {
+      "path": "reports/artifacts/inline-scripts/research-deepening-2026-10-06.script-001.js",
+      "bytes": 435,
+      "sha256": "695a2cdfe15dea08985b8443a7da5994c0aa93daa0da421f2bb321d19c118a49"
+    },
+    {
+      "path": "reports/research-deepening-2026-10-06.html",
+      "bytes": 103574,
+      "sha256": "f42f8e639eb17f4c43aa634608c333d14337b59bb80f4d555afd52af73e97142"
+    },
+    {
+      "path": "research/formal-semantics/README.md",
+      "bytes": 653,
+      "sha256": "65b444ae977d81ac57bf63d91005f8617a51384e4ddf4dfef072483c8dfe2dac"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/forgetting_results.json",
+      "bytes": 2914,
+      "sha256": "ef0ddc7875ad4e36c26ac4edd227db83ba6a4b0299aa0f3cb9ab50dca625057a"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/forgetting_tail_results.json",
+      "bytes": 1336,
+      "sha256": "716e1b9e87a4e80adc4475e532602ca5db0ae713faa11745431a4cf44c5774ca"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/frontier_results.json",
+      "bytes": 2323,
+      "sha256": "41ac657da08b6e5fb9aa12f274212e52b880fb3a506862667128f455f2f269bd"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/randomized_audit_v4_results.json",
+      "bytes": 217,
+      "sha256": "f2a67c56d57c478150d146243c1655f25824a0dbad7cef1ef66ed1b881faab5a"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/randomized_demo_v4.json",
+      "bytes": 3966,
+      "sha256": "bc83aacd88727ea505cc9c679349b4a63f159a4265fa7e93829ba2d4523e90ba"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/randomized_v4_results.json",
+      "bytes": 95657,
+      "sha256": "6865a3b87202dfad10c744c0b286057b27824de2c73cc1fc7ae361c0f1c65504"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/reachable_v4_results.json",
+      "bytes": 490,
+      "sha256": "e4dff430c9b5b9feff589011637c4e309d98a100cb0da893b16e8b10b6be0e8d"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/review_results.json",
+      "bytes": 2354,
+      "sha256": "3556621742eca1e9dae492169668cf0ec854bd0dfb79fad71143c32ea16d1d70"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/solve_randomized_retention.py",
+      "bytes": 5946,
+      "sha256": "a35bd44a764845e40dd389d2d426a5b280b85f177f48446885f9b9a16e197609"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/stability_v4_results.json",
+      "bytes": 1477,
+      "sha256": "ef650fe0742f845424eac3ddb414b3b6c86454f73f4bc4ed8af05a6a5544bf84"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/v2_results.json",
+      "bytes": 20502,
+      "sha256": "02db14359b167c38690805abb8153986d9000d0503bee3d0f353dbdb9e6dfc8b"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_forgetting.py",
+      "bytes": 5785,
+      "sha256": "b6043fc9349d6c6784971818df8ae336f90f5ae39ddfd9de4d58fa3f50f5252d"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_forgetting_tail.py",
+      "bytes": 2281,
+      "sha256": "dbeeb92d1ffcc9974a8fc6ce427be275ce0d56f98179cf5aa8af4420b8b40713"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_frontier.py",
+      "bytes": 5823,
+      "sha256": "f14bfa2eb18ee1bdf531ede6bc7f69c49b6fbc64dc954de4847478928b449048"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_randomized_audit_v4.py",
+      "bytes": 6077,
+      "sha256": "cc817f2c807139b88a6e4b634efec82c17e8c43bd88deec5d1bf29f105fa0751"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_randomized_v4.py",
+      "bytes": 10462,
+      "sha256": "e4f65e7c51c57d4252450a829a9943fed84e8f272f167e066819308507f7cca1"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_reachable_v4.py",
+      "bytes": 4656,
+      "sha256": "80ab29e5fe000fc9e9acd6d1b1136ffbc303ccd09e449140a9117d7b9f226b49"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_review.py",
+      "bytes": 7979,
+      "sha256": "85bd4719f18f9a1b5888817e7b0eef660c0aa01397dccfb65d0dfdf98a3d0b94"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_stability_v4.py",
+      "bytes": 4522,
+      "sha256": "1d99243160b744b72bb00f86056de64f2e443eef6dd108fe440a8ddff0340c85"
+    },
+    {
+      "path": "research/formal-semantics/artifacts/formal-semantics-exploration-2026-09-17/downloads/verify_v2.py",
+      "bytes": 15446,
+      "sha256": "6ce65cc82a5f207c7004f259a750ff7d4d5d0df959e2539d396fd87aaf3f03c9"
+    },
+    {
+      "path": "research/formal-semantics/report.html",
+      "bytes": 330956,
+      "sha256": "249fb4e7745cc61bd72dd2470949748b95b9f18f575af14894e6b9b50940790a"
+    },
+    {
+      "path": "research/game-theory/README.md",
+      "bytes": 739,
+      "sha256": "17944977b80cef075a25d73c14aee287e782631b44e6ceed6ec38b76dd924007"
+    },
+    {
+      "path": "research/game-theory/artifacts/embedded/check_audit.py",
+      "bytes": 1619,
+      "sha256": "aaf3992d5d2349c3554049fbf05216e6f6529da36adb468dcb7b2e66b4daa173"
+    },
+    {
+      "path": "research/game-theory/artifacts/embedded/deep_verification_results.json",
+      "bytes": 1833,
+      "sha256": "76ecb3c46da8170dbe1ee488ebeca644d5f942ba0d8cb4be4dc9f9a3d48fe366"
+    },
+    {
+      "path": "research/game-theory/artifacts/embedded/verify_deep.py",
+      "bytes": 5812,
+      "sha256": "5c76ad62937dc37546550382b053efc988a07f91f92c35af246715667fd8a523"
+    },
+    {
+      "path": "research/game-theory/artifacts/inline-scripts/embedded-font-license.json",
+      "bytes": 2550,
+      "sha256": "adf506b539d13fef6d93d1eae5da4bd042b48a34f3fcc8339c8e83c3c7ad5007"
+    },
+    {
+      "path": "research/game-theory/artifacts/inline-scripts/game-theory-illustrated.script-001.js",
+      "bytes": 13450,
+      "sha256": "221fe22cde23b682cdd1e7b054d2a64b5a978287a380a027ef77523def38190b"
+    },
+    {
+      "path": "research/game-theory/experiments/2026-10-06/dynamic_progress_results.json",
+      "bytes": 310,
+      "sha256": "d3ca20c98e91657a33220dee9b3c06ae9b3a05c874560edacd81dbc3cc9b2c83"
+    },
+    {
+      "path": "research/game-theory/experiments/2026-10-06/verify_dynamic_progress.py",
+      "bytes": 3725,
+      "sha256": "f226cf3af21ee0d863d7e14f74a1fa5f9b27e4e9d4cc674678e93ea6784d8f3b"
+    },
+    {
+      "path": "research/game-theory/notes/dynamic-extension-2026-10-06.md",
+      "bytes": 9361,
+      "sha256": "4a8f2d6352e225383bf55ab45db801548d45a15feb11e467f7b59d664ecea658"
+    },
+    {
+      "path": "research/game-theory/notes/exploration-02.md",
+      "bytes": 47723,
+      "sha256": "27b46f883d20b7dbdccd2c132849168caf53edf7aa481154d369b13d421d7701"
+    },
+    {
+      "path": "research/game-theory/notes/exploration-03.md",
+      "bytes": 37889,
+      "sha256": "349c3f6acff36cd470290ac510d1c5b93a56f9c5f29713502d53446fd2f3ffa5"
+    },
+    {
+      "path": "research/game-theory/report.html",
+      "bytes": 938431,
+      "sha256": "a11a58ab835278b049df76a8177a464235e5b6a93a5d84a36d69ea679e6fddb7"
+    },
+    {
+      "path": "research/incremental-circuits/README.md",
+      "bytes": 619,
+      "sha256": "231a79da47e50bf640defb24cd3c781186cf3b86a0892ba5c1db082012a7619c"
+    },
+    {
+      "path": "research/incremental-circuits/archives/research-pack-2026-09-05.zip",
+      "bytes": 454399,
+      "sha256": "9d38d4d7ffb4d234c715bca7983dd939d66c4c63f4f8655fb52ec50739fe3db2"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/README.md",
+      "bytes": 2101,
+      "sha256": "559acfbf88208406f2951ed803164c8f4fae862290f4d3db319f4e058f121fbb"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/SHA256.json",
+      "bytes": 1079,
+      "sha256": "e6776c642094e13adef5f8e5f74166ccf6d2b210c34b33c0e2cc8f3e18e7d56e"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/nextbit_patch_verification.json",
+      "bytes": 5348,
+      "sha256": "27fa2c4a475ae8789b084a3221f450da53a8475575ca41c7f28c7a86d426e408"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/ordered_patch_experiment.json",
+      "bytes": 1882,
+      "sha256": "e2cb29d4cd351a0cac628f1a0ee0ac4dd48c8a40aad64d50607a3dcad817a349"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/tiny_wc_synthesis.py",
+      "bytes": 6701,
+      "sha256": "f1fd6251d0d94a4a73f9bb76cdd33490e0e5f54779430bf40ca563889d6328a5"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/tiny_wc_synthesis_n2.json",
+      "bytes": 24505,
+      "sha256": "9112995bce54c08ae05cbc57b363e8217345610a25a7d4a09edb0143ae2590e0"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/tiny_wc_synthesis_n3.json",
+      "bytes": 373572,
+      "sha256": "6dc8218c60a45e1ec018cecb7b0a5aa7b3b3b450ae63b582674e942a89f22c57"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/tiny_wc_synthesis_n4.json",
+      "bytes": 3365708,
+      "sha256": "531f2824b02d242ebb1c3c9f5719e5decf98c667d0d79539146e463fb36e1fb8"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/tiny_wc_verification.json",
+      "bytes": 608,
+      "sha256": "67b233c7de4dcd250e2c571366bd0d2c88c0b1980dcf2cec9ae240b9c58d6626"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/verify_nextbit_patch.py",
+      "bytes": 4614,
+      "sha256": "265789cba35213feb3ecc2daaa2f7cf07023ec715487a892a36e8baefd03c562"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/verify_ordered_patch.py",
+      "bytes": 8053,
+      "sha256": "8a19f22709bb919a7460d2f2b22807205845b8234a56b8acc4a20dfbd66b8673"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_reproducibility_2026-09-05/verify_tiny_wc_synthesis.py",
+      "bytes": 2706,
+      "sha256": "c41efd326cbf2acabbcc86f7c048f88639fd1d860343636c273de6effbf24818"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/P_vs_NP_restart_2026-09-05.md",
+      "bytes": 22894,
+      "sha256": "1479bcac64e6281aa65827739e09d9ce051eab9d6486e5d2434cd4802b097716"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/README.md",
+      "bytes": 2638,
+      "sha256": "54933bb5b2f309bc11c8a74af99816a62b326b9ef84f64de3127cf3d4bba0732"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/barriers_transfer.md",
+      "bytes": 13620,
+      "sha256": "29bf29b094979747de6fc54a415f2f57d09045bab679a164c21217ee14462fab"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/literature_compilation.md",
+      "bytes": 14995,
+      "sha256": "84fd6aae59503aa476b31fe819344ceaf1d0b4af2b5cef06c3c1c2bd93044e70"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/literature_compilation_evidence.md",
+      "bytes": 2586,
+      "sha256": "5306c1a464c1c245841b0fd1141398bc876349c3cbf9c9d673a1ab28e5da621a"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/nextbit_patch_verification.json",
+      "bytes": 5348,
+      "sha256": "27fa2c4a475ae8789b084a3221f450da53a8475575ca41c7f28c7a86d426e408"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/ordered_patch.md",
+      "bytes": 9153,
+      "sha256": "57c3918b06ec6c6e14341e3ac4834a3d25452b7fb72acc42050830f866dd2514"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/ordered_patch_experiment.json",
+      "bytes": 1882,
+      "sha256": "e2cb29d4cd351a0cac628f1a0ee0ac4dd48c8a40aad64d50607a3dcad817a349"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/source_checksums.json",
+      "bytes": 916,
+      "sha256": "6e5e5860dbd953dd272fd9ba8a048ba7c08127e9f966eb74b6fea5a0fb42e5df"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/sources/P_vs_NP_candidate_original_results.md",
+      "bytes": 67251,
+      "sha256": "7db16ebc928e7adfbad95891d905861cc0f42404c00ca3b96e8f90359c676d16"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/sources/P_vs_NP_semantic_compression_research.md",
+      "bytes": 226802,
+      "sha256": "85c29b95577105df6566eb15dde343f69280daf11832ca4b1ae4b4ca40bfac93"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_synthesis.md",
+      "bytes": 7853,
+      "sha256": "ed4689287d983fc120c41613970ca8960c4b448cbba5cd6d9d5a38bd57f48380"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_synthesis.py",
+      "bytes": 6701,
+      "sha256": "f1fd6251d0d94a4a73f9bb76cdd33490e0e5f54779430bf40ca563889d6328a5"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_synthesis_n2.json",
+      "bytes": 24505,
+      "sha256": "9112995bce54c08ae05cbc57b363e8217345610a25a7d4a09edb0143ae2590e0"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_synthesis_n3.json",
+      "bytes": 373572,
+      "sha256": "6dc8218c60a45e1ec018cecb7b0a5aa7b3b3b450ae63b582674e942a89f22c57"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_synthesis_n4.json",
+      "bytes": 3365708,
+      "sha256": "531f2824b02d242ebb1c3c9f5719e5decf98c667d0d79539146e463fb36e1fb8"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tiny_wc_verification.json",
+      "bytes": 608,
+      "sha256": "67b233c7de4dcd250e2c571366bd0d2c88c0b1980dcf2cec9ae240b9c58d6626"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/tr26_128_width_recheck.md",
+      "bytes": 6832,
+      "sha256": "86fa1e0a57a838b9375767571b7659ab17f131dbf748afd3eaf4ad10cd40d7a0"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/updated/P_vs_NP_candidate_original_results.md",
+      "bytes": 72943,
+      "sha256": "8dd082c9e83c9edcbe27c85e82e0551e619f4f6e7c123e2887ee5f7c955207e4"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/updated/P_vs_NP_semantic_compression_research.md",
+      "bytes": 253844,
+      "sha256": "c2bcc067c35407d114215a43a299c3ecb0ddc08a24863b2ecf65b075dfbf32b0"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/verify_nextbit_patch.py",
+      "bytes": 4614,
+      "sha256": "265789cba35213feb3ecc2daaa2f7cf07023ec715487a892a36e8baefd03c562"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/verify_ordered_patch.py",
+      "bytes": 8053,
+      "sha256": "8a19f22709bb919a7460d2f2b22807205845b8234a56b8acc4a20dfbd66b8673"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/verify_tiny_wc_synthesis.py",
+      "bytes": 2706,
+      "sha256": "c41efd326cbf2acabbcc86f7c048f88639fd1d860343636c273de6effbf24818"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/archive-content/P_vs_NP_research_pack_2026-09-05/wc_audit.md",
+      "bytes": 19312,
+      "sha256": "f8025ff34b7de426fa8aaafc59d1f20c7c2ddaf708cca3249e019c8dafb09dfc"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/downloads/P_vs_NP_reproducibility_2026-09-05.zip",
+      "bytes": 207691,
+      "sha256": "93e08815261af51888a33c93e5932ddb8936c7ec52f4e614c1dfeff94c3490da"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/embedded/reproducibility_commands.embedded.txt",
+      "bytes": 411,
+      "sha256": "be252278ab0e81b27b127d5c33c82268220bd668dabd629d25f0a1070031f183"
+    },
+    {
+      "path": "research/incremental-circuits/artifacts/inline-scripts/P_vs_NP_research_note.script-001.js",
+      "bytes": 4058,
+      "sha256": "1f84ce69d7d6bbb6f4f44d267dd70b46d97997797ca35a1b9678737c63238fbe"
+    },
+    {
+      "path": "research/incremental-circuits/notes/candidate-ledger.md",
+      "bytes": 72943,
+      "sha256": "8dd082c9e83c9edcbe27c85e82e0551e619f4f6e7c123e2887ee5f7c955207e4"
+    },
+    {
+      "path": "research/incremental-circuits/notes/restart-2026-09-05.md",
+      "bytes": 22894,
+      "sha256": "1479bcac64e6281aa65827739e09d9ce051eab9d6486e5d2434cd4802b097716"
+    },
+    {
+      "path": "research/incremental-circuits/notes/semantic-compression-research.md",
+      "bytes": 253844,
+      "sha256": "c2bcc067c35407d114215a43a299c3ecb0ddc08a24863b2ecf65b075dfbf32b0"
+    },
+    {
+      "path": "research/incremental-circuits/report.html",
+      "bytes": 394384,
+      "sha256": "319b5e69524c047358e30ce3673b0773c305d400c6c44b290133b7da39c4ba7d"
+    },
+    {
+      "path": "research/moment-rank-gap/README.md",
+      "bytes": 1060,
+      "sha256": "30aa1db3558654236293f9e8975cd1a728e3724254b91ea7fd5228b2e022b581"
+    },
+    {
+      "path": "research/moment-rank-gap/archives/proofs-and-reproduction-2026-09-08.zip",
+      "bytes": 71551,
+      "sha256": "e9ea8060482e928607b135123648a594ad4dcf4fb02e6856f9d64cff29b57c6a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/BandSharp.lean",
+      "bytes": 7948,
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/FiniteBand.lean",
+      "bytes": 5371,
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/Packing.lean",
+      "bytes": 6112,
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/README.md",
+      "bytes": 5645,
+      "sha256": "3d63d61e2ef257a46eaa4073bfb05ef9f75d2e403e2d11a57783a504e8f097c4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/Rounding.lean",
+      "bytes": 14126,
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/X01.lean",
+      "bytes": 34,
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/algebra-check.json",
+      "bytes": 1741,
+      "sha256": "5b40d507e0bd946e34aa8a4828173710738b0f6da282be20d66b90bae3841ba0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/algebra_check.py",
+      "bytes": 3167,
+      "sha256": "b5d4699fef987e00844fb97c6e15d933233c6422c9f6ba75ef8dacd348b196a1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/environment-attempt.log",
+      "bytes": 1184,
+      "sha256": "0b142ee93250f8ba407a96427cc33a85d4d39bb5707f4aaaba5464d74eded79a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/historical/original-lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/historical/original-verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/lakefile.toml",
+      "bytes": 406,
+      "sha256": "625fd3befdc078d824e16e6e515d63723ad022a8fe18224c98cb67d0f91289ac"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/retry-record.json",
+      "bytes": 2136,
+      "sha256": "6548c825c6b6f108fff81f3b9158c27d1cb75b79e079ccd46d5489f29030fbd1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/run-results/verification.json",
+      "bytes": 1238,
+      "sha256": "af17a8cc51aaecdc4b7c4de8b5e23a8f725894cfa7fed6aea842858ea8d52de3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-current-lean-project/verify.py",
+      "bytes": 3794,
+      "sha256": "fe013d19834e0f636f49e8e61a41851d76fb3a70e02600bd9f1d8cb944463724"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/README.md",
+      "bytes": 1350,
+      "sha256": "dde9e09ab1f434275439e17a6a4d444eb26938397a50df6288a438e6390fd9b2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/SHA256SUMS.json",
+      "bytes": 9091,
+      "sha256": "4b02c5f38612796084c69bddf1e534569cf7cd2e84528e394102217790780175"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/article_en.md",
+      "bytes": 68052,
+      "sha256": "45a10099a0b398b92e419983257b0053b12298f7a5e1b7702bbdf87a179d05a6"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/article_ja.md",
+      "bytes": 66451,
+      "sha256": "504d8d203addaf67c7272ae41acd063730dbc9d6c44df684ec55b0c3a8c56cb5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/BandSharp.lean",
+      "bytes": 7948,
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/FiniteBand.lean",
+      "bytes": 5371,
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/Packing.lean",
+      "bytes": 6112,
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/README.md",
+      "bytes": 5645,
+      "sha256": "3d63d61e2ef257a46eaa4073bfb05ef9f75d2e403e2d11a57783a504e8f097c4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/Rounding.lean",
+      "bytes": 14126,
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/X01.lean",
+      "bytes": 34,
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/algebra-check.json",
+      "bytes": 1741,
+      "sha256": "5b40d507e0bd946e34aa8a4828173710738b0f6da282be20d66b90bae3841ba0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/algebra_check.py",
+      "bytes": 3167,
+      "sha256": "b5d4699fef987e00844fb97c6e15d933233c6422c9f6ba75ef8dacd348b196a1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/environment-attempt.log",
+      "bytes": 1184,
+      "sha256": "0b142ee93250f8ba407a96427cc33a85d4d39bb5707f4aaaba5464d74eded79a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/historical/original-lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/historical/original-verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/lakefile.toml",
+      "bytes": 406,
+      "sha256": "625fd3befdc078d824e16e6e515d63723ad022a8fe18224c98cb67d0f91289ac"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/retry-record.json",
+      "bytes": 2136,
+      "sha256": "6548c825c6b6f108fff81f3b9158c27d1cb75b79e079ccd46d5489f29030fbd1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/run-results/verification.json",
+      "bytes": 1238,
+      "sha256": "af17a8cc51aaecdc4b7c4de8b5e23a8f725894cfa7fed6aea842858ea8d52de3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/formal/verify.py",
+      "bytes": 3794,
+      "sha256": "fe013d19834e0f636f49e8e61a41851d76fb3a70e02600bd9f1d8cb944463724"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/README.md",
+      "bytes": 3083,
+      "sha256": "deaba90b2b7d9991f442c32afee4636e97405d3e5eafaeb63e762ce33adc755a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/SHA256SUMS.json",
+      "bytes": 5225,
+      "sha256": "90ce0aa86cc6135b5ee15b2c41f0c79e87974c8bf37b351d5864e173407583e1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/bilingual-edition/article_en.md",
+      "bytes": 60167,
+      "sha256": "3d4f9b3112ba8d81ed005ff005e2a3254f19e59d7f132e457daca13e31aa539b"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/bilingual-edition/article_ja.md",
+      "bytes": 55786,
+      "sha256": "3c6835fef9ba9b2821ae3c1c85600f9950f9e032387f7b0c79eb214cb17f2a34"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/bilingual-edition/math_audit.md",
+      "bytes": 13900,
+      "sha256": "29cdbe4b7f75a2febf3733111f638a606cdeb540c6da428925dba6161c9f56ba"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/bilingual-edition/novelty_update.md",
+      "bytes": 8472,
+      "sha256": "72e93394cd857948031af60cf712c1677fc55d13ad8df0bce4725a10167c149c"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/check_eta_classification.py",
+      "bytes": 2853,
+      "sha256": "caf3be12b455f986afae491772311f8667c25c12273e891e2bb835ca2035f1bc"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/check_wide_eta.py",
+      "bytes": 5542,
+      "sha256": "22d701459b140946f639f6442ecae3c2eed7b2182d265b273c7fd675393a8be1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/eta_classification.md",
+      "bytes": 16787,
+      "sha256": "a215e680e71161b1fb8b9876aa466d398473791305faf102b4d811d6a465804a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/eta_classification_check.json",
+      "bytes": 6831,
+      "sha256": "a539711b0e196bf2f289552fc79c76b296a49d146adff5fbc5c3bf1549788672"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/interactive-figure/wide-figure.cjs",
+      "bytes": 2741,
+      "sha256": "d14b944458f7e3a750d9a9295e6216f85e445ee10efacf49a203eae08a5e1e69"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/interactive-figure/wide-interactions.js",
+      "bytes": 5654,
+      "sha256": "bfcd23e42d43cee3e0d29d308435cd08a82826d67a18d71af95a9b4d28813140"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/lean_recheck/environment-attempt.log",
+      "bytes": 608,
+      "sha256": "e52d2a1d9c3a7c91bb036b03c86b803e8b5f76bea0ab5ee0eef23038c5204131"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/lean_recheck/lean-audit.md",
+      "bytes": 5069,
+      "sha256": "7cedd5698f427217df5bbd85956736e42afaeb33a1212c1bb63883c4f41d28f3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/lean_recheck/recheck-record.json",
+      "bytes": 1735,
+      "sha256": "95ef53aedb3ea26320eb1459b2b8f88bd85373c43a96b8d44b2cda273964f0e1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/literature.md",
+      "bytes": 7359,
+      "sha256": "8b45ef29304111c105c5cafe563e706be12f5f06fc43ed191c75fbbe572e6187"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/memo-to-astra_x01-review.html",
+      "bytes": 17577,
+      "sha256": "052691a3b59709557e63fbc2617be9ed4544bbd0d49e87b2ed4747948efef115"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/review_response.md",
+      "bytes": 4858,
+      "sha256": "9ceea7b22b218d026a33e35425de30965f832e30b6e0dc9a0dd8676105155bf4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/wide_eta_audit.md",
+      "bytes": 9336,
+      "sha256": "f52566e86b6685e3894499b10e69a9fff0f39da77c7785638fd3f14fc1a4f271"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/wide_eta_check.json",
+      "bytes": 78740,
+      "sha256": "23748472aefeb105a19344b0d44908a73aef3293466a0a35b69f63b8a19d986c"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/wide_section_en.md",
+      "bytes": 7738,
+      "sha256": "64f7eee8edb99dde45d0bc59de9933a81d2b68ea09dd0466c3a8a1f7253873cd"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/review-2026-09-09/wide_section_ja.md",
+      "bytes": 7201,
+      "sha256": "d3574c9941dd1405d04991838dd77c5e4affe585cff43e357c3e56544388167e"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/Lean検証パッケージ_順位ギャップ.md",
+      "bytes": 24672,
+      "sha256": "3306c44438c6e47a4943693d5b10b569a0ad95d05782d51dacfd5bc009df53e5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/README.md",
+      "bytes": 4371,
+      "sha256": "c2453e11ded8484440d41751752cec2f6d8e75f4a099d7843efcfe5d59b71596"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/lakefile.toml",
+      "bytes": 227,
+      "sha256": "85078f057e797eb9bf0983e179b0dda2b5d47a5b6b39f9e8ee11eafe762e87c1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/lean-attempt-01.log",
+      "bytes": 169,
+      "sha256": "3e0073863a4f43355492b6ab537629cf2c60f4166bfdf1a9a46aeebf7aa6b7c0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/lean-attempt-02.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/proc_self_compat.c",
+      "bytes": 850,
+      "sha256": "2f3fe42f8e76de61473891406a97503891bc057dbfc68e37406a6b6c0f30ce12"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/setup-record.json",
+      "bytes": 5316,
+      "sha256": "b26747ffac43d7e7cc792fe06ab56166d7eb004fb7e0267adb9acd52cf3cd218"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_formal/verify.py",
+      "bytes": 3487,
+      "sha256": "3d8ab92af0d9a182160f4eb806c0df854fad6e447e59f108cef52f7421db4ce2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_graph/check_graph_round2.py",
+      "bytes": 4192,
+      "sha256": "959bc56177483badd8ca33d448eefcee5f7b7300e8f9c38497cc65d6ae075951"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_graph/graph_round2_results.json",
+      "bytes": 1438,
+      "sha256": "024c367528d423da40dc7bf2185e08a08e30e43f3d2aefee8a551afd097c659c"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_graph/research_note.md",
+      "bytes": 11717,
+      "sha256": "0e9bf789ac24b4c5e315a95862e76d692bc68b5433cc95f02dea0ca5557dcdbf"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_novelty/novelty_audit.md",
+      "bytes": 15644,
+      "sha256": "73c34bc6914b61b7559528c32d8de7266ea996a7266941f1ed819e4878e838b9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_robust/check_robust.py",
+      "bytes": 8128,
+      "sha256": "d36df5f1b1f1c2bccae874c2d574c84eb8318116d3553b5d580723847cf5e0e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_robust/robust_band_audit.md",
+      "bytes": 15844,
+      "sha256": "1f515b33e117742c0df49f01aa159cbd8e93bdcf911d465b28197172b0579f03"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_robust/verification_results.json",
+      "bytes": 677,
+      "sha256": "ab49eed44f889b04f4010c0f41d9a97004cb4fa8e80067febb926f02b82e53a2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/higher_holes_appendix.md",
+      "bytes": 6235,
+      "sha256": "6b30c5ed10a5365821df0ac13cbf5a79f1463c723e2a7577804acb3facbcc3d6"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/higher_holes_results.json",
+      "bytes": 1221,
+      "sha256": "a89b8ecbfb8c260f59eefc2ac2b2565083980a2175a1fe2e96e835e6af6cbc2b"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/noninteger_topology_and_rank_margins.md",
+      "bytes": 11795,
+      "sha256": "7054705c3260f3cbb4b58cc386ba104fbec9eb3ff04247372a459c26aabef158"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/verification_results.json",
+      "bytes": 871,
+      "sha256": "94ca37c1a7e6e07650993bfb4d67f4890684b688e58bb8fdf0fb59f0d2b2677b"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/verify_higher_holes.py",
+      "bytes": 2968,
+      "sha256": "4fed8597e96b84f9b8eeb9b10b06ca8c5706aef6a4eb2635fd1bc0914136fece"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/round2_topology/verify_noninteger_topology.py",
+      "bytes": 6656,
+      "sha256": "83fe056ed141d5d812bae3a2b55a078244d0d0c1e6b56b21a1aeca6414c8546f"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/historical-v1.1/数学探索_第2回_順位間隔と形式証明.md",
+      "bytes": 20361,
+      "sha256": "648883fa121478f3c99a38ff9e0c81a507fe2d3543f67c0ccf2387decb41add6"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/novelty/novelty-audit_2026-09-09.md",
+      "bytes": 16295,
+      "sha256": "1fb3196f6ea27ca01ec671f1ecae83e028dafcf10c2861ddaa28fdae23ef9e3b"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/novelty/source-comparison-spectral.md",
+      "bytes": 7406,
+      "sha256": "e564a8b330032b9a9a9b68c29912b13f7443c22e8d81f693535aed529c31a936"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/novelty/source-comparison-statistics.md",
+      "bytes": 8337,
+      "sha256": "e83cd4e38135c2c6b5a4087e4e56f041e2c1add580fec8a28e8b0d6b72ac7ab0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/novelty/source-comparison-topology.md",
+      "bytes": 10987,
+      "sha256": "aa813e2a6ee2a571f562b1e36f301c860bb8f47e599336ca3573403778e60a99"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/Fable-review-of-earlier-edition.html",
+      "bytes": 17577,
+      "sha256": "052691a3b59709557e63fbc2617be9ed4544bbd0d49e87b2ed4747948efef115"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/formal-explainer_en.md",
+      "bytes": 1520,
+      "sha256": "fa5b2ec77589ce96a4f325b9af6a4755dd2d58430e0d2f9723629f5b37e36bd3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/formal-explainer_ja.md",
+      "bytes": 1649,
+      "sha256": "110a413368de71c473769a9459c4ec0af91fb6ed08402babe8bcddc8ca1323dc"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/integration-review-note.md",
+      "bytes": 970,
+      "sha256": "1555f9731bdf9239e8b07aaf264764ff034b5d988bdd9f6b534571adf8e4c133"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/review-request_en.md",
+      "bytes": 2897,
+      "sha256": "f17a9d2ce89965f41831a1eae9fcda1aea7026aee6609de5944d02f54a25fd98"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/archives/x01-review-materials/review/review-request_ja.md",
+      "bytes": 3248,
+      "sha256": "0d312505911d4ab97bcb3ff3c84bddede17bf1c959b7b9b4f3e5296ff7341f31"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/article-en/article_en.md",
+      "bytes": 68052,
+      "sha256": "45a10099a0b398b92e419983257b0053b12298f7a5e1b7702bbdf87a179d05a6"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/article-ja/article_ja.md",
+      "bytes": 66451,
+      "sha256": "504d8d203addaf67c7272ae41acd063730dbc9d6c44df684ec55b0c3a8c56cb5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/bundle/x01-review-materials.zip",
+      "bytes": 294909,
+      "sha256": "3f64e8cb4691b08b9fc39db4ee20481e223ba9a589613232619db8b83ebc2bda"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/currentRecord/verification.json",
+      "bytes": 1238,
+      "sha256": "af17a8cc51aaecdc4b7c4de8b5e23a8f725894cfa7fed6aea842858ea8d52de3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-BandSharp.lean/BandSharp.lean",
+      "bytes": 7948,
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-FiniteBand.lean/FiniteBand.lean",
+      "bytes": 5371,
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-Packing.lean/Packing.lean",
+      "bytes": 6112,
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-README.md/README.md",
+      "bytes": 5645,
+      "sha256": "3d63d61e2ef257a46eaa4073bfb05ef9f75d2e403e2d11a57783a504e8f097c4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-Rounding.lean/Rounding.lean",
+      "bytes": 14126,
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-X01.lean/X01.lean",
+      "bytes": 34,
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-algebra-check.json/algebra-check.json",
+      "bytes": 1741,
+      "sha256": "5b40d507e0bd946e34aa8a4828173710738b0f6da282be20d66b90bae3841ba0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-algebra_check.py/algebra_check.py",
+      "bytes": 3167,
+      "sha256": "b5d4699fef987e00844fb97c6e15d933233c6422c9f6ba75ef8dacd348b196a1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-lakefile.toml/lakefile.toml",
+      "bytes": 406,
+      "sha256": "625fd3befdc078d824e16e6e515d63723ad022a8fe18224c98cb67d0f91289ac"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-lean-toolchain/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formal-verify.py/verify.py",
+      "bytes": 3794,
+      "sha256": "fe013d19834e0f636f49e8e61a41851d76fb3a70e02600bd9f1d8cb944463724"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/formalBundle/x01-current-lean-project.zip",
+      "bytes": 24755,
+      "sha256": "92a1e19a8c34157037e68c269339f842d5468598aea3c6441450bf5da3fa6803"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/integrationReview/integration-review-note.md",
+      "bytes": 970,
+      "sha256": "1555f9731bdf9239e8b07aaf264764ff034b5d988bdd9f6b534571adf8e4c133"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/lean/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/log/lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/novelty/x01-novelty-audit_2026-09-09.md",
+      "bytes": 16295,
+      "sha256": "1fb3196f6ea27ca01ec671f1ecae83e028dafcf10c2861ddaa28fdae23ef9e3b"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/recheck/recheck-record.json",
+      "bytes": 1735,
+      "sha256": "95ef53aedb3ea26320eb1459b2b8f88bd85373c43a96b8d44b2cda273964f0e1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/record/verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/request-en/review-request_en.md",
+      "bytes": 2897,
+      "sha256": "f17a9d2ce89965f41831a1eae9fcda1aea7026aee6609de5944d02f54a25fd98"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/request-ja/review-request_ja.md",
+      "bytes": 3248,
+      "sha256": "0d312505911d4ab97bcb3ff3c84bddede17bf1c959b7b9b4f3e5296ff7341f31"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/retry/retry-record.json",
+      "bytes": 2136,
+      "sha256": "6548c825c6b6f108fff81f3b9158c27d1cb75b79e079ccd46d5489f29030fbd1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/moment-rank-gap_ja-en/downloads/review/memo-to-astra_x01-review.html",
+      "bytes": 17577,
+      "sha256": "052691a3b59709557e63fbc2617be9ed4544bbd0d49e87b2ed4747948efef115"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/BandSharp.lean",
+      "bytes": 7948,
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/FiniteBand.lean",
+      "bytes": 5371,
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/Packing.lean",
+      "bytes": 6112,
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/README.md",
+      "bytes": 5645,
+      "sha256": "3d63d61e2ef257a46eaa4073bfb05ef9f75d2e403e2d11a57783a504e8f097c4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/Rounding.lean",
+      "bytes": 14126,
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/X01.lean",
+      "bytes": 34,
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/algebra-check.json",
+      "bytes": 1741,
+      "sha256": "5b40d507e0bd946e34aa8a4828173710738b0f6da282be20d66b90bae3841ba0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/algebra_check.py",
+      "bytes": 3167,
+      "sha256": "b5d4699fef987e00844fb97c6e15d933233c6422c9f6ba75ef8dacd348b196a1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/environment-attempt.log",
+      "bytes": 1184,
+      "sha256": "0b142ee93250f8ba407a96427cc33a85d4d39bb5707f4aaaba5464d74eded79a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/historical/original-lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/historical/original-verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/lakefile.toml",
+      "bytes": 406,
+      "sha256": "625fd3befdc078d824e16e6e515d63723ad022a8fe18224c98cb67d0f91289ac"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/retry-record.json",
+      "bytes": 2136,
+      "sha256": "6548c825c6b6f108fff81f3b9158c27d1cb75b79e079ccd46d5489f29030fbd1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/run-results/verification.json",
+      "bytes": 1238,
+      "sha256": "af17a8cc51aaecdc4b7c4de8b5e23a8f725894cfa7fed6aea842858ea8d52de3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/archives/x01-formal-proof-checkpoint/verify.py",
+      "bytes": 3794,
+      "sha256": "fe013d19834e0f636f49e8e61a41851d76fb3a70e02600bd9f1d8cb944463724"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/BandSharp.lean",
+      "bytes": 7948,
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/FiniteBand.lean",
+      "bytes": 5371,
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/Packing.lean",
+      "bytes": 6112,
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/README.md",
+      "bytes": 5645,
+      "sha256": "3d63d61e2ef257a46eaa4073bfb05ef9f75d2e403e2d11a57783a504e8f097c4"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/Rounding.lean",
+      "bytes": 14126,
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/X01.lean",
+      "bytes": 34,
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/algebra-check.json",
+      "bytes": 1741,
+      "sha256": "5b40d507e0bd946e34aa8a4828173710738b0f6da282be20d66b90bae3841ba0"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/algebra_check.py",
+      "bytes": 3167,
+      "sha256": "b5d4699fef987e00844fb97c6e15d933233c6422c9f6ba75ef8dacd348b196a1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/environment-attempt.log",
+      "bytes": 1184,
+      "sha256": "0b142ee93250f8ba407a96427cc33a85d4d39bb5707f4aaaba5464d74eded79a"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/historical/original-lean-check.log",
+      "bytes": 2151,
+      "sha256": "a06d40e33bd4aa31a53fcf012843a924f10ab082caf3211e67fbd0572f3358b5"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/historical/original-verification.json",
+      "bytes": 3967,
+      "sha256": "5640ed3c375c0a6ae0edc1ed4556050eb25764c34d088df2b608a7053e38e6e8"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/lakefile.toml",
+      "bytes": 406,
+      "sha256": "625fd3befdc078d824e16e6e515d63723ad022a8fe18224c98cb67d0f91289ac"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/lean-toolchain",
+      "bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/retry-record.json",
+      "bytes": 2136,
+      "sha256": "6548c825c6b6f108fff81f3b9158c27d1cb75b79e079ccd46d5489f29030fbd1"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/run-results/verification.json",
+      "bytes": 1238,
+      "sha256": "af17a8cc51aaecdc4b7c4de8b5e23a8f725894cfa7fed6aea842858ea8d52de3"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/verify.py",
+      "bytes": 3794,
+      "sha256": "fe013d19834e0f636f49e8e61a41851d76fb3a70e02600bd9f1d8cb944463724"
+    },
+    {
+      "path": "research/moment-rank-gap/artifacts/x01-formal-proof-supplement_2026-09-09/downloads/x01-formal-proof-checkpoint.zip",
+      "bytes": 24755,
+      "sha256": "b15573184950d18a61aee27e0bbb585d82596cc1221a45f9fb8c344949a5b47a"
+    },
+    {
+      "path": "research/moment-rank-gap/formal/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa"
+    },
+    {
+      "path": "research/moment-rank-gap/formal/proof-supplement-2026-09-09.html",
+      "bytes": 1757592,
+      "sha256": "38f08d068e4c8e02829f074073014afff880eac41dfffa04dde0c620f2ef1049"
+    },
+    {
+      "path": "research/moment-rank-gap/notes/geometry-extension-2026-10-06.md",
+      "bytes": 9614,
+      "sha256": "50c3ef2b525b7828ceadbc9254ab6cf3ad4396c9a50375856b26526a5943fd11"
+    },
+    {
+      "path": "research/moment-rank-gap/notes/moment-islands.md",
+      "bytes": 29138,
+      "sha256": "c0d294fce301e20e114075b8bd068bd96ff609b2162e73fdb254eee7b144b783"
+    },
+    {
+      "path": "research/moment-rank-gap/notes/rank-gap-and-formalization.md",
+      "bytes": 20361,
+      "sha256": "648883fa121478f3c99a38ff9e0c81a507fe2d3543f67c0ccf2387decb41add6"
+    },
+    {
+      "path": "research/moment-rank-gap/report.html",
+      "bytes": 3544987,
+      "sha256": "bdb727e958812b16fa5ed675332f2e93c359987be9a158606fe21c43549be4ff"
+    },
+    {
+      "path": "research/moment-rank-gap/reviews/independent-review.html",
+      "bytes": 17577,
+      "sha256": "052691a3b59709557e63fbc2617be9ed4544bbd0d49e87b2ed4747948efef115"
+    },
+    {
+      "path": "research/moment-rank-gap/reviews/novelty-audit-2026-09-09.md",
+      "bytes": 16295,
+      "sha256": "1fb3196f6ea27ca01ec671f1ecae83e028dafcf10c2861ddaa28fdae23ef9e3b"
+    },
+    {
+      "path": "research/one-exception-symmetry/README.md",
+      "bytes": 613,
+      "sha256": "976d081e3926b204b07b9e69114c921b81dcf30caee107206d7b0704c56ab184"
+    },
+    {
+      "path": "research/one-exception-symmetry/archive/earlier-report.html",
+      "bytes": 134627,
+      "sha256": "e57e3ee0f13b473e990552249cac17fc41c8cea42851e5d560afcebe1875192f"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_robust_verify.py",
+      "bytes": 4618,
+      "sha256": "6f36ab3bc84cfa834507a09b7811bf63c05dadecbd22c8a2626313bb2d91da58"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_structure_verify.py",
+      "bytes": 3683,
+      "sha256": "5c6a4c186b459228e79d4dbc8ce8afb290319f8cdb51cc1c1c1b89d89853c65d"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/meta_verification_results_2026-09-15.json",
+      "bytes": 4880,
+      "sha256": "f7eb6a0040b5b3f6a98f1072d7011b05cd2716d5070965b13446d7dc1df68ebd"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/paired_core_verify.py",
+      "bytes": 1387,
+      "sha256": "f5d37566fab6b20a2f7582fab3ef05acaa5148ecf6d28841ca9e20e235aa0090"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/verification_results_2026-09-15.json",
+      "bytes": 2058,
+      "sha256": "cf0b311a1e608b8d5a151eaed45e10584786afec63559110e2558a3a14b4dde3"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15/downloads/weighted_verify.py",
+      "bytes": 3425,
+      "sha256": "cd4eb94b248185733ebfec0b7eb218919c5517859761ea5a2252c2ca8b409408"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/exception_family_results_2026-09-15.json",
+      "bytes": 10236,
+      "sha256": "a1c8d0aae2528fef28a671596c89c038ebb67318eb4855c3f19db8538e656aa9"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/exception_family_verify.py",
+      "bytes": 7521,
+      "sha256": "101ebd99becb3483fc1ae9abe7ed5817b2844c6ac4aa233d15467753e7224908"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/meta_robust_verify.py",
+      "bytes": 4618,
+      "sha256": "6f36ab3bc84cfa834507a09b7811bf63c05dadecbd22c8a2626313bb2d91da58"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/meta_structure_verify.py",
+      "bytes": 4445,
+      "sha256": "73535a6bf02d34b44e0ae8f5e339812472a0f46a215d0e3c6e06efc9cd364cf1"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/meta_verification_results_2026-09-15.json",
+      "bytes": 4880,
+      "sha256": "f7eb6a0040b5b3f6a98f1072d7011b05cd2716d5070965b13446d7dc1df68ebd"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/odd_clique_counterexample_results.json",
+      "bytes": 7995,
+      "sha256": "608f612fda66b9396781529edbf5c400d50ce058c6b9d0e527dbb1094dc3e92d"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/odd_clique_counterexample_verify.py",
+      "bytes": 2920,
+      "sha256": "f3db18f1ed27ba7367aeb61c12313f73fed80b4f68c5fa78c18c16ac2994504e"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/paired_core_verify.py",
+      "bytes": 1387,
+      "sha256": "f5d37566fab6b20a2f7582fab3ef05acaa5148ecf6d28841ca9e20e235aa0090"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/verification_results_2026-09-15.json",
+      "bytes": 2058,
+      "sha256": "cf0b311a1e608b8d5a151eaed45e10584786afec63559110e2558a3a14b4dde3"
+    },
+    {
+      "path": "research/one-exception-symmetry/artifacts/one-exception-symmetry-2026-09-15-v5/downloads/weighted_verify.py",
+      "bytes": 3425,
+      "sha256": "cd4eb94b248185733ebfec0b7eb218919c5517859761ea5a2252c2ca8b409408"
+    },
+    {
+      "path": "research/one-exception-symmetry/report.html",
+      "bytes": 221747,
+      "sha256": "e898fff36d3a3e42c823c265928a87e171746084ae47997124707f26e6ffcc15"
+    },
+    {
+      "path": "research/one-exception-symmetry/reviews/review-2026-09-15.md",
+      "bytes": 3470,
+      "sha256": "1c4a393eda50358290ae0cca45f67cef66048b593af4d8c96ba9de409d8d549a"
+    },
+    {
+      "path": "research/physical-memory/README.md",
+      "bytes": 759,
+      "sha256": "12abaee96c5d97e32943c5cf7f63ab8b0a4d8765109c3e2f1131c90ff43f7573"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/MANIFEST.json",
+      "bytes": 944,
+      "sha256": "68f2dffe692862f43b39c9ea012063b84d0b3b99ae61838d62f09ba57ac99d7f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/README.txt",
+      "bytes": 1285,
+      "sha256": "c49352fc72ae0b66dcd4879732e53a082f0e4f4dab2ef6c65dc3b05b4cdae713"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_audit.md",
+      "bytes": 15289,
+      "sha256": "420ba553641c838e950701ab8031512d3ec450e826c55c6c50b0d00764f250aa"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_capacity.md",
+      "bytes": 13488,
+      "sha256": "b3458b281f4c74fb3f51aefda12e0925d1d13a494acccbf6c16df631ecb21ffe"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_capacity_check.json",
+      "bytes": 1823,
+      "sha256": "1e9fa4851955a7de03c511de41152226e5d6695fcd40be60e9baeebe890c2769"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_capacity_check.py",
+      "bytes": 5935,
+      "sha256": "c3dbe622ffca95e4c764f85680a114a55b6bbc0cb0581d6e6a8a4e13f4de93cd"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_prior.md",
+      "bytes": 8774,
+      "sha256": "6c6714b03fccdbfa8a75d27f3eeabf4abf97293436b974f0e11360f91f4abc30"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_spectral.md",
+      "bytes": 8992,
+      "sha256": "3488a3bde50509ce6222825798c2414b639ab6516bdd252e352873feb4165dc9"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_spectral_check.json",
+      "bytes": 7621,
+      "sha256": "f458370bd8074129fbf5be91e6607f04ac15b71f13aa1200e4e4352de50d902f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_spectral_check.py",
+      "bytes": 3460,
+      "sha256": "007639456f0155a3673f196f7e75497691da3c96e63047bab217bee132cb8b8b"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round10-resources/round10_ui_qa.json",
+      "bytes": 10599,
+      "sha256": "4f59a9e05cca70a4266e970cab9c2496d9493d9bea1c4f3070900780f2184819"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/README.txt",
+      "bytes": 392,
+      "sha256": "2ec3aedfee36cbc26ef1d6ba0b9c2362ecf10b125ac270818483404de02456e5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_construction.md",
+      "bytes": 8096,
+      "sha256": "0c05613634a5d77ea7be9344c0d235746911e9a5fcdc06f301682acc3feff72f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_construction_check.json",
+      "bytes": 11677,
+      "sha256": "9cb8f36227a18a6c527f690ff632438e49a24a44da4230a2f0e469d8d37e726a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_construction_check.py",
+      "bytes": 3550,
+      "sha256": "8323469ff68f656f16c98e88496a9f63cb6f16f127e191781ce2a12cc8f20a8e"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_global_audit.md",
+      "bytes": 6743,
+      "sha256": "05b04ca517d9e50a1331cdfa188df4b2c96021c1fc65f511ceba71861f0f99ee"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_global_audit_check.json",
+      "bytes": 2081,
+      "sha256": "3bd4575665323d062887b86d2f1f05222d8d594a3118ee37c9da5f323d81de26"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_global_audit_check.py",
+      "bytes": 3286,
+      "sha256": "1b4248d03ffd6cb3f58b78188371c47887b540f13ab0665bed7591d379f5f523"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_leak.md",
+      "bytes": 11578,
+      "sha256": "557fa1034d78997a2a1bf9b0ced9624ada5e5461b11ab9117421436f50f9b7a0"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_leak_verify.json",
+      "bytes": 2171,
+      "sha256": "de4cd650e4de5ac44ab1d544777286501ceee1361447165e2aee38f0ccaba519"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_leak_verify.py",
+      "bytes": 2938,
+      "sha256": "75e2bad72062ebd7c70233a82c532f6b26a1ae1ee4b789a6381e47163cccb796"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_prior.md",
+      "bytes": 19427,
+      "sha256": "e60451688f727a7de9bb4326e8572b0620a5c70758961c210e9bc5374db6db9b"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_window.md",
+      "bytes": 8898,
+      "sha256": "bbc5487a23e3e04cb47ea2f8440da6c4ee6793c56ebcd691a6a9d1b1441759ad"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round8-research/round8_window_constants.json",
+      "bytes": 462,
+      "sha256": "19dd832feed4ccac0da74fb661c0fc01311cb204eafa2b89aca2885acb1db1ce"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/MANIFEST.json",
+      "bytes": 2293,
+      "sha256": "1b4db4ee4e2dc49eadde295adcb7ff7687b09efacc6d16469ef1fca7f76f8817"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/README.md",
+      "bytes": 1676,
+      "sha256": "ca85909e0488896386e6f62d0d5f8b26dad7007aa63c0fead7c73b4162d94ee5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_atomic.md",
+      "bytes": 13076,
+      "sha256": "d9809b32ea40aeeafeefafca52c53a4ba92934d75ca70b3314b1e33f62e9edf1"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_atomic_verify.json",
+      "bytes": 853,
+      "sha256": "3746fa9ad8ffb9fb91650dc0e33c9297aa2a10fd18bf6bc22c6902c7a714c7c7"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_atomic_verify.py",
+      "bytes": 2461,
+      "sha256": "7512957c18c8330dc4d0ff370793d1f052195dc709518bdb975bf8ebc56db95d"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_audit.md",
+      "bytes": 9919,
+      "sha256": "443eddf2386555fa35a333033affbba80979d63331b8240cc353aee66cda6042"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_audit_check.json",
+      "bytes": 3406,
+      "sha256": "39f88e0cc8dedf62c2f53a6b5f859b66ede66f40eb3434f3364decb107f91474"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_audit_check.py",
+      "bytes": 6322,
+      "sha256": "3fc829ab1fb63483dad6870ccae8ee6444823a14436fbf2d30580118945350a9"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_finite_example.json",
+      "bytes": 2301,
+      "sha256": "21e74a316e1400e2a776280da18d1ae06f283d1b18d6ab7bae44efdb36cc2d0b"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_finite_example.md",
+      "bytes": 3374,
+      "sha256": "14df48dd0575b77400425c062d69273783243623f8a2a0020e57af4a2ce4fbd5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_finite_example.py",
+      "bytes": 3549,
+      "sha256": "a100b8e7d3b1c787069cba76ed5ba890d4c62846fe15df846eba933b3b61bcc1"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_kernel.md",
+      "bytes": 11646,
+      "sha256": "379cc219b87c09dcfc441d91b783f3fb58e3e1a7489a22308c2084a6eb7d0f14"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_phase_prior.md",
+      "bytes": 8127,
+      "sha256": "d00e17554408363e7cb72d78523d36c59640a50606e5599b04d6a2314feb5cdd"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_weighted.md",
+      "bytes": 14505,
+      "sha256": "a9c4b460225eed45b4b4f289fbaa7d3678487b25659c5bf6e7dbefdadf44c6d5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_weighted_check.json",
+      "bytes": 875,
+      "sha256": "013debff6638325b1fc8eb4d15591453ee7a3e04c3642630ed2095cea1a4efd0"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_weighted_check.py",
+      "bytes": 2723,
+      "sha256": "a69127f41920063e2f8bf012d201d8174cb54a88517a643dc655ca761563f16a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_weighted_rectangle.json",
+      "bytes": 2917,
+      "sha256": "f1b65a522695646ddd62ec38998002cb1d746c2852f46f047bb00c1e94bf49b5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/archive-content/physical-memory-round9-research/round9_weighted_rectangle.py",
+      "bytes": 3458,
+      "sha256": "8172d33160ada9be6240fc9443583037ed799c2f2cde71a4692384ec79bf7d67"
+    },
+    {
+      "path": "research/physical-memory/artifacts/downloads/physical-memory-round10-resources.zip",
+      "bytes": 30736,
+      "sha256": "a6775ec0cab3d547fcae9928b19124dac7bc9fcb7e2b4b012f6d8ba06ee46286"
+    },
+    {
+      "path": "research/physical-memory/artifacts/downloads/physical-memory-round8-research.zip",
+      "bytes": 33376,
+      "sha256": "2eb5071d3ae3068fc22583f5d7049da1bd7b45210d2b6a583bb3faa6a4a39cee"
+    },
+    {
+      "path": "research/physical-memory/artifacts/downloads/physical-memory-round9-research.zip",
+      "bytes": 41312,
+      "sha256": "1c847c47b4f7ee8bf632394e47a26491139dce174249ef99e03c3e9ff4fa064e"
+    },
+    {
+      "path": "research/physical-memory/artifacts/downloads/round3_sdp_results.json.gz",
+      "bytes": 47673,
+      "sha256": "756c3e69629c84166f2c89e56c0ec220abcb1725e07ad6fcf03eeec39768b02f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/cp3-algebraic-certificate.json",
+      "bytes": 1210,
+      "sha256": "692f12e217d9c114a50a4889b64d4ae43c79177ea5593927c26a77bddfebf7a5"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/cp3_algebraic_certificate.py",
+      "bytes": 5292,
+      "sha256": "2c988196e603d570c945fa029461d6f0b9eb0ce08f0e12f6f3839427033d700f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/finite-window-results.json",
+      "bytes": 3831,
+      "sha256": "252eeef1ac96c18c628b3e3bd58dcc1a22348fe2d17a9ffc09cda6000a03df8a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/finite_window_verify.py",
+      "bytes": 9961,
+      "sha256": "e47e48b1f414c606fddc76875a751363cc31920a760496a66194df0e0be65029"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/make_finite_window_figure.py",
+      "bytes": 2372,
+      "sha256": "611dd17d435bcd98a2b6757a2da567f8db471fc7a64f9431b016a74ac0f040a2"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3-protocol-results.json",
+      "bytes": 1013,
+      "sha256": "58d798b17df6eb3ee5aabc757a7972184d5ea67c4d0f0ec9080b66c54d91f20f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3_protocol_verify.py",
+      "bytes": 4122,
+      "sha256": "ddddad25166b76eb070034663746c15e0bcd02b2d9fe1f155fba136b7d788ab6"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3_sdp_compare.py",
+      "bytes": 8622,
+      "sha256": "a1c4d34b25cee75a4c4b1d29210929fbf9630b99b6b5594b6692e7b47ffd9069"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3_sdp_exact_certificate.json",
+      "bytes": 1040,
+      "sha256": "2e00a2d8770c10ae07e966a3f077e7ab2753899f5039b1974c69f8dcd29f0704"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3_sdp_exact_certificate.py",
+      "bytes": 3654,
+      "sha256": "a51f1f458f4e4affd34ce98b05c10905006d80701f17f868a5b1d1299a3da9a0"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round3_sdp_results.json",
+      "bytes": 299363,
+      "sha256": "c926e5e575dcd8a1c47dc225c99080b7677f94b597f7a6ad53147f446f05c01a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round4-sharp-results.json",
+      "bytes": 916,
+      "sha256": "ffa82ab6d34f90cc0df378016429cf81492c5d171d944113e1d570deffb98f0d"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round4_sdp_primal_exact.json",
+      "bytes": 6063,
+      "sha256": "9d1b0dd9c65350e19fb83feb368d51bac69c74940a313b5af5d28ebcd4c69d77"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round4_sdp_primal_exact.py",
+      "bytes": 2645,
+      "sha256": "2f490bfc7046e80da313d88a2a321bb8da2efb03ad6b56336ad062e731dfe4ec"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round4_sharp_certificate.py",
+      "bytes": 3219,
+      "sha256": "b09326dd805604f5ac0e24c1641bbf114111692ea3dd6461533cef6c738fd679"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round6_geometry_certificate.json",
+      "bytes": 1139,
+      "sha256": "50c273bb0867baede6375a862afb3cc05c39eb63255a8a119e92761c7927f898"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round6_geometry_certificate.py",
+      "bytes": 2105,
+      "sha256": "97a05c06e5b12ff63e519ae1b2124ab41bb61ecbfd747b231dab00ef63cd9518"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round6_independent_audit.json",
+      "bytes": 3979,
+      "sha256": "d30a58c81a20f2cdf44c305eac8a9c0fde78854dcff2a58727846fa019629f81"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round6_independent_audit.py",
+      "bytes": 5087,
+      "sha256": "f7557f95af925e39e90b08f1e1df23e1cac2bd834500089e118d04c16f06442f"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round7-summary.embedded.json",
+      "bytes": 1223,
+      "sha256": "e71a024704e0428e3451ba900cf670751b3d309f9752d1ceedffbb242f9f6dce"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round7_verify.py",
+      "bytes": 11682,
+      "sha256": "2fb5746d790d686cb0fa8300689a5d2aa1d9bb0111713d93bf084aeaaa8740ab"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round8_construction_check.py",
+      "bytes": 3550,
+      "sha256": "8323469ff68f656f16c98e88496a9f63cb6f16f127e191781ce2a12cc8f20a8e"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round8_global_audit_check.py",
+      "bytes": 3286,
+      "sha256": "1b4248d03ffd6cb3f58b78188371c47887b540f13ab0665bed7591d379f5f523"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/round8_leak_verify.py",
+      "bytes": 2938,
+      "sha256": "75e2bad72062ebd7c70233a82c532f6b26a1ae1ee4b789a6381e47163cccb796"
+    },
+    {
+      "path": "research/physical-memory/artifacts/embedded/verify_thermal.py",
+      "bytes": 5294,
+      "sha256": "a8b8c7c5240399d88352d2769726c083f8b6e63ab4f0f6e1f4ce179a816ef580"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-002.js",
+      "bytes": 437,
+      "sha256": "827ed9c60b247bb6ebed2ce622726460bd3ab38a5e0fc7affec43ea4e88f8fa2"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-003.js",
+      "bytes": 4247,
+      "sha256": "0ee35bd99a46658dc955cc48c9fa13e6874872b0bc071334d39278d331d88c9a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-004.js",
+      "bytes": 3498,
+      "sha256": "c8b9079130ce1910ebf2d3873dcff5b44fae8b5582283f8c568a548bc00b77af"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-006.js",
+      "bytes": 560,
+      "sha256": "3ff3f39a3b70d3703ccb817095936822567d5bc40d819f262a50f297a0e56bbd"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-008.js",
+      "bytes": 499,
+      "sha256": "3692e14b0541fed3f540b99c1e4cc8714c3a57cb905554b9183aeb88bbd36f75"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-009.js",
+      "bytes": 6387,
+      "sha256": "8c14faac48d7a5df04512af963196ae6df777fb5c7a3ad46eefb44fb820df98a"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-011.js",
+      "bytes": 559,
+      "sha256": "934dca2eef5b49b2b55877243cdda17e98a27cbbaf2126735e6e47cd2bc39ac2"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-012.js",
+      "bytes": 2611,
+      "sha256": "0740409036e803c76987d7ef399bc8a862715d0f81e28f1263d7f6e2c3eebae0"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-013.js",
+      "bytes": 17422,
+      "sha256": "175ec5c242cce3fdeb768cc482628f04a0fe75c0ccf601267ea903efc7005251"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-014.js",
+      "bytes": 1478,
+      "sha256": "34cc4042f5e88e4e4c69846223e0e89a81a708d3726bef937c9ba366c64c0678"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-015.js",
+      "bytes": 6437,
+      "sha256": "e9de093d10717a3daa89170dd170ff80ddc094822d375c670c5b865a90fc4d45"
+    },
+    {
+      "path": "research/physical-memory/artifacts/inline-scripts/physical-memory-reduction-2026-09-20.script-016.js",
+      "bytes": 2356,
+      "sha256": "321a06866d09833345f4b783b316d5d82ac895a9fe44e09969606edd5e29e9ad"
+    },
+    {
+      "path": "research/physical-memory/experiments/2026-10-06/verify_physical_capacity.json",
+      "bytes": 1629,
+      "sha256": "5a2fce56d02931c413272fd63a0673e9af1b35d6192593728a705312ba124f47"
+    },
+    {
+      "path": "research/physical-memory/experiments/2026-10-06/verify_physical_capacity.py",
+      "bytes": 3251,
+      "sha256": "53ebc39a90593b241e8fc6afdfa635fae20126d6a236eeab355a6a614fcaae1f"
+    },
+    {
+      "path": "research/physical-memory/notes/capacity-obstruction-2026-10-06.md",
+      "bytes": 6884,
+      "sha256": "542be157f86439cf158b8b85e134a35adc0bb1de15dbcb7dfaa0e13f06faac24"
+    },
+    {
+      "path": "research/physical-memory/notes/who-wants-this-research.html",
+      "bytes": 10124,
+      "sha256": "d1083ec2c72a6b586096a7f23e8c55f848d64560ef212b5d2579adeeeb80c9ec"
+    },
+    {
+      "path": "research/physical-memory/report.html",
+      "bytes": 759997,
+      "sha256": "1995238c856c8b736d38320b0231a14dc4953aeb79222b63ee4aeb8474562ddb"
+    },
+    {
+      "path": "research/physical-memory/reviews/prior-art-check-2026-09-20.md",
+      "bytes": 8484,
+      "sha256": "7f7376d3648bb3b0e86aed92c9a0b59e91a8ad11fac3fc941e9f3a87909060bb"
+    },
+    {
+      "path": "research/physical-memory/reviews/review-2026-09-20.md",
+      "bytes": 9042,
+      "sha256": "6ffc7e4c95ad2ec82b60523be1ffab115f92fb5b4b016732ac46c4e7a719f226"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/README.md",
+      "bytes": 555,
+      "sha256": "f03d7953f50831ee2cad2a849d024e59d8be3bcc03eb2f1983badc60cb91c308"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_audits.json",
+      "bytes": 1733,
+      "sha256": "9b53368251d27a8c98068cdf24678000dded73fe4225b2e296d1995cbda0a182"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_audits.py",
+      "bytes": 2405,
+      "sha256": "2603fa801d04f3f2b32934b4ffe9fc9d07bf759ca4e7c67043b1042031876f87"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_n5_exact.json",
+      "bytes": 215,
+      "sha256": "33034be529daf77be524348910e6080db9ef9f146950e42547316baabdbde7da"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_n5_exact.py",
+      "bytes": 2388,
+      "sha256": "39368683563e996d81b74bee5f11162d453f0c45798ec0c55d02811b002df792"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_rounding.json",
+      "bytes": 142,
+      "sha256": "9130aa1d880c6c068b26fda3524bc1a17401acae7d81030c8abe77c3da299992"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/check_rounding.py",
+      "bytes": 2001,
+      "sha256": "152a1441cbf0152b10ec1387cdf8a8d0c5a0246bcdcf3a92f650339eefa8f4ad"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/verify_monotone_reconstruction.json",
+      "bytes": 592,
+      "sha256": "e7bc55d767dc08a5930ab6c177a42e28781519cf7ef9c8686cfedea9c42b47d2"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/artifacts/verify_monotone_reconstruction.py",
+      "bytes": 5913,
+      "sha256": "109c575c595b075cb6430e02590fda1f0d8387517cfedfd02a40d0a40399fd72"
+    },
+    {
+      "path": "research/rounding-aggregation-audit/report.md",
+      "bytes": 32762,
+      "sha256": "fb3f3aadb6ca0f73af2feb00f470b1688f4bb1edbe9c305218035d9589c996dc"
+    },
+    {
+      "path": "research/spatial/README.md",
+      "bytes": 625,
+      "sha256": "f3eaae8eb6a43b6f2413f2b0654a2d8078fd945b701e299d063a1ce43a6ec0a6"
+    },
+    {
+      "path": "research/spatial/artifacts/spatial_novelty_2026-09-14/downloads/spatial_research_verify.py",
+      "bytes": 26369,
+      "sha256": "15eeef407f919fdc59eade0c26a974c34b1a205f8e22bd32377847139977282f"
+    },
+    {
+      "path": "research/spatial/notes/discovery-2026-09-14.md",
+      "bytes": 47054,
+      "sha256": "1b114e4cc8b971ac81247ec362ebd822d8d6aab34e383a67a34baec20c13e5c3"
+    },
+    {
+      "path": "research/spatial/report.html",
+      "bytes": 223323,
+      "sha256": "be40ca691166517ccebe8b70e951253983c8a4f3d9180b0d91d783a7b10a74c7"
+    },
+    {
+      "path": "research/spatial/reviews/review-2026-09-14.html",
+      "bytes": 18781,
+      "sha256": "db2e270f7726c0a88ccf2dfd03df7b52dfa4d55f33e62aa71447131b2c966678"
+    },
+    {
+      "path": "research/wasserstein-center/README.md",
+      "bytes": 737,
+      "sha256": "0fe18aa6838655a77a1371ccdadf69c3129375c5e80a93c6ca1ef4de873dedf5"
+    },
+    {
+      "path": "research/wasserstein-center/artifacts/downloads/variance_results.json",
+      "bytes": 12395,
+      "sha256": "c9597d1ecb957f0d81797b38e1c6dc91ad9ad8c6921116ecab2b82581aefb1e1"
+    },
+    {
+      "path": "research/wasserstein-center/artifacts/downloads/verify_variance.py",
+      "bytes": 8259,
+      "sha256": "2001aa2df0b394da389cde373da820f5f68c6a40604184ce8ea9ab1f69c544d3"
+    },
+    {
+      "path": "research/wasserstein-center/artifacts/inline-scripts/wasserstein-center.script-001.js",
+      "bytes": 9580,
+      "sha256": "ff17f3d22a6336ddb11ba854dcf5172d85bfd7174c502ac4d5234eb61e07f0ed"
+    },
+    {
+      "path": "research/wasserstein-center/experiments/2026-10-06/w2_validation.py",
+      "bytes": 5064,
+      "sha256": "aa4bd9f20039925ae15dde06cbb0933f0155395dae792e117f4b7245b3c5d3d3"
+    },
+    {
+      "path": "research/wasserstein-center/experiments/2026-10-06/w2_validation_results.json",
+      "bytes": 1089,
+      "sha256": "f17ff1070757a16040a198aa90cf4e494f9bea69b360e5812a6198968e72b285"
+    },
+    {
+      "path": "research/wasserstein-center/notes/deepening-audit-2026-10-06.md",
+      "bytes": 9954,
+      "sha256": "323503ce619993a6e04febc3937085175575dba87893dfec8f3ddaeb46557186"
+    },
+    {
+      "path": "research/wasserstein-center/report.html",
+      "bytes": 137341,
+      "sha256": "e661f2a5f421372075d96f52de9bae33b78ae5046ae9e289b278213ef088a0b0"
+    },
+    {
+      "path": "tools/verify_archive.py",
+      "bytes": 2189,
+      "sha256": "f19ffd75bd75bf5ca7703214c65db380aae8c05e864778e340cbb7d6ee7bf6d2"
+    }
+  ]
+}

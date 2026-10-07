@@ -1,0 +1,165 @@
+{
+  "status": "all_checks_passed",
+  "unary_exhaustive": [
+    {
+      "n": 2,
+      "max_delay_by_k_1_to_n_minus_1": [
+        1
+      ],
+      "permutation_conjugacy_classes": 2,
+      "checked_C_z_P_cases": 16
+    },
+    {
+      "n": 3,
+      "max_delay_by_k_1_to_n_minus_1": [
+        2,
+        2
+      ],
+      "permutation_conjugacy_classes": 3,
+      "checked_C_z_P_cases": 216
+    },
+    {
+      "n": 4,
+      "max_delay_by_k_1_to_n_minus_1": [
+        3,
+        3,
+        3
+      ],
+      "permutation_conjugacy_classes": 5,
+      "checked_C_z_P_cases": 2240
+    },
+    {
+      "n": 5,
+      "max_delay_by_k_1_to_n_minus_1": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "permutation_conjugacy_classes": 7,
+      "checked_C_z_P_cases": 16800
+    },
+    {
+      "n": 6,
+      "max_delay_by_k_1_to_n_minus_1": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "permutation_conjugacy_classes": 11,
+      "checked_C_z_P_cases": 130944
+    },
+    {
+      "n": 7,
+      "max_delay_by_k_1_to_n_minus_1": [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ],
+      "permutation_conjugacy_classes": 15,
+      "checked_C_z_P_cases": 846720
+    },
+    {
+      "n": 8,
+      "max_delay_by_k_1_to_n_minus_1": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ],
+      "permutation_conjugacy_classes": 22,
+      "checked_C_z_P_cases": 5722112
+    },
+    {
+      "n": 9,
+      "max_delay_by_k_1_to_n_minus_1": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "permutation_conjugacy_classes": 30,
+      "checked_C_z_P_cases": 35251200
+    },
+    {
+      "n": 10,
+      "max_delay_by_k_1_to_n_minus_1": [
+        20,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29
+      ],
+      "permutation_conjugacy_classes": 42,
+      "checked_C_z_P_cases": 219770880
+    }
+  ],
+  "random_relational_pair_reduction": {
+    "seed": 9172026,
+    "checked_cases": 1000
+  },
+  "binary_counter": [
+    {
+      "k": 1,
+      "n": 4,
+      "shortest": 1
+    },
+    {
+      "k": 2,
+      "n": 6,
+      "shortest": 3
+    },
+    {
+      "k": 3,
+      "n": 8,
+      "shortest": 7
+    },
+    {
+      "k": 4,
+      "n": 10,
+      "shortest": 15
+    },
+    {
+      "k": 5,
+      "n": 12,
+      "shortest": 31
+    },
+    {
+      "k": 6,
+      "n": 14,
+      "shortest": 63
+    },
+    {
+      "k": 7,
+      "n": 16,
+      "shortest": 127
+    },
+    {
+      "k": 8,
+      "n": 18,
+      "shortest": 255
+    }
+  ],
+  "scope": "Finite exhaustive/random computation; not proof-assistant verification.",
+  "execution_batches": [
+    "n=2..6 in main verifier invocation",
+    "n=7..10 in separate invocation of the identical unary_exhaustive function; captured stdout integrated here"
+  ],
+  "unary_total_checked_C_z_P_cases": 261741128
+}

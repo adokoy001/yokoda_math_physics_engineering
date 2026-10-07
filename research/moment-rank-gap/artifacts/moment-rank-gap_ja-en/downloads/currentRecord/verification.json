@@ -1,0 +1,39 @@
+{
+  "status": "BLOCKED",
+  "scope": "Lean build and per-theorem axiom audit",
+  "expected_lean": "4.19.0",
+  "expected_mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "sources": {
+    "MomentIslands.lean": {
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa",
+      "theorems": 14
+    },
+    "Packing.lean": {
+      "sha256": "728a1775e7eb1980674cd065489009232d1294e3594b4334de8ef8655c1f05de",
+      "theorems": 6
+    },
+    "BandSharp.lean": {
+      "sha256": "1e07403f3483715345c831e2f096ba988daf19a73bfdd2132a68ebed25515e26",
+      "theorems": 8
+    },
+    "FiniteBand.lean": {
+      "sha256": "31797396fb0ad827a5e79dfa8c4e7773b07a8d8a532ae94f19afe1bcb665d7f9",
+      "theorems": 7
+    },
+    "Rounding.lean": {
+      "sha256": "d925d1584ab62c8e12a9bb8e2d20c499735cd64c782d1cf2669f0ef95ea322b3",
+      "theorems": 12
+    },
+    "X01.lean": {
+      "sha256": "115993866fd49afc2c35210aa14c7b593ce8adc4005b2c9ef4381d5ac9da9cf2",
+      "theorems": 0
+    }
+  },
+  "commands": [],
+  "static_audit": {
+    "theorem_count": 47,
+    "placeholder_tokens": false,
+    "new_axiom_declarations": false
+  },
+  "reason": "Lean/Lake executables are not installed on PATH; no Lean theorem was checked."
+}

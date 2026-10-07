@@ -1,0 +1,54 @@
+{
+  "random_cases": 600,
+  "max_normalized_excess": 0.0,
+  "exact_rational_sharp_cases": [
+    {
+      "k": 2,
+      "W": "1/2",
+      "loss": "7/4",
+      "coefficient": "7/2"
+    },
+    {
+      "k": 3,
+      "W": "1/2",
+      "loss": "11/4",
+      "coefficient": "11/2"
+    },
+    {
+      "k": 4,
+      "W": "1/2",
+      "loss": "15/4",
+      "coefficient": "15/2"
+    },
+    {
+      "k": 5,
+      "W": "1/2",
+      "loss": "19/4",
+      "coefficient": "19/2"
+    },
+    {
+      "k": 6,
+      "W": "1/2",
+      "loss": "23/4",
+      "coefficient": "23/2"
+    },
+    {
+      "k": 7,
+      "W": "1/2",
+      "loss": "27/4",
+      "coefficient": "27/2"
+    },
+    {
+      "k": 8,
+      "W": "1/2",
+      "loss": "31/4",
+      "coefficient": "31/2"
+    },
+    {
+      "k": 9,
+      "W": "1/2",
+      "loss": "35/4",
+      "coefficient": "35/2"
+    }
+  ]
+}

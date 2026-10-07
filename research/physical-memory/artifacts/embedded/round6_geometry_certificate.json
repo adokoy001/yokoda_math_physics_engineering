@@ -1,0 +1,36 @@
+{
+  "status": "Exact rational assertions passed",
+  "proved_lower_bound": "11/62",
+  "main_exact": {
+    "error_budget": "11/62",
+    "m": "51/62",
+    "M": "73/62",
+    "L": "113/62",
+    "D": "135/62",
+    "A": "113/62",
+    "U": "9/62",
+    "V": "187/186",
+    "R": "75735/84382",
+    "opposite_pair_margin": "9/31",
+    "projected_norm_upper": "1607793697181/2499351279048",
+    "fourth_edge_margin": "4690998979/2499351279048"
+  },
+  "display_only": {
+    "error_budget": 0.1774193548387097,
+    "m": 0.8225806451612904,
+    "M": 1.1774193548387097,
+    "L": 1.8225806451612903,
+    "D": 2.1774193548387095,
+    "A": 1.8225806451612903,
+    "U": 0.14516129032258066,
+    "V": 1.0053763440860215,
+    "R": 0.897525538621981,
+    "opposite_pair_margin": 0.2903225806451613,
+    "projected_norm_upper": 0.6432844037007102,
+    "fourth_edge_margin": 0.0018768866218704544
+  },
+  "strict_perturbation_budget": "8871/50000",
+  "strict_perturbation_margin": "964422841882034536069568877539212231/519259289904624073914823037628800000000",
+  "pairwise_independence_directly_from_L_greater_than_M": true,
+  "global_optimality_claimed": false
+}

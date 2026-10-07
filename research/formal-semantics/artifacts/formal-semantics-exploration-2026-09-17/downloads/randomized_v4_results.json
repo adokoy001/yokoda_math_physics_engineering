@@ -1,0 +1,3803 @@
+{
+  "seed": 9172026,
+  "summary": {
+    "instances": 193,
+    "finite_game_LPs": 262,
+    "exact_sampler_audits": 262,
+    "max_LP_absolute_error": 2.220446049250313e-16,
+    "dominated_candidate_instances": 80,
+    "duplicate_signature_instances": 67,
+    "original_portfolios_compared": 1095,
+    "future_payoff_constraints_compared": 9005
+  },
+  "groups": {
+    "random": {
+      "instances": 100,
+      "LPs": 109,
+      "details": [
+        {
+          "candidates": 6,
+          "demands": 8,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 6,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 5,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 7,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 6,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 7,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 8,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 6,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 6,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 8,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 7,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 15,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 6,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 26,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 7,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 8,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 5,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 7,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 5,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 7,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 17,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 7,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 21,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 6,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 8,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 6,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 11,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 18,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 7,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 25,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 6,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 11,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 6,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 6,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 2,
+              "future_payoff_classes": 19,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 10,
+              "future_payoff_classes": 19,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 11,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 4,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 8,
+          "q": 3,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 27,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 27,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 8,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 37,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 6,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 2,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 7,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 7,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 21,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 6,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 3,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 8,
+          "q": 3,
+          "g": 5,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 71,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "4/3",
+              "original_portfolios": 5,
+              "future_payoff_classes": 71,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 5,
+              "ratio": "1",
+              "original_portfolios": 9,
+              "future_payoff_classes": 71,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 8,
+          "q": 3,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 43,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 5,
+              "future_payoff_classes": 43,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 7,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 20,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 5,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 6,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 6,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 30,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 6,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 6,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 3,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 2,
+              "future_payoff_classes": 23,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 11,
+              "future_payoff_classes": 23,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 8,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 28,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 7,
+          "demands": 7,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 22,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 6,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 2,
+              "future_payoff_classes": 17,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 13,
+              "future_payoff_classes": 17,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 3,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 8,
+          "demands": 6,
+          "q": 4,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 3,
+              "future_payoff_classes": 47,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 24,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 6,
+          "q": 3,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 20,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 3,
+              "future_payoff_classes": 20,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": true,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 5,
+          "demands": 7,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 19,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        }
+      ]
+    },
+    "exhaustive_small_interval": {
+      "instances": 71,
+      "LPs": 73,
+      "details": [
+        {
+          "candidates": 1,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 2,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 2,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 3,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 1,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 1,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": true
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 2,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 2,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 1,
+          "g": 1,
+          "budgets": [
+            {
+              "budget": 1,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 3,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 6,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 3,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 4,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 7,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 12,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 4,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 5,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 10,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 2,
+          "g": 2,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 8,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 3,
+          "demands": 6,
+          "q": 3,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 1,
+              "future_payoff_classes": 13,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        }
+      ]
+    },
+    "universal_sharp": {
+      "instances": 21,
+      "LPs": 77,
+      "details": [
+        {
+          "candidates": 3,
+          "demands": 5,
+          "q": 2,
+          "g": 3,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 9,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 7,
+          "q": 2,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 16,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 4,
+          "demands": 6,
+          "q": 3,
+          "g": 4,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 19,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 19,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 9,
+          "q": 2,
+          "g": 5,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 25,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "5/3",
+              "original_portfolios": 4,
+              "future_payoff_classes": 25,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "4/3",
+              "original_portfolios": 7,
+              "future_payoff_classes": 25,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 5,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 25,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 8,
+          "q": 3,
+          "g": 5,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 33,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 33,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 33,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 5,
+          "demands": 7,
+          "q": 4,
+          "g": 5,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 39,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 39,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 11,
+          "q": 2,
+          "g": 6,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 36,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "7/4",
+              "original_portfolios": 5,
+              "future_payoff_classes": 36,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "3/2",
+              "original_portfolios": 11,
+              "future_payoff_classes": 36,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "5/4",
+              "original_portfolios": 15,
+              "future_payoff_classes": 36,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "1",
+              "original_portfolios": 16,
+              "future_payoff_classes": 36,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 10,
+          "q": 3,
+          "g": 6,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 51,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "5/3",
+              "original_portfolios": 4,
+              "future_payoff_classes": 51,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "4/3",
+              "original_portfolios": 7,
+              "future_payoff_classes": 51,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 6,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 51,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 9,
+          "q": 4,
+          "g": 6,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 67,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 67,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 67,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 6,
+          "demands": 8,
+          "q": 5,
+          "g": 6,
+          "budgets": [
+            {
+              "budget": 5,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 79,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 79,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 13,
+          "q": 2,
+          "g": 7,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 49,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "9/5",
+              "original_portfolios": 6,
+              "future_payoff_classes": 49,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 4,
+              "ratio": "8/5",
+              "original_portfolios": 16,
+              "future_payoff_classes": 49,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "7/5",
+              "original_portfolios": 26,
+              "future_payoff_classes": 49,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "6/5",
+              "original_portfolios": 31,
+              "future_payoff_classes": 49,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "1",
+              "original_portfolios": 32,
+              "future_payoff_classes": 49,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 12,
+          "q": 3,
+          "g": 7,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 73,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "7/4",
+              "original_portfolios": 5,
+              "future_payoff_classes": 73,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "3/2",
+              "original_portfolios": 11,
+              "future_payoff_classes": 73,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "5/4",
+              "original_portfolios": 15,
+              "future_payoff_classes": 73,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "1",
+              "original_portfolios": 16,
+              "future_payoff_classes": 73,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 11,
+          "q": 4,
+          "g": 7,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 103,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "5/3",
+              "original_portfolios": 4,
+              "future_payoff_classes": 103,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "4/3",
+              "original_portfolios": 7,
+              "future_payoff_classes": 103,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 7,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 103,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 10,
+          "q": 5,
+          "g": 7,
+          "budgets": [
+            {
+              "budget": 5,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 135,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 135,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 135,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 7,
+          "demands": 9,
+          "q": 6,
+          "g": 7,
+          "budgets": [
+            {
+              "budget": 6,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 159,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 159,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 15,
+          "q": 2,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 2,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 64,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 3,
+              "ratio": "11/6",
+              "original_portfolios": 7,
+              "future_payoff_classes": 64,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 4,
+              "ratio": "5/3",
+              "original_portfolios": 22,
+              "future_payoff_classes": 64,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "3/2",
+              "original_portfolios": 42,
+              "future_payoff_classes": 64,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "4/3",
+              "original_portfolios": 57,
+              "future_payoff_classes": 64,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "7/6",
+              "original_portfolios": 63,
+              "future_payoff_classes": 64,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 64,
+              "future_payoff_classes": 64,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 14,
+          "q": 3,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 3,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 99,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 4,
+              "ratio": "9/5",
+              "original_portfolios": 6,
+              "future_payoff_classes": 99,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 5,
+              "ratio": "8/5",
+              "original_portfolios": 16,
+              "future_payoff_classes": 99,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 6,
+              "ratio": "7/5",
+              "original_portfolios": 26,
+              "future_payoff_classes": 99,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 7,
+              "ratio": "6/5",
+              "original_portfolios": 31,
+              "future_payoff_classes": 99,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 32,
+              "future_payoff_classes": 99,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 13,
+          "q": 4,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 147,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "7/4",
+              "original_portfolios": 5,
+              "future_payoff_classes": 147,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "3/2",
+              "original_portfolios": 11,
+              "future_payoff_classes": 147,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "5/4",
+              "original_portfolios": 15,
+              "future_payoff_classes": 147,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 16,
+              "future_payoff_classes": 147,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 12,
+          "q": 5,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 5,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 207,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "5/3",
+              "original_portfolios": 4,
+              "future_payoff_classes": 207,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "4/3",
+              "original_portfolios": 7,
+              "future_payoff_classes": 207,
+              "lp_error": 2.220446049250313e-16
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 207,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 11,
+          "q": 6,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 6,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 271,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 7,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 271,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 4,
+              "future_payoff_classes": 271,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        },
+        {
+          "candidates": 8,
+          "demands": 10,
+          "q": 7,
+          "g": 8,
+          "budgets": [
+            {
+              "budget": 7,
+              "ratio": "2",
+              "original_portfolios": 1,
+              "future_payoff_classes": 319,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 8,
+              "ratio": "1",
+              "original_portfolios": 2,
+              "future_payoff_classes": 319,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        }
+      ]
+    },
+    "demo": {
+      "instances": 1,
+      "LPs": 3,
+      "details": [
+        {
+          "candidates": 6,
+          "demands": 7,
+          "q": 4,
+          "g": 6,
+          "budgets": [
+            {
+              "budget": 4,
+              "ratio": "3/2",
+              "original_portfolios": 3,
+              "future_payoff_classes": 71,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 5,
+              "ratio": "5/4",
+              "original_portfolios": 7,
+              "future_payoff_classes": 71,
+              "lp_error": 0.0
+            },
+            {
+              "budget": 6,
+              "ratio": "1",
+              "original_portfolios": 8,
+              "future_payoff_classes": 71,
+              "lp_error": 0.0
+            }
+          ],
+          "dominated_candidates": false,
+          "duplicate_signatures": false
+        }
+      ]
+    }
+  }
+}

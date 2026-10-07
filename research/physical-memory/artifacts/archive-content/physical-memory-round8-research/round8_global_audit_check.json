@@ -1,0 +1,78 @@
+{
+  "root_bracket": [
+    0.96093330677944,
+    0.96093330677945
+  ],
+  "qstar_bounds": [
+    0.3276415859895202,
+    0.3276415859895413
+  ],
+  "alpha_bounds": [
+    0.3274181997455673,
+    0.3274181997455673
+  ],
+  "84_upper": 0.2752189322312147,
+  "required_lower": 0.2774181997455673,
+  "85_lower": 0.27849534809109217,
+  "required_upper": 0.2774181997455673,
+  "threshold_85_certified_by_rational_arithmetic": true,
+  "kernel_height_condition_certified_by_rational_arithmetic": true,
+  "random_checks": [
+    {
+      "states": 1,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.9999391840727525,
+      "max_D_over_a_qstar": 0.9999391840727525,
+      "negative_spectral_residue_cases": 0
+    },
+    {
+      "states": 2,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.6344433294793427,
+      "max_D_over_a_qstar": 1.2688866589586854,
+      "negative_spectral_residue_cases": 236
+    },
+    {
+      "states": 3,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.42882813882879794,
+      "max_D_over_a_qstar": 1.286484416486394,
+      "negative_spectral_residue_cases": 283
+    },
+    {
+      "states": 4,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.2645571643252455,
+      "max_D_over_a_qstar": 1.058228657300982,
+      "negative_spectral_residue_cases": 297
+    },
+    {
+      "states": 5,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.19943701046068957,
+      "max_D_over_a_qstar": 0.9971850523034478,
+      "negative_spectral_residue_cases": 338
+    },
+    {
+      "states": 6,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.16727616384348684,
+      "max_D_over_a_qstar": 1.003656983060921,
+      "negative_spectral_residue_cases": 353
+    },
+    {
+      "states": 7,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.14466283811337222,
+      "max_D_over_a_qstar": 1.0126398667936056,
+      "negative_spectral_residue_cases": 366
+    },
+    {
+      "states": 8,
+      "trials": 400,
+      "max_D_over_k_a_qstar": 0.12315755808429878,
+      "max_D_over_a_qstar": 0.9852604646743902,
+      "negative_spectral_residue_cases": 374
+    }
+  ]
+}

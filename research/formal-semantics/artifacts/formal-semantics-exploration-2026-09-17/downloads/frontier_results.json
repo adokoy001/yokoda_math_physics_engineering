@@ -1,0 +1,101 @@
+{
+  "exhaustive": [
+    {
+      "points": 1,
+      "interval_types": 1,
+      "nonempty_families": 1,
+      "feasible_family_retained_pairs": 1,
+      "worst_ratio": 1.0
+    },
+    {
+      "points": 2,
+      "interval_types": 3,
+      "nonempty_families": 7,
+      "feasible_family_retained_pairs": 13,
+      "worst_ratio": 1.0
+    },
+    {
+      "points": 3,
+      "interval_types": 6,
+      "nonempty_families": 63,
+      "feasible_family_retained_pairs": 185,
+      "worst_ratio": 2.0
+    },
+    {
+      "points": 4,
+      "interval_types": 10,
+      "nonempty_families": 1023,
+      "feasible_family_retained_pairs": 4369,
+      "worst_ratio": 2.0
+    },
+    {
+      "points": 5,
+      "interval_types": 15,
+      "nonempty_families": 32767,
+      "feasible_family_retained_pairs": 199201,
+      "worst_ratio": 2.0
+    }
+  ],
+  "examples": {
+    "two_dimensional": {
+      "initial_unique_minimum": 2,
+      "future_with_all_candidates": 1,
+      "future_after_pruning": 2
+    },
+    "three_dimensional": [
+      {
+        "m": 2,
+        "initial_unique_minimum": 2,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 2
+      },
+      {
+        "m": 3,
+        "initial_unique_minimum": 3,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 3
+      },
+      {
+        "m": 4,
+        "initial_unique_minimum": 4,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 4
+      },
+      {
+        "m": 5,
+        "initial_unique_minimum": 5,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 5
+      },
+      {
+        "m": 6,
+        "initial_unique_minimum": 6,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 6
+      },
+      {
+        "m": 7,
+        "initial_unique_minimum": 7,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 7
+      },
+      {
+        "m": 8,
+        "initial_unique_minimum": 8,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 8
+      },
+      {
+        "m": 9,
+        "initial_unique_minimum": 9,
+        "future_with_all_candidates": 1,
+        "future_after_pruning": 9
+      }
+    ]
+  },
+  "general_identity": {
+    "incidence_matrices_examined": 512,
+    "feasible_retained_cases": 1183,
+    "future_subsets_checked": 8281
+  }
+}

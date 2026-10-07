@@ -1,0 +1,26 @@
+{
+  "seed": 20261006,
+  "method": "piecewise adaptive quadrature; exact step-quantile distances; independently integrated witness measure",
+  "counts": {
+    "moment_checks": 60,
+    "two_point_equality_checks": 540,
+    "three_point_equality_checks": 540,
+    "support_threshold_checks": 60,
+    "random_input_upper_bound_checks": 400,
+    "arbitrary_representative_stability_checks": 12
+  },
+  "max_absolute_errors": {
+    "mean_absolute_error": 3.3306690738754696e-16,
+    "variance_absolute_error": 1.1102230246251565e-16,
+    "two_point_equality_absolute_error": 8.326672684688674e-17,
+    "three_point_equality_absolute_error": 4.163336342344337e-16,
+    "least_favorable_stability_identity_error": 6.938893903907228e-17
+  },
+  "minimum_random_upper_bound_slack": 0.00030066197313196284,
+  "minimum_arbitrary_representative_stability_slack": 0.0006344717629740476,
+  "limitations": [
+    "Finite numerical checks are not a proof.",
+    "Random inputs each use their own moments, not one common class.",
+    "Fixed-support high-variance regime w>v/kappa is not claimed solved."
+  ]
+}

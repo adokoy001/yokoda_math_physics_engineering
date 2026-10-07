@@ -1,0 +1,70 @@
+{
+  "round9_kernel.md": {
+    "bytes": 11646,
+    "sha256": "379cc219b87c09dcfc441d91b783f3fb58e3e1a7489a22308c2084a6eb7d0f14"
+  },
+  "round9_weighted.md": {
+    "bytes": 14505,
+    "sha256": "a9c4b460225eed45b4b4f289fbaa7d3678487b25659c5bf6e7dbefdadf44c6d5"
+  },
+  "round9_atomic.md": {
+    "bytes": 13076,
+    "sha256": "d9809b32ea40aeeafeefafca52c53a4ba92934d75ca70b3314b1e33f62e9edf1"
+  },
+  "round9_phase_prior.md": {
+    "bytes": 8127,
+    "sha256": "d00e17554408363e7cb72d78523d36c59640a50606e5599b04d6a2314feb5cdd"
+  },
+  "round9_audit.md": {
+    "bytes": 9919,
+    "sha256": "443eddf2386555fa35a333033affbba80979d63331b8240cc353aee66cda6042"
+  },
+  "round9_finite_example.md": {
+    "bytes": 3374,
+    "sha256": "14df48dd0575b77400425c062d69273783243623f8a2a0020e57af4a2ce4fbd5"
+  },
+  "round9_atomic_verify.py": {
+    "bytes": 2461,
+    "sha256": "7512957c18c8330dc4d0ff370793d1f052195dc709518bdb975bf8ebc56db95d"
+  },
+  "round9_atomic_verify.json": {
+    "bytes": 853,
+    "sha256": "3746fa9ad8ffb9fb91650dc0e33c9297aa2a10fd18bf6bc22c6902c7a714c7c7"
+  },
+  "round9_audit_check.py": {
+    "bytes": 6322,
+    "sha256": "3fc829ab1fb63483dad6870ccae8ee6444823a14436fbf2d30580118945350a9"
+  },
+  "round9_audit_check.json": {
+    "bytes": 3406,
+    "sha256": "39f88e0cc8dedf62c2f53a6b5f859b66ede66f40eb3434f3364decb107f91474"
+  },
+  "round9_weighted_check.py": {
+    "bytes": 2723,
+    "sha256": "a69127f41920063e2f8bf012d201d8174cb54a88517a643dc655ca761563f16a"
+  },
+  "round9_weighted_check.json": {
+    "bytes": 875,
+    "sha256": "013debff6638325b1fc8eb4d15591453ee7a3e04c3642630ed2095cea1a4efd0"
+  },
+  "round9_weighted_rectangle.py": {
+    "bytes": 3458,
+    "sha256": "8172d33160ada9be6240fc9443583037ed799c2f2cde71a4692384ec79bf7d67"
+  },
+  "round9_weighted_rectangle.json": {
+    "bytes": 2917,
+    "sha256": "f1b65a522695646ddd62ec38998002cb1d746c2852f46f047bb00c1e94bf49b5"
+  },
+  "round9_finite_example.py": {
+    "bytes": 3549,
+    "sha256": "a100b8e7d3b1c787069cba76ed5ba890d4c62846fe15df846eba933b3b61bcc1"
+  },
+  "round9_finite_example.json": {
+    "bytes": 2301,
+    "sha256": "21e74a316e1400e2a776280da18d1ae06f283d1b18d6ab7bae44efdb36cc2d0b"
+  },
+  "README.md": {
+    "bytes": 1676,
+    "sha256": "ca85909e0488896386e6f62d0d5f8b26dad7007aa63c0fead7c73b4162d94ee5"
+  }
+}

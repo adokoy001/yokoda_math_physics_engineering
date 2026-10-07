@@ -1,0 +1,69 @@
+{
+  "general_incidence": {
+    "initial_optima": 450,
+    "finite_onsets": 54,
+    "inclusion_minimal_failures": 54
+  },
+  "planar_nonlocality": [
+    {
+      "m": 3,
+      "candidates": 5,
+      "demands": 19,
+      "onset": 3,
+      "earliest_loss": "3/2",
+      "required_discarded": 2,
+      "single_star_deletions": 11,
+      "unrestricted_worst_loss": 2
+    },
+    {
+      "m": 4,
+      "candidates": 7,
+      "demands": 34,
+      "onset": 4,
+      "earliest_loss": "4/3",
+      "required_discarded": 3,
+      "single_star_deletions": 24,
+      "unrestricted_worst_loss": 2
+    },
+    {
+      "m": 5,
+      "candidates": 9,
+      "demands": 53,
+      "onset": 5,
+      "earliest_loss": "5/4",
+      "required_discarded": 4,
+      "single_star_deletions": 41,
+      "unrestricted_worst_loss": 2
+    },
+    {
+      "m": 6,
+      "candidates": 11,
+      "demands": 76,
+      "onset": 6,
+      "earliest_loss": "6/5",
+      "required_discarded": 5,
+      "single_star_deletions": 62,
+      "unrestricted_worst_loss": 2
+    },
+    {
+      "m": 7,
+      "candidates": 13,
+      "demands": 103,
+      "onset": 7,
+      "earliest_loss": "7/6",
+      "required_discarded": 6,
+      "single_star_deletions": 87,
+      "unrestricted_worst_loss": 2
+    },
+    {
+      "m": 8,
+      "candidates": 15,
+      "demands": 134,
+      "onset": 8,
+      "earliest_loss": "8/7",
+      "required_discarded": 7,
+      "single_star_deletions": 116,
+      "unrestricted_worst_loss": 2
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "finite_xstar_numeric": 0.9609332913795494,
+  "finite_qmax_over_h_numeric": 0.32764158598953064,
+  "finite_q_at_x1_over_h": 0.3274181997455673,
+  "wmax_over_h": 0.9666666666666667,
+  "three_qmax_over_h": 0.9829247579685919,
+  "three_qmax_margin_over_h": 0.016258091301925237,
+  "ideal_xstar_numeric": 1.256431224388217,
+  "ideal_gamma_numeric": 0.4072643775890738,
+  "zero_error_fraction": 0.9993181993571155,
+  "error_point05_fraction": 0.8467124187172987
+}

@@ -1,0 +1,19 @@
+2026 09 09
+Existing environment: lean, lake, elan not found.
+Official release acquisition command:
+curl -fL --connect-timeout 10 --max-time 120 --silent --show-error https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o formal_work/lean-4.19.0-linux.tar.zst
+
+Initial tool result: session 74533, no output.
+Resume result:
+write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned
+
+No successful acquisition or Lean compilation occurred.
+No alternative download route was attempted after this cancellation.
+
+RETRY after explicit user authorization, 2026 09 09:
+curl -fL --connect-timeout 10 --max-time 180 --silent --show-error https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o formal_work/lean-4.19.0-linux.tar.zst
+write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned
+git clone --depth 1 --branch v4.19.0 https://github.com/leanprover-community/mathlib4.git formal_work/mathlib4
+Exit code: 0
+Verified Mathlib commit: c44e0c8ee63ca166450922a373c7409c5d26b00b
+Fresh Lean compilation: not executed.

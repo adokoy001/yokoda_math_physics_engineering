@@ -1,0 +1,220 @@
+{
+  "claim": "Lexicographic upper-cone next-bit patch",
+  "status": "PASS",
+  "basis": "fanin-2 AND, OR; unary NOT; each costs one; free fanout",
+  "input_order": "unsigned integer ascending; bit 0 is least significant",
+  "domain": "all Boolean truth tables for 1 <= n <= max_n",
+  "max_n": 4,
+  "total_patch_cases": 1969768,
+  "checks": [
+    "upper cone vanishes at every previously read point",
+    "upper cone equals one at next point",
+    "both patch outputs preserve complete prefix",
+    "both patch outputs realize requested next label",
+    "explicit extra gate counts equal popcount(i) and popcount(i)+1",
+    "empty-prefix constant cases use two gates each"
+  ],
+  "limitations": [
+    "finite checks supplement the symbolic proof",
+    "not a circuit enumeration or minimal-gate proof",
+    "does not establish a streaming time lower bound"
+  ],
+  "by_n": [
+    {
+      "n": 1,
+      "truth_table_points": 2,
+      "all_boolean_functions": 4,
+      "nonzero_proper_cuts": 1,
+      "patch_cases": 8,
+      "empty_prefix_constants_checked": 2,
+      "gate_bounds": [
+        {
+          "cut": 1,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "truth_table_points": 4,
+      "all_boolean_functions": 16,
+      "nonzero_proper_cuts": 3,
+      "patch_cases": 96,
+      "empty_prefix_constants_checked": 2,
+      "gate_bounds": [
+        {
+          "cut": 1,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 2,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 3,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "truth_table_points": 8,
+      "all_boolean_functions": 256,
+      "nonzero_proper_cuts": 7,
+      "patch_cases": 3584,
+      "empty_prefix_constants_checked": 2,
+      "gate_bounds": [
+        {
+          "cut": 1,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 2,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 3,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 4,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 5,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 6,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 7,
+          "popcount": 3,
+          "label_1_extra_gates": 3,
+          "label_0_extra_gates": 4
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "truth_table_points": 16,
+      "all_boolean_functions": 65536,
+      "nonzero_proper_cuts": 15,
+      "patch_cases": 1966080,
+      "empty_prefix_constants_checked": 2,
+      "gate_bounds": [
+        {
+          "cut": 1,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 2,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 3,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 4,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 5,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 6,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 7,
+          "popcount": 3,
+          "label_1_extra_gates": 3,
+          "label_0_extra_gates": 4
+        },
+        {
+          "cut": 8,
+          "popcount": 1,
+          "label_1_extra_gates": 1,
+          "label_0_extra_gates": 2
+        },
+        {
+          "cut": 9,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 10,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 11,
+          "popcount": 3,
+          "label_1_extra_gates": 3,
+          "label_0_extra_gates": 4
+        },
+        {
+          "cut": 12,
+          "popcount": 2,
+          "label_1_extra_gates": 2,
+          "label_0_extra_gates": 3
+        },
+        {
+          "cut": 13,
+          "popcount": 3,
+          "label_1_extra_gates": 3,
+          "label_0_extra_gates": 4
+        },
+        {
+          "cut": 14,
+          "popcount": 3,
+          "label_1_extra_gates": 3,
+          "label_0_extra_gates": 4
+        },
+        {
+          "cut": 15,
+          "popcount": 4,
+          "label_1_extra_gates": 4,
+          "label_0_extra_gates": 5
+        }
+      ]
+    }
+  ]
+}

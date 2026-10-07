@@ -1,0 +1,116 @@
+{
+  "seed": 20260910,
+  "vector_games": 150,
+  "accepted_edges_checked": 6497,
+  "scalar_weighted_medians": 100,
+  "rational_cycle_witnesses": 200,
+  "audit_exact_constructions": 104,
+  "audit_full_LP_cases": 24,
+  "strongly_regular_graphs": [
+    {
+      "name": "Paley5",
+      "v": 5,
+      "d": 2,
+      "lambda": 0,
+      "mu": 1,
+      "cases": 4
+    },
+    {
+      "name": "Paley13",
+      "v": 13,
+      "d": 6,
+      "lambda": 2,
+      "mu": 3,
+      "cases": 4
+    },
+    {
+      "name": "Paley17",
+      "v": 17,
+      "d": 8,
+      "lambda": 3,
+      "mu": 4,
+      "cases": 4
+    },
+    {
+      "name": "Rook3",
+      "v": 9,
+      "d": 4,
+      "lambda": 1,
+      "mu": 2,
+      "cases": 4
+    },
+    {
+      "name": "Rook4",
+      "v": 16,
+      "d": 6,
+      "lambda": 2,
+      "mu": 2,
+      "cases": 4
+    },
+    {
+      "name": "KG(5,2)",
+      "v": 10,
+      "d": 3,
+      "lambda": 0,
+      "mu": 1,
+      "cases": 4
+    },
+    {
+      "name": "KG(6,2)",
+      "v": 15,
+      "d": 6,
+      "lambda": 1,
+      "mu": 3,
+      "cases": 4
+    },
+    {
+      "name": "KG(7,2)",
+      "v": 21,
+      "d": 10,
+      "lambda": 3,
+      "mu": 6,
+      "cases": 4
+    },
+    {
+      "name": "KG(8,2)",
+      "v": 28,
+      "d": 15,
+      "lambda": 6,
+      "mu": 10,
+      "cases": 4
+    },
+    {
+      "name": "KG(9,2)",
+      "v": 36,
+      "d": 21,
+      "lambda": 10,
+      "mu": 15,
+      "cases": 4
+    },
+    {
+      "name": "Multipartite(2, 3)",
+      "v": 6,
+      "d": 3,
+      "lambda": 0,
+      "mu": 3,
+      "cases": 4
+    },
+    {
+      "name": "Multipartite(3, 3)",
+      "v": 9,
+      "d": 6,
+      "lambda": 3,
+      "mu": 6,
+      "cases": 4
+    },
+    {
+      "name": "Multipartite(4, 2)",
+      "v": 8,
+      "d": 6,
+      "lambda": 4,
+      "mu": 6,
+      "cases": 4
+    }
+  ],
+  "srg_LP_cases": 52
+}

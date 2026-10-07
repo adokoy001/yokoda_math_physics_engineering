@@ -1,0 +1,29 @@
+{
+  "date": "2026 09 05",
+  "files": [
+    {
+      "file": "sources/P_vs_NP_semantic_compression_research.md",
+      "document_version": "v0.24",
+      "bytes": 226802,
+      "sha256": "85c29b95577105df6566eb15dde343f69280daf11832ca4b1ae4b4ca40bfac93"
+    },
+    {
+      "file": "sources/P_vs_NP_candidate_original_results.md",
+      "document_version": "v0.16",
+      "bytes": 67251,
+      "sha256": "7db16ebc928e7adfbad95891d905861cc0f42404c00ca3b96e8f90359c676d16"
+    },
+    {
+      "file": "updated/P_vs_NP_semantic_compression_research.md",
+      "document_version": "v0.25",
+      "bytes": 253844,
+      "sha256": "c2bcc067c35407d114215a43a299c3ecb0ddc08a24863b2ecf65b075dfbf32b0"
+    },
+    {
+      "file": "updated/P_vs_NP_candidate_original_results.md",
+      "document_version": "v0.17",
+      "bytes": 72943,
+      "sha256": "8dd082c9e83c9edcbe27c85e82e0551e619f4f6e7c123e2887ee5f7c955207e4"
+    }
+  ]
+}

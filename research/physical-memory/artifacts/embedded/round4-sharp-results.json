@@ -1,0 +1,20 @@
+{
+  "theorem_source": "Brandts-Krizek 2016 Corollary 3.6; quantitative specialization derived here",
+  "exact_noise_radius": "1/6 (sufficient open max-entry ball; not the exact distance)",
+  "attaining_factor_cases": 33,
+  "maximum_relative_factor_error": 4.440892098500626e-16,
+  "full_matrix_distance_lower": "1/6",
+  "full_matrix_distance_upper_strict": "0.196676467057347",
+  "design": {
+    "s_J_per_K": 1.0,
+    "lambda_per_second": 0.25,
+    "total_rise_seconds": 1.0,
+    "hold_seconds": 0.1,
+    "window_seconds": 5.025724834504679,
+    "linear_coefficient": 0.44157182494271235,
+    "quadratic_coefficient": 0.4409977585909775,
+    "linear_heat_flow_floor_W_per_K": 0.007321859689953764,
+    "quadratic_heat_flow_floor_W_per_K": 0.007312340891328713
+  },
+  "scope": "Synthetic mathematical model; no laboratory measurement. Attainment concerns aggregate constraints, not all entries of the H0 error box."
+}

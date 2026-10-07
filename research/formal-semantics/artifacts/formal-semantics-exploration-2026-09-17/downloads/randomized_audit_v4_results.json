@@ -1,0 +1,9 @@
+{
+  "interval_families": 1094,
+  "budget_instances": 2870,
+  "canonical_instances": 197,
+  "future_expectation_checks": 27921,
+  "sampler_supports": 4254,
+  "greedy_optimality_checks": 8340,
+  "status": "all passed"
+}

@@ -1,0 +1,13 @@
+{
+  "seed": 20261006,
+  "arithmetic": "fractions.Fraction",
+  "generic_paths": 500,
+  "closed_generic_paths": 320,
+  "gauge_invariance_cases": 500,
+  "g04_runs": 200,
+  "g04_accepted_steps": 5264,
+  "g04_closed_subpaths": 9376,
+  "counterexample_prefix": 100,
+  "sharpness_examples": 2,
+  "status": "passed"
+}

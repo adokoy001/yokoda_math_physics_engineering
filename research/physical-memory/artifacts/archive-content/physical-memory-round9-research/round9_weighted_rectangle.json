@@ -1,0 +1,125 @@
+{
+  "kernel": {
+    "type": "indicator",
+    "interval": [
+      0.9,
+      1.1
+    ]
+  },
+  "weighted_static_budgets": [
+    1.0,
+    0.5,
+    0.1
+  ],
+  "erlang_optimal_rates": [
+    1.003353477310756,
+    2.006706954621512,
+    3.010060431932268,
+    4.013413909243024,
+    5.016767386553779,
+    6.020120863864536,
+    7.023474341175291,
+    8.026827818486048
+  ],
+  "erlang_optimal_probabilities": [
+    0.07369898721925505,
+    0.10826798430188217,
+    0.13420025589960977,
+    0.15577177915880103,
+    0.17459037933250915,
+    0.1914653634996849,
+    0.20687173426189998,
+    0.22111647837681309
+  ],
+  "state_allocation": [
+    {
+      "states": 1,
+      "erlang_envelope_allocation": [
+        1,
+        0,
+        0
+      ],
+      "physical_supremum": 0.07369898721925505,
+      "universal_concave_upper": 0.07369898721925505,
+      "attainable_distinct_star_value": 0.07369898721925505
+    },
+    {
+      "states": 2,
+      "erlang_envelope_allocation": [
+        1,
+        1,
+        0
+      ],
+      "physical_supremum": 0.11054848082888258,
+      "universal_concave_upper": 0.11054848082888258,
+      "attainable_distinct_star_value": 0.11054848082888258
+    },
+    {
+      "states": 3,
+      "erlang_envelope_allocation": [
+        2,
+        1,
+        0
+      ],
+      "physical_supremum": 0.1451174779115097,
+      "universal_concave_upper": 0.14529886254211083,
+      "attainable_distinct_star_value": 0.11791837955080808
+    },
+    {
+      "states": 4,
+      "erlang_envelope_allocation": [
+        3,
+        1,
+        0
+      ],
+      "physical_supremum": 0.1710497495092373,
+      "universal_concave_upper": 0.17149948328881423,
+      "attainable_distinct_star_value": 0.11791837955080808
+    },
+    {
+      "states": 5,
+      "erlang_envelope_allocation": [
+        4,
+        1,
+        0
+      ],
+      "physical_supremum": 0.19262127276842855,
+      "universal_concave_upper": 0.19340443826359574,
+      "attainable_distinct_star_value": 0.11791837955080808
+    },
+    {
+      "states": 6,
+      "erlang_envelope_allocation": [
+        5,
+        1,
+        0
+      ],
+      "physical_supremum": 0.21143987294213668,
+      "universal_concave_upper": 0.21261043584573583,
+      "attainable_distinct_star_value": 0.11791837955080808
+    },
+    {
+      "states": 7,
+      "erlang_envelope_allocation": [
+        5,
+        2,
+        0
+      ],
+      "physical_supremum": 0.22872437148345023,
+      "universal_concave_upper": 0.22998562670234995,
+      "attainable_distinct_star_value": 0.11791837955080808
+    },
+    {
+      "states": 8,
+      "erlang_envelope_allocation": [
+        6,
+        2,
+        0
+      ],
+      "physical_supremum": 0.245599355650626,
+      "universal_concave_upper": 0.247294937832669,
+      "attainable_distinct_star_value": 0.11791837955080808
+    }
+  ],
+  "status": "Analytic rate optimization; floating evaluation. Physical supremum may not be attained."
+}

@@ -1,0 +1,8 @@
+{
+  "denominator": 4,
+  "max_n": 6,
+  "sequences": 19530,
+  "rounding_vectors": 299592,
+  "global_rounding_vectors": 61740,
+  "failures": 0
+}

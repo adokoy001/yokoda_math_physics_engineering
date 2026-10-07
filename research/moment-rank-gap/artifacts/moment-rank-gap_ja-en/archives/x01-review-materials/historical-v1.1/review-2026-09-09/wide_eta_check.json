@@ -1,0 +1,4213 @@
+{
+  "status": "PASS",
+  "date": "2026 09 09",
+  "scope": "Exact finite rational polytope/graph audit, not a general proof or Lean formalization.",
+  "arithmetic": "Python fractions.Fraction",
+  "edge_detection": "Rank n-1 of common active cube/band constraints",
+  "rational_geometries_checked": 60,
+  "threshold_and_interval_counts_checked": 660,
+  "largest_graph_vertices": 140,
+  "irrational_transition_eta": "1/sqrt(2) handled symbolically in the proof, not sampled here",
+  "graphs": [
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 6,
+      "edges": 6,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "3/25",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "6/25",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "49/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "1/4",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "57/200",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "24/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "3/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "7/10",
+      "vertices": 6,
+      "edges": 6,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "21/200",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "21/100",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "23/100",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "1/4",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "101/400",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "391/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "3/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 6,
+      "edges": 6,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "3/32",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "3/16",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "13/64",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "7/32",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "15/64",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "63/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "3/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 6,
+      "edges": 6,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "9/200",
+          "actual": 2,
+          "expected": 2
+        },
+        {
+          "delta": "9/100",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "37/400",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "19/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "69/400",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "399/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "3/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/25",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "6/25",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "49/200",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "1/4",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "57/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "217/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "7/10",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "21/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "21/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "23/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "1/4",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "101/400",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "441/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/32",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/16",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "13/64",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "7/32",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "15/64",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "9/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "9/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "37/400",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "19/200",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "69/400",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "449/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/25",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "6/25",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "49/200",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "1/4",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "57/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "217/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "7/10",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "21/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "21/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "23/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "1/4",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "101/400",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "441/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/32",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "3/16",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "13/64",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "7/32",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "15/64",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 12,
+      "edges": 18,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "9/200",
+          "actual": 3,
+          "expected": 3
+        },
+        {
+          "delta": "9/100",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "37/400",
+          "actual": 12,
+          "expected": 12
+        },
+        {
+          "delta": "19/200",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "69/400",
+          "actual": 7,
+          "expected": 7
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "449/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "7/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/25",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "6/25",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "49/200",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "1/4",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "57/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "121/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "7/10",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "21/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "21/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "23/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "1/4",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "101/400",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "491/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/32",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/16",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "13/64",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "7/32",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "15/64",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "79/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "9/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "9/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "37/400",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "19/200",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "69/400",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "499/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 60,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/25",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "6/25",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "49/200",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "57/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "121/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "7/10",
+      "vertices": 30,
+      "edges": 60,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "23/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "101/400",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "491/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 60,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/32",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/16",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "13/64",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "7/32",
+          "actual": 14,
+          "expected": 14
+        },
+        {
+          "delta": "15/64",
+          "actual": 14,
+          "expected": 14
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "79/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 60,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "37/400",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "19/200",
+          "actual": 14,
+          "expected": 14
+        },
+        {
+          "delta": "69/400",
+          "actual": 14,
+          "expected": 14
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "499/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/25",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "6/25",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "49/200",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "1/4",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "57/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "121/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "7/10",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "21/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "21/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "23/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "1/4",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "101/400",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "491/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/32",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "3/16",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "13/64",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "7/32",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "15/64",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "79/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 20,
+      "edges": 40,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "9/200",
+          "actual": 4,
+          "expected": 4
+        },
+        {
+          "delta": "9/100",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "37/400",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "19/200",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "69/400",
+          "actual": 11,
+          "expected": 11
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "499/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/25",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "6/25",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "49/200",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "57/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "267/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "7/10",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "21/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "21/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "23/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "101/400",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "541/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/32",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/16",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "13/64",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "7/32",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "15/64",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "87/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "9/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "9/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "37/400",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "19/200",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "69/400",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "549/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/25",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "6/25",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "49/200",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "1/4",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "57/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "267/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "7/10",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "21/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "21/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "23/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "1/4",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "101/400",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "541/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/32",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/16",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "13/64",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "7/32",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "15/64",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "87/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "9/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "9/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "37/400",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "19/200",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "69/400",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "549/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/25",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "6/25",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "49/200",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "1/4",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "57/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "267/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "7/10",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "21/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "21/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "23/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "1/4",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "101/400",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "541/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/32",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "3/16",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "13/64",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "7/32",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "15/64",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "87/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 60,
+      "edges": 150,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "9/200",
+          "actual": 10,
+          "expected": 10
+        },
+        {
+          "delta": "9/100",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "37/400",
+          "actual": 60,
+          "expected": 60
+        },
+        {
+          "delta": "19/200",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "69/400",
+          "actual": 25,
+          "expected": 25
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "549/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/25",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "6/25",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "49/200",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "57/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "267/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "7/10",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "21/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "21/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "23/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "1/4",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "101/400",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "541/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/32",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "3/16",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "13/64",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "7/32",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "15/64",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "87/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 75,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "9/200",
+          "actual": 5,
+          "expected": 5
+        },
+        {
+          "delta": "9/100",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "37/400",
+          "actual": 30,
+          "expected": 30
+        },
+        {
+          "delta": "19/200",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "69/400",
+          "actual": 16,
+          "expected": 16
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "549/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "9/4",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/25",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "6/25",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "49/200",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "57/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "73/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "7/10",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "23/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "101/400",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "591/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/32",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/16",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "13/64",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "7/32",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "15/64",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "95/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "37/400",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "19/200",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "69/400",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "599/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/25",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "6/25",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "49/200",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "1/4",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "57/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "73/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "7/10",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "21/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "21/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "23/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "1/4",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "101/400",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "591/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/32",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/16",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "13/64",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "7/32",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "15/64",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "95/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "9/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "9/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "37/400",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "19/200",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "69/400",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "599/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 140,
+      "edges": 420,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "3/25",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "6/25",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "49/200",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "1/4",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "57/200",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "73/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "7/10",
+      "vertices": 140,
+      "edges": 420,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "21/200",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "21/100",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "23/100",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "1/4",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "101/400",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "591/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 140,
+      "edges": 420,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "3/32",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "3/16",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "13/64",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "7/32",
+          "actual": 50,
+          "expected": 50
+        },
+        {
+          "delta": "15/64",
+          "actual": 50,
+          "expected": 50
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "95/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 140,
+      "edges": 420,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "9/200",
+          "actual": 20,
+          "expected": 20
+        },
+        {
+          "delta": "9/100",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "37/400",
+          "actual": 140,
+          "expected": 140
+        },
+        {
+          "delta": "19/200",
+          "actual": 50,
+          "expected": 50
+        },
+        {
+          "delta": "69/400",
+          "actual": 50,
+          "expected": 50
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "599/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "3/5",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/25",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "6/25",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "49/200",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "1/4",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "57/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "73/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "7/10",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "21/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "21/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "23/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "1/4",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "101/400",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "591/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "3/4",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/32",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "3/16",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "13/64",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "7/32",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "15/64",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "95/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "9/10",
+      "vertices": 105,
+      "edges": 315,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "9/200",
+          "actual": 15,
+          "expected": 15
+        },
+        {
+          "delta": "9/100",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "37/400",
+          "actual": 105,
+          "expected": 105
+        },
+        {
+          "delta": "19/200",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "69/400",
+          "actual": 41,
+          "expected": 41
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "599/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "3/5",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "6/25",
+        "c": "8/25",
+        "h": "1/4",
+        "d": "21/50"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/25",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "6/25",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "49/200",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "57/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "8/25",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "37/100",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "21/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "73/50",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "7/10",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "21/100",
+        "c": "51/200",
+        "h": "1/4",
+        "d": "91/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "21/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "23/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "1/4",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "101/400",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "51/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "71/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "91/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "591/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "3/4",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "3/16",
+        "c": "7/32",
+        "h": "1/4",
+        "d": "15/32"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/32",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "3/16",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "13/64",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "7/32",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "15/64",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "23/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "15/32",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "95/64",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "9/10",
+      "vertices": 42,
+      "edges": 126,
+      "thresholds": {
+        "k": "9/100",
+        "c": "19/200",
+        "h": "1/4",
+        "d": "99/200"
+      },
+      "checks": [
+        {
+          "delta": "0",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/200",
+          "actual": 6,
+          "expected": 6
+        },
+        {
+          "delta": "9/100",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "37/400",
+          "actual": 42,
+          "expected": 42
+        },
+        {
+          "delta": "19/200",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "69/400",
+          "actual": 22,
+          "expected": 22
+        },
+        {
+          "delta": "1/4",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "149/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "99/200",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "599/400",
+          "actual": 1,
+          "expected": 1
+        },
+        {
+          "delta": "5/2",
+          "actual": 1,
+          "expected": 1
+        }
+      ]
+    }
+  ]
+}

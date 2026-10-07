@@ -1,0 +1,56 @@
+{
+  "date": "2026 09 09",
+  "user_authorized_retry": true,
+  "lean_download": {
+    "source": "https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+    "command": "curl -fL --connect-timeout 10 --max-time 180 --silent --show-error https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o formal_work/lean-4.19.0-linux.tar.zst",
+    "status": "BLOCKED",
+    "error": "write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned",
+    "shell_exit_code": null,
+    "successful_download": false
+  },
+  "mathlib_source": {
+    "command": "git clone --depth 1 --branch v4.19.0 https://github.com/leanprover-community/mathlib4.git formal_work/mathlib4",
+    "status": "SUCCESS",
+    "exit_code": 0,
+    "commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "expected_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "matches_pin": true,
+    "toolchain": "leanprover/lean4:v4.19.0",
+    "scope": "Source checkout only; no Lean runtime or compiled Mathlib dependencies were obtained."
+  },
+  "fresh_lean_compilation": false,
+  "verification_status": "BLOCKED",
+  "source_api_audit": {
+    "kind": "pinned-source inspection only; not elaboration or kernel checking",
+    "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "band_and_finite_vector_modules": {
+      "modules": [
+        "BandSharp.lean",
+        "FiniteBand.lean"
+      ],
+      "inspected": [
+        "Real.sqrt_le_left",
+        "Real.sq_sqrt",
+        "Real.sqrt_nonneg",
+        "sq_le_sq₀",
+        "sq_abs",
+        "Fintype.sum_sum_type"
+      ],
+      "result": "No definite API-name or signature mismatch identified; sources unchanged."
+    },
+    "packing_and_rounding_modules": {
+      "modules": [
+        "Packing.lean",
+        "Rounding.lean"
+      ],
+      "inspected": [
+        "Finset.sum_erase_add",
+        "Finset.sum_add_sum_compl",
+        "Finset.single_le_sum",
+        "Int.add_one_le_iff"
+      ],
+      "result": "No definite API-name or signature mismatch identified; sources unchanged."
+    }
+  }
+}

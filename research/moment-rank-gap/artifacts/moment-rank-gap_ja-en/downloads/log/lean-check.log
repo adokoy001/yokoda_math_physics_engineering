@@ -1,0 +1,21 @@
+'MomentIslands.pair_square_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.pair_square_upper_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.four_variable_gap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.four_variable_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.balanced_error_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.invert_defect_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.balanced_error_sharp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.concentration_from_square_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.rank_gap_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.rank_gap_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.rank_gap_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.finite_rank_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.rank_gap_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MomentIslands.rank_gap_partition_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+MomentIslands.rank_gap_partition_sqrt.{u_1} {ι : Type u_1} [Fintype ι] [DecidableEq ι] (I : Finset ι) (x : ι → ℝ)
+  (a b : ι) (ha : a ∈ I) (hb : b ∉ I) (hbox : ∀ (i : ι), 0 ≤ x i ∧ x i ≤ 1) (hmin : ∀ i ∈ I, x a ≤ x i)
+  (hmax : ∀ j ∉ I, x j ≤ x b) (hab : x b ≤ x a) : √(1 - 2 * ∑ i, x i * (1 - x i) - (∑ i, x i - ↑I.card) ^ 2) ≤ x a - x b
+MomentIslands.balanced_error_sharp_bound.{u_1, u_2} {ι : Type u_1} {κ : Type u_2} (I : Finset ι) (J : Finset κ)
+  (u : ι → ℝ) (v : κ → ℝ) (rho D : ℝ) (hu : ∀ i ∈ I, 0 ≤ u i) (hv : ∀ j ∈ J, 0 ≤ v j) (hsu : ∑ i ∈ I, u i = rho)
+  (hsv : ∑ j ∈ J, v j = rho) (hrho : rho ≤ 1 / 2) (hD : ∑ i ∈ I, u i * (1 - u i) + ∑ j ∈ J, v j * (1 - v j) = D) :
+  rho ≤ (1 - √(1 - 2 * D)) / 2

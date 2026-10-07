@@ -1,0 +1,41 @@
+{
+  "date": "2026 09 09",
+  "status": "NOT_RECOMPILED",
+  "source_sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa",
+  "source_matches_preserved_verification": true,
+  "scope": "Independent source audit and remote tag check completed; no fresh Lean compilation was executed.",
+  "environment": {
+    "lean_on_path": false,
+    "lake_on_path": false,
+    "elan_on_path": false,
+    "previous_runtime_present": false
+  },
+  "installation_attempt": {
+    "command": "curl -fIL --max-time 25 --connect-timeout 10 https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+    "result": "tool process failed before installation",
+    "error": "write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned",
+    "shell_exit_code": null,
+    "bypass_attempted": false
+  },
+  "mathlib_tag_check": {
+    "command": "git ls-remote https://github.com/leanprover-community/mathlib4.git refs/tags/v4.19.0",
+    "exit_code": 0,
+    "output": "c44e0c8ee63ca166450922a373c7409c5d26b00b\trefs/tags/v4.19.0\n",
+    "expected_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "matches": true,
+    "primary_source": "https://github.com/leanprover-community/mathlib4/tree/v4.19.0"
+  },
+  "static_source_audit": {
+    "theorem_declarations": 14,
+    "print_axioms_commands": 14,
+    "sorry_or_admit_tokens": false,
+    "new_axiom_declarations": false,
+    "partition_squared_theorem_requires_cross_order": false,
+    "partition_sqrt_theorem_requires_cross_order": true
+  },
+  "preserved_prior_run": {
+    "status": "PASS",
+    "exit_code": 0,
+    "interpretation": "Historical preserved record only, not an independent rerun this turn."
+  }
+}

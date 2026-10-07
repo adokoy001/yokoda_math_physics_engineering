@@ -1,0 +1,39 @@
+{
+  "seed": 202609203,
+  "physical_graphs": 48,
+  "hidden_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "max_triangular_ramp_window_error": 1.6653345369377348e-16,
+  "max_gram_error": 2.914335439641036e-16,
+  "min_factor_entry": 0.00964830007618927,
+  "max_power_input_window_error": 1.1102230246251565e-16,
+  "max_kron_rowsum_error": 2.220446049250313e-15,
+  "cp3_factor_checks": 3000,
+  "cp3_inequality_violations": 0,
+  "max_cp3_inequality_margin": 0.0,
+  "improved_delta": 0.10102051443364424,
+  "uniform_rho_threshold": 0.1715728752538097,
+  "design": {
+    "lam": 0.25,
+    "total_rise": 1.0,
+    "tau": 0.1,
+    "h": 5.025724834504678,
+    "linear_ramp_coefficient": 0.44157182494271213,
+    "linear_ramp_error_floor": 0.004437948194940551,
+    "quadratic_ramp_coefficient": 0.44099775859097734,
+    "quadratic_ramp_error_floor": 0.0044321786313371945
+  },
+  "scope": "Synthetic numerical checks; no experimental measurement or optimality claim."
+}

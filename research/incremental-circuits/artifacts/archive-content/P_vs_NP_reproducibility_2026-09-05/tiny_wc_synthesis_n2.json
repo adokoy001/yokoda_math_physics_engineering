@@ -1,0 +1,1474 @@
+{
+  "n": 2,
+  "complete_through_size": 4,
+  "all_functions_found": true,
+  "truth_table_convention": "bit x is f(x); integer inputs x in increasing binary order; x_0 is least significant coordinate",
+  "basis": "fan-in 2 AND/OR, fan-in 1 NOT; free constants, inputs, fanout; output any wire",
+  "base_wires": [
+    0,
+    10,
+    12,
+    15
+  ],
+  "layer_statistics": [
+    {
+      "size": 0,
+      "states": 1,
+      "functions": 4,
+      "seconds": 0
+    },
+    {
+      "size": 1,
+      "states": 4,
+      "functions": 8,
+      "seconds": 1.2227999832248315e-05
+    },
+    {
+      "size": 2,
+      "states": 12,
+      "functions": 14,
+      "seconds": 2.1482999727595598e-05
+    },
+    {
+      "size": 3,
+      "states": 34,
+      "functions": 14,
+      "seconds": 0.0001082439994206652
+    },
+    {
+      "size": 4,
+      "states": 81,
+      "functions": 16,
+      "seconds": 0.00018183400061388966
+    }
+  ],
+  "minimum_sizes": {
+    "0": 0,
+    "1": 2,
+    "2": 2,
+    "3": 1,
+    "4": 2,
+    "5": 1,
+    "6": 4,
+    "7": 2,
+    "8": 1,
+    "9": 4,
+    "10": 0,
+    "11": 2,
+    "12": 0,
+    "13": 2,
+    "14": 1,
+    "15": 0
+  },
+  "witnesses": {
+    "0": [],
+    "1": [
+      {
+        "output": 14,
+        "gate": [
+          "OR",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 1,
+        "gate": [
+          "NOT",
+          14
+        ]
+      }
+    ],
+    "2": [
+      {
+        "output": 3,
+        "gate": [
+          "NOT",
+          12
+        ]
+      },
+      {
+        "output": 2,
+        "gate": [
+          "AND",
+          10,
+          3
+        ]
+      }
+    ],
+    "3": [
+      {
+        "output": 3,
+        "gate": [
+          "NOT",
+          12
+        ]
+      }
+    ],
+    "4": [
+      {
+        "output": 5,
+        "gate": [
+          "NOT",
+          10
+        ]
+      },
+      {
+        "output": 4,
+        "gate": [
+          "AND",
+          12,
+          5
+        ]
+      }
+    ],
+    "5": [
+      {
+        "output": 5,
+        "gate": [
+          "NOT",
+          10
+        ]
+      }
+    ],
+    "6": [
+      {
+        "output": 8,
+        "gate": [
+          "AND",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 7,
+        "gate": [
+          "NOT",
+          8
+        ]
+      },
+      {
+        "output": 14,
+        "gate": [
+          "OR",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 6,
+        "gate": [
+          "AND",
+          7,
+          14
+        ]
+      }
+    ],
+    "7": [
+      {
+        "output": 8,
+        "gate": [
+          "AND",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 7,
+        "gate": [
+          "NOT",
+          8
+        ]
+      }
+    ],
+    "8": [
+      {
+        "output": 8,
+        "gate": [
+          "AND",
+          10,
+          12
+        ]
+      }
+    ],
+    "9": [
+      {
+        "output": 8,
+        "gate": [
+          "AND",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 14,
+        "gate": [
+          "OR",
+          10,
+          12
+        ]
+      },
+      {
+        "output": 1,
+        "gate": [
+          "NOT",
+          14
+        ]
+      },
+      {
+        "output": 9,
+        "gate": [
+          "OR",
+          1,
+          8
+        ]
+      }
+    ],
+    "10": [],
+    "11": [
+      {
+        "output": 3,
+        "gate": [
+          "NOT",
+          12
+        ]
+      },
+      {
+        "output": 11,
+        "gate": [
+          "OR",
+          10,
+          3
+        ]
+      }
+    ],
+    "12": [],
+    "13": [
+      {
+        "output": 5,
+        "gate": [
+          "NOT",
+          10
+        ]
+      },
+      {
+        "output": 13,
+        "gate": [
+          "OR",
+          12,
+          5
+        ]
+      }
+    ],
+    "14": [
+      {
+        "output": 14,
+        "gate": [
+          "OR",
+          10,
+          12
+        ]
+      }
+    ],
+    "15": []
+  },
+  "threshold_summary": [
+    {
+      "s": 0,
+      "functions": 4,
+      "live_prefixes": 9,
+      "both_next_bits": 2,
+      "forced_0": 2,
+      "forced_1": 5,
+      "bound_tests": 7,
+      "bound_violations": 0,
+      "tight_forced_0": 1,
+      "tight_forced_1": 0
+    },
+    {
+      "s": 1,
+      "functions": 8,
+      "live_prefixes": 13,
+      "both_next_bits": 6,
+      "forced_0": 2,
+      "forced_1": 5,
+      "bound_tests": 7,
+      "bound_violations": 0,
+      "tight_forced_0": 0,
+      "tight_forced_1": 0
+    },
+    {
+      "s": 2,
+      "functions": 14,
+      "live_prefixes": 14,
+      "both_next_bits": 12,
+      "forced_0": 1,
+      "forced_1": 1,
+      "bound_tests": 2,
+      "bound_violations": 0,
+      "tight_forced_0": 0,
+      "tight_forced_1": 0
+    },
+    {
+      "s": 3,
+      "functions": 14,
+      "live_prefixes": 14,
+      "both_next_bits": 12,
+      "forced_0": 1,
+      "forced_1": 1,
+      "bound_tests": 2,
+      "bound_violations": 0,
+      "tight_forced_0": 1,
+      "tight_forced_1": 1
+    },
+    {
+      "s": 4,
+      "functions": 16,
+      "live_prefixes": 14,
+      "both_next_bits": 14,
+      "forced_0": 0,
+      "forced_1": 0,
+      "bound_tests": 0,
+      "bound_violations": 0,
+      "tight_forced_0": 0,
+      "tight_forced_1": 0
+    }
+  ],
+  "live_prefix_rows": [
+    {
+      "s": 0,
+      "i": 1,
+      "prefix": "0",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 0,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "00",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_bits": [
+        0
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_bits": [
+        0
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 1,
+      "prefix": "0",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 1,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 2,
+      "prefix": "00",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 1,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 1,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 2,
+      "prefix": "10",
+      "prefix_integer": 1,
+      "next_bits": [
+        1
+      ],
+      "tau": 1,
+      "slack": 0,
+      "w": 1,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_bits": [
+        1
+      ],
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "101",
+      "prefix_integer": 5,
+      "next_bits": [
+        0
+      ],
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "110",
+      "prefix_integer": 3,
+      "next_bits": [
+        0
+      ],
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 3
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_bits": [
+        1
+      ],
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 2,
+      "i": 1,
+      "prefix": "0",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 2,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 2,
+      "i": 2,
+      "prefix": "00",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 2,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 2,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 2,
+      "i": 2,
+      "prefix": "10",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 1,
+      "w": 1,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "101",
+      "prefix_integer": 5,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "110",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 3
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_bits": [
+        1
+      ],
+      "tau": 1,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_bits": [
+        0
+      ],
+      "tau": 2,
+      "slack": 0,
+      "w": 2,
+      "minimum_prefix_witness": 1
+    },
+    {
+      "s": 3,
+      "i": 1,
+      "prefix": "0",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 3,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 3,
+      "i": 2,
+      "prefix": "00",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 3,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 3,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 3,
+      "i": 2,
+      "prefix": "10",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 2,
+      "w": 1,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "101",
+      "prefix_integer": 5,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "110",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 3
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_bits": [
+        1
+      ],
+      "tau": 1,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_bits": [
+        0
+      ],
+      "tau": 2,
+      "slack": 1,
+      "w": 2,
+      "minimum_prefix_witness": 1
+    },
+    {
+      "s": 4,
+      "i": 1,
+      "prefix": "0",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 4,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 4,
+      "i": 2,
+      "prefix": "00",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 1,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 4,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 1,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 4,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 1,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 4,
+      "i": 2,
+      "prefix": "10",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 3,
+      "w": 1,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 2,
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 2,
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 2,
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 0,
+      "slack": 4,
+      "w": 2,
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "101",
+      "prefix_integer": 5,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "110",
+      "prefix_integer": 3,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 3
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 1,
+      "slack": 3,
+      "w": 2,
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 4,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_bits": [
+        0,
+        1
+      ],
+      "tau": 2,
+      "slack": 2,
+      "w": 2,
+      "minimum_prefix_witness": 1
+    }
+  ],
+  "forced_prefix_rows": [
+    {
+      "s": 0,
+      "i": 1,
+      "prefix": "1",
+      "prefix_integer": 1,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_forced": 0,
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "required_strict_bound": "slack < 1",
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "11",
+      "prefix_integer": 3,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "000",
+      "prefix_integer": 0,
+      "next_forced": 0,
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 0
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 0,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 2,
+      "prefix": "10",
+      "prefix_integer": 1,
+      "next_forced": 1,
+      "tau": 1,
+      "slack": 0,
+      "w": 1,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "010",
+      "prefix_integer": 2,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "001",
+      "prefix_integer": 4,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 12
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "111",
+      "prefix_integer": 7,
+      "next_forced": 1,
+      "tau": 0,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 15
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "101",
+      "prefix_integer": 5,
+      "next_forced": 0,
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 5
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "110",
+      "prefix_integer": 3,
+      "next_forced": 0,
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 3
+    },
+    {
+      "s": 1,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_forced": 1,
+      "tau": 1,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_forced": 1,
+      "tau": 1,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 2,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_forced": 0,
+      "tau": 2,
+      "slack": 0,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 1
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_forced": 1,
+      "tau": 1,
+      "slack": 2,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_forced": 0,
+      "tau": 2,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 1
+    }
+  ],
+  "violations": [],
+  "tight_examples": [
+    {
+      "s": 0,
+      "i": 2,
+      "prefix": "01",
+      "prefix_integer": 2,
+      "next_forced": 0,
+      "tau": 0,
+      "slack": 0,
+      "w": 1,
+      "required_strict_bound": "slack < 1",
+      "minimum_prefix_witness": 10
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "011",
+      "prefix_integer": 6,
+      "next_forced": 1,
+      "tau": 1,
+      "slack": 2,
+      "w": 2,
+      "required_strict_bound": "slack < 3",
+      "minimum_prefix_witness": 14
+    },
+    {
+      "s": 3,
+      "i": 3,
+      "prefix": "100",
+      "prefix_integer": 1,
+      "next_forced": 0,
+      "tau": 2,
+      "slack": 1,
+      "w": 2,
+      "required_strict_bound": "slack < 2",
+      "minimum_prefix_witness": 1
+    }
+  ]
+}

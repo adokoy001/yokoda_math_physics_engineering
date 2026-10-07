@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "physical_realization_exact": [
+    {
+      "k": 1,
+      "static_conductance": "1",
+      "all_checks_exact": true
+    },
+    {
+      "k": 2,
+      "static_conductance": "10/99",
+      "all_checks_exact": true
+    },
+    {
+      "k": 3,
+      "static_conductance": "1/98",
+      "all_checks_exact": true
+    },
+    {
+      "k": 4,
+      "static_conductance": "10/9701",
+      "all_checks_exact": true
+    },
+    {
+      "k": 5,
+      "static_conductance": "1/9603",
+      "all_checks_exact": true
+    },
+    {
+      "k": 6,
+      "static_conductance": "10/950599",
+      "all_checks_exact": true
+    },
+    {
+      "k": 7,
+      "static_conductance": "1/940996",
+      "all_checks_exact": true
+    },
+    {
+      "k": 8,
+      "static_conductance": "10/93149001",
+      "all_checks_exact": true
+    },
+    {
+      "k": 9,
+      "static_conductance": "1/92208005",
+      "all_checks_exact": true
+    }
+  ],
+  "path_sharpness": [
+    {
+      "k": 2,
+      "ratio_to_Ck": [
+        0.9858055819267573,
+        0.9966132125784153,
+        0.9991633314479441,
+        0.9999666613332127,
+        0.9999996666661334
+      ]
+    },
+    {
+      "k": 3,
+      "ratio_to_Ck": [
+        0.9765419701542136,
+        0.994788484067774,
+        0.9987368513747383,
+        0.9999499789984893,
+        0.9999994999978999
+      ]
+    },
+    {
+      "k": 5,
+      "ratio_to_Ck": [
+        0.9642058423394811,
+        0.9927784231337815,
+        0.9982988955164163,
+        0.9999332783578836,
+        0.9999993333278363
+      ]
+    },
+    {
+      "k": 8,
+      "ratio_to_Ck": [
+        0.9508059955565501,
+        0.9911159077848389,
+        0.9979868362843165,
+        0.9999221124956403,
+        0.9999992222112505
+      ]
+    },
+    {
+      "k": 12,
+      "ratio_to_Ck": [
+        0.9358451449026203,
+        0.989667113842557,
+        0.9977682362991878,
+        0.9999151987334443,
+        0.999999153827567
+      ]
+    }
+  ],
+  "atomic_exact_fraction_trials": 1200,
+  "atomic_trials_requiring_sqrt_term": 128,
+  "largest_sample_loss_over_W": 166667.75,
+  "linear_sharpness": [
+    {
+      "groups": 2,
+      "loss_over_W": "7/2"
+    },
+    {
+      "groups": 3,
+      "loss_over_W": "11/2"
+    },
+    {
+      "groups": 4,
+      "loss_over_W": "15/2"
+    },
+    {
+      "groups": 5,
+      "loss_over_W": "19/2"
+    },
+    {
+      "groups": 6,
+      "loss_over_W": "23/2"
+    },
+    {
+      "groups": 7,
+      "loss_over_W": "27/2"
+    },
+    {
+      "groups": 8,
+      "loss_over_W": "31/2"
+    },
+    {
+      "groups": 9,
+      "loss_over_W": "35/2"
+    },
+    {
+      "groups": 10,
+      "loss_over_W": "39/2"
+    },
+    {
+      "groups": 11,
+      "loss_over_W": "43/2"
+    },
+    {
+      "groups": 12,
+      "loss_over_W": "47/2"
+    }
+  ],
+  "sqrt_sharpness": [
+    {
+      "groups": 2,
+      "ratio": 1.9999899994750123,
+      "sharp_coefficient": 2.0
+    },
+    {
+      "groups": 3,
+      "ratio": 2.828412982221666,
+      "sharp_coefficient": 2.8284271247461903
+    },
+    {
+      "groups": 5,
+      "ratio": 3.999979999700006,
+      "sharp_coefficient": 4.0
+    },
+    {
+      "groups": 10,
+      "ratio": 5.9999699997583384,
+      "sharp_coefficient": 6.0
+    }
+  ],
+  "gamma_envelope_max_log_ratio": 0.0,
+  "limits": "Finite tests do not establish novelty or replace the analytic argument; no general signed-kernel, nonreversible, or Loewner-order extension is tested or claimed."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "arithmetic": "fractions.Fraction, exact",
+  "counts": {
+    "sorted_vectors": 24300,
+    "rank_splits": 150723,
+    "band_gap_checks": 75623,
+    "equality_witnesses": 9240,
+    "graph_cases": 75,
+    "graph_threshold_checks": 583,
+    "independently_enumerated_edges": 8087,
+    "constructive_paths": 75623,
+    "nearest_rounding_checks": 1880
+  },
+  "eta_outside_theorem_counterexample": {
+    "n": 2,
+    "s": 1,
+    "eta": "9/10",
+    "delta": "9/100",
+    "graph_component_count": 6
+  },
+  "scope": "Finite identities, sharp witnesses, constructive paths, and polytope edge graphs; general results rely on the accompanying mathematical proofs."
+}

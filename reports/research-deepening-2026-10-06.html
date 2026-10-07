@@ -1,0 +1,1164 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="既存の数学探索を9方向へ再整理し、分布・物理資源・改善過程・行列位相の4方向を証明付きで深めた研究報告。"><title>何を守って、どこまで縮められるか — 数学探索の再整理</title>
+<style>
+:root{--ink:#19373b;--muted:#5b6f6b;--line:#d4ded7;--teal:#096e66;--paper:#faf9f4;--accent:#a8492c}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.95 system-ui,-apple-system,'Noto Sans JP',sans-serif}header{background:#19373b;color:#fbfaed;padding:65px max(24px,calc((100vw - 1060px)/2)) 50px}header .kicker{color:#b8d6c5;font-size:12px;letter-spacing:.14em}h1{font-size:clamp(30px,5vw,53px);line-height:1.45;font-weight:650;margin:22px 0}header p{max-width:880px;color:#d7e5d9}nav{display:flex;flex-wrap:wrap;gap:9px 20px;max-width:1100px;margin:auto;padding:18px 22px;border-bottom:1px solid var(--line)}a{color:var(--teal);text-underline-offset:3px}nav a{font-size:14px}main{max-width:1100px;padding:0 26px;margin:auto}section{padding:45px 0;border-bottom:1px solid var(--line);scroll-margin-top:20px}h2{font-size:clamp(24px,3vw,32px);line-height:1.55;margin:0 0 23px}h3{font-size:20px;line-height:1.65;margin:30px 0 13px}p{margin:13px 0}strong{font-weight:700}.lead{font-size:20px;line-height:1.9}.note,.callout{padding:18px 23px;border-left:4px solid var(--teal);background:#edf3ed;margin:22px 0}.caution{border-left-color:var(--accent);background:#faf0e2}.eq{font-family:Georgia,'Times New Roman',serif;font-size:19px;line-height:2;text-align:center;padding:20px 18px;background:#f1f4ee;border:1px solid #dde5db;border-radius:6px;margin:20px 0;overflow-x:auto;overflow-wrap:anywhere}.proof{font-size:15px}.proof .eq{font-size:17px}.table-wrap{overflow-x:auto;margin:23px 0}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.8}th,td{vertical-align:top;text-align:left;padding:14px 12px;border-bottom:1px solid var(--line)}th{background:#eaf0e7;font-weight:650}td:first-child{min-width:135px}.candidates td:nth-child(2){min-width:200px}.candidates td:nth-child(3){min-width:240px}.candidates td:nth-child(4){min-width:220px}details{border:1px solid var(--line);padding:17px 21px;border-radius:6px;margin:20px 0;background:#fffdf7}summary{cursor:pointer;font-weight:650;line-height:1.8}details[open]>summary{margin-bottom:15px}pre{white-space:pre;overflow:auto;max-height:510px;background:#16363a;color:#e8f1e6;padding:21px;font:12px/1.6 ui-monospace,monospace;border-radius:5px}code{font-family:ui-monospace,monospace;font-size:.9em}.tag{font-size:12px;display:inline-block;border-radius:3px;background:#e3eee4;padding:1px 7px;color:#176259;white-space:nowrap}.tag.open{color:#985521;background:#f5e8d2}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.card{background:#f0f3eb;padding:23px;border-top:3px solid var(--teal)}.card h3{margin:3px 0 12px}.small,figcaption{font-size:13px;color:var(--muted)}figure{margin:26px 0;background:#f3f6f3;padding:18px;border-radius:7px}figure svg{display:block;width:100%;height:auto}button{font:inherit;padding:8px 15px;border:1px solid #92a79b;background:#fffdf7;border-radius:4px;color:var(--teal);cursor:pointer;min-height:44px}:focus-visible{outline:3px solid #b66a42;outline-offset:3px}.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;border-top:1px solid var(--line);padding:18px 0}.steps li::before{content:counter(step,decimal-leading-zero);font-weight:700;color:var(--teal);margin-right:15px}footer{padding:32px 26px 55px;max-width:1100px;margin:auto;font-size:13px;color:var(--muted)}.math-label{font-size:12px;color:var(--teal);letter-spacing:.1em}.progress{color:var(--accent);font-weight:650}ul{padding-left:24px}li{margin:8px 0}
+@media(max-width:650px){header{padding:39px 23px 32px}main{padding:0 19px}section{padding:34px 0}.cards{grid-template-columns:1fr}.lead{font-size:18px}.eq{font-size:17px;padding:14px 12px}details{padding:14px}th,td{padding:11px 9px}.note,.callout{padding:15px 17px}figure{padding:8px}nav{gap:8px 15px}}
+@media print{body{background:white;font-size:11pt}header{color:var(--ink);background:white;padding:0 0 20px}header p,header .kicker{color:var(--ink)}nav,button{display:none}main{padding:0;max-width:none}section{padding:20px 0}h2,h3{break-after:avoid}table,figure,.eq{break-inside:avoid}details{break-inside:auto}pre{max-height:none;white-space:pre-wrap;font-size:8pt}.cards{display:block}.card{margin-bottom:15px}footer{padding:20px 0}}
+</style></head><body>
+<header><div class="kicker">EXPLORATORY MATHEMATICS / SYNTHESIS &amp; NEW DERIVATIONS</div><h1>何を守って、<br>どこまで縮められるか。</h1><p class="lead">分布・物理模型・候補集合・改善過程。ばらばらに見えた研究を「制約を守る代表と、その限界」として読み直す。</p><p>既存研究を9方向へ整理し、4方向で証明を伴う進展を記録した。最も強い追加結果は、回路の構成を自由にしても避けられない容量の発散障害。最も明快な解は、平均と分散を保つ最適代表分布の公式である。</p><div class="kicker">横田さん × AI · 2026 10 06 · 探索研究報告 1.0</div></header>
+<nav aria-label="目次"><a href="#verdict">今回の結論</a><a href="#candidates">9つの候補</a><a href="#framework">抽象化</a><a href="#physical">物理資源</a><a href="#w2">分布の代表</a><a href="#dynamic">改善と循環</a><a href="#matrix">行列の幾何</a><a href="#next">次の研究</a><a href="#evidence">検証・出典</a></nav><main>
+<section id="verdict"><h2>役に立つ形へ育てるなら、ここを優先する</h2><p>研究としての深さでは<strong>物理模型の資源制約</strong>、大規模ソフトウェア開発への近さでは<strong>将来の再最適化を守る候補保持</strong>、すぐに閉じた命題へまとめられる点では<strong>分布の制約付き代表</strong>を優先する。順位は新規性の確率ではなく、既存の足場・具体的な用途・残る課題の明確さによる判断である。</p>
+<div class="cards"><div class="card"><div class="math-label">進展 01 · 全構成を対象とする限界</div><h3>容量の予算で、近似できる応答が変わる</h3><p>正の容量・非負の相反伝導を持つ二端子回路では、Erlang型の多段遅延へ近づくために総容量が発散する。状態数や配線は自由にしてよい。固定された有限の観測窓でも成立する。</p></div>
+<div class="card"><div class="math-label">進展 02 · プロジェクト内の未処理問題を解決</div><h3>ばらつきを保存する最適代表</h3><p>平均・分散・支持区間を入力と同じに保つW₂代表を明示的に決定。分散保存の代価は、最悪二乗誤差で元の最適値の2倍未満になる。</p></div>
+<div class="card"><div class="math-label">進展 03 · 停止条件と反例</div><h3>評価が変わる改善過程の予算</h3><p>採用回数×改善余裕を、初期の評価幅と評価変更の総量で抑える。評価が収束するだけでは無限往復を止められないことも、二状態の反例で確認した。</p></div>
+<div class="card"><div class="math-label">進展 04 · 行列側の正しい位相</div><h3>ほぼ射影の集合から部分空間の幾何へ</h3><p>整数traceを保つ低欠損行列の集合が、rankを固定した射影の集合へ変形収縮する。スカラーの「島」を行列へ移す際に残っていた穴を埋める。</p></div></div>
+<div class="note"><strong>成果の位置づけ。</strong>本文に通常の数学的証明を収録し、別担当による論理点検を行った。既知の幾何・スペクトル論・ポテンシャル法を使う。具体的な新しい式や組合せの先取性は未確定であり、「著名な未解決問題を4つ解決した」という報告ではない。形式証明と人間の専門家による外部査読は未実施。</div>
+</section>
+<section id="candidates"><h2>9つの深掘り候補と、求められているもの</h2><p>「需要あり」は関連する研究課題が一次資料で確認できるという意味。以下の具体的成果に利用者が既についている、あるいは実用性能が検証済み、という意味ではない。★は今回実際に数学的な進展を記録した方向。</p>
+<div class="table-wrap"><table class="candidates"><thead><tr><th>優先・元の研究</th><th>抽象化して育てる対象</th><th>誰に・何に役立つか</th><th>今回の到達点／次の具体問題</th></tr></thead><tbody>
+<tr><td>A ★ 物理的記憶</td><td>状態数だけでなく、資源予算を含む実現・近似可能性</td><td>熱・RC模型、受動回路合成、モデル縮約。減らせない状態数・容量・誤差の関係を設計前に認証</td><td>全回路共通の容量発散を証明。次は必要容量と精度の最適な増大率、有限窓の明示下界</td></tr>
+<tr><td>A 形式意味論</td><td>現在の意味と、将来の再最適化可能性を同時に守る候補保持</td><td>クエリプランの小候補集合は現に研究対象 <a href="https://scholars.duke.edu/publication/1822349">[需要1]</a>。テスト資産・実装案キャッシュへの移植は提案</td><td>既存A0–A3、C1–C3が足場。次は到達可能な需要・費用付き候補・観測後の適応削除</td></tr>
+<tr><td>A ★ W₂中心</td><td>制約を守る代表分布と、分散・誤差の最適曲線</td><td>分布の最悪距離を抑える代表は公平性・学習で研究 <a href="https://proceedings.mlr.press/v267/wang25be.html">[需要2]</a>。分散を保つ基準分布やシミュレーション入力</td><td>指定分散の明示解、同分散の価格、入力分散幅への包含保証。次は幅付き族の厳密中心</td></tr>
+<tr><td>B ★ ゲーム理論・G04</td><td>評価変更を含む改善回数・循環の保証</td><td>複数の最適化器、評価器を更新するコード改善。近ポテンシャル・非定常最適化は既存研究分野</td><td>進捗予算と有限変動の反例を証明。次は全状態の評価差を安く保証する方法</td></tr>
+<tr><td>B ★ X01 順位・モーメント</td><td>ほぼ射影の幾何と、trace情報からの部分空間誤差保証</td><td>電子構造計算の密度行列浄化・誤差制御 <a href="https://arxiv.org/html/1507.02087v3">[需要3]</a></td><td>Grassmannianへの変形収縮と安定性への接続。次はtrace推定誤差・計算費用を含む比較</td></tr>
+<tr><td>B 空間S1・観測</td><td>雑音・欠測・任意値故障を統一した識別とセンサー設計</td><td>木状ネットワーク上の位置推定。距離署名と誤り訂正は既存 <a href="https://arxiv.org/abs/1605.03141">[需要4]</a></td><td>元の有限誤差曲線から、故障込みの全曲線と最小費用配置へ。欠測q個と任意改ざんq個を区別</td></tr>
+<tr><td>B 空間S2・接続</td><td>固定設計と実現後の適応設計の差</td><td>再配線できない設備と、再接続可能な通信系の比較は応用候補</td><td>独立区間の比⌈n/2⌉が足場。次は相関、木距離、事前に数個の接続案を用意する設定</td></tr>
+<tr><td>C 一例外の対称性</td><td>局所応手だけで検査できるゲーム値の証明書</td><td>組合せゲームの探索削減・形式検証。共有接点を持つ部品要約は別問題</td><td>既存T1/M/Rで抽象化は進んだ。次は証明書発見とソルバー比較。一般Arc Kaylesの最新文献は末尾参照</td></tr>
+<tr><td>C E01・小回路更新</td><td>局所変更と増分回路合成の費用</td><td>増分合成・証人保持への接続は候補。P対NP自体は長期の柱</td><td>C35/C36は上界。次は明示した制限モデルでの償却費用・下界。一般P対NPの解決へは飛躍しない</td></tr>
+</tbody></table></div>
+<p class="small">A＝主力として進めたい、B＝用途と命題を絞って育てたい、C＝長期または検証器へ。E01だけは添付台帳の記録を基礎とし、現行の公開本文の再取得・再監査までは行っていない。</p></section>
+<section id="framework"><h2>共通するのは「何を捨ててもよいか」を先に固定すること</h2><p>今回の整理で有用だった共通の見方は、<strong>保持したい観測・許す表現・資源費用・最悪誤差</strong>を別々に指定することだった。単一の新定理に全テーマを押し込めるための形式ではなく、誤った一般化を避けながら結果を移植するための問題設計である。</p><div class="table-wrap"><table><tr><th>対象</th><th>保持するもの</th><th>追加の制約</th><th>初めて現れる問い</th></tr><tr><td>代表分布</td><td>入力族に対する最悪W₂距離</td><td>代表も分散を保つ</td><td>どれだけ誤差が増えるか</td></tr><tr><td>物理模型</td><td>外部への過渡応答</td><td>正の容量・非負相反結合・総容量予算</td><td>状態数を増やしても近似できないか</td></tr><tr><td>候補保持</td><td>今できることの集合</td><td>候補を不可逆に削る</td><td>将来の最少候補数も守れるか</td></tr><tr><td>改善処理</td><td>採用時の改善幅</td><td>評価器そのものが変わる</td><td>戻り・往復に必要な変動量はいくらか</td></tr></table></div><p>「いま同じに見える」だけでは、物理的に実装できること、将来に再圧縮できること、更新が停止することまでは保証しない。この差を数値と証明書へ変える方向が、今回の主な研究軸になる。</p></section>
+<section id="physical">
+<h2>進めた研究①：状態を増やしても、容量不足は埋められない</h2>
+<p>これまでの物理研究では、熱回路・接地容量RC回路の内部状態数、時間への集中、総容量の制約を調べてきました。2026 10 03 の到達点では、理想的な多段の遅延応答へ近づく<strong>特定の道回路</strong>で容量が発散すると分かっていました。今回はこれを<strong>許された全ての配線・全ての内部状態数に共通する障害</strong>へ強めました。</p>
+<div class="note"><strong>結論：</strong>理想的な二段以上のErlang遅延核へ、固定した時間帯の波形だけでも限りなく近づけるには、総容量を無限に増やす必要があります。容量を固定したまま内部を細分化する方法では、誤差をゼロへ近づけられません。</div>
+
+<h3>対象を固定する</h3>
+<p>対象は、正の内部容量、相反で非負の伝導、二つの境界端子を持つ安定な有限回路です。容量は各内部節点から基準点へ接続し、容量行列は対角です。まず他端子・環境への漏れがない場合を扱います。内部の個数・配線・部品値・時定数には上限を置きません。境界温度または電圧を入力とする<strong>過渡クロス応答核</strong> h を測ります。</p>
+<div class="eq">Q=C<sup>−1/2</sup>LC<sup>−1/2</sup>,　u=C<sup>−1/2</sup>g<sub>L</sub>,　v=C<sup>−1/2</sup>g<sub>R</sub><br>h(t)=u<sup>T</sup>e<sup>−Qt</sup>v,　B=tr C.</div>
+<p>C は正対角、L は対称正定値で非対角成分が非正、g<sub>L</sub>,g<sub>R</sub>≥0、L1=g<sub>L</sub>+g<sub>R</sub>です。目標は、κ&gt;0、ρ&gt;0、整数 k≥2 を固定した次の核です。</p>
+<div class="eq">h<sub>*</sub>(t)=κ ρ<sup>k</sup>t<sup>k−1</sup>e<sup>−ρt</sup>/(k−1)!.</div>
+<p>h<sub>*</sub>/κ は k 段Erlang分布の密度です。κ は目標核の積分値であり、時間単位とともに固定します。状態を順番に通る理想的な遅延を表しますが、この波形が同じ部品クラスの有限回路で厳密に実現できる、と仮定してはいません。</p>
+
+<h3>定理A：固定した有限時間帯にも、容量による誤差の床がある</h3>
+<p>任意の 0&lt;a&lt;b&lt;∞ と有限の容量上限 B<sub>0</sub> を選びます。上記の全ての有限回路を比較しても、次の最良誤差は<strong>厳密に正</strong>です。</p>
+<div class="eq">inf<sub>tr C≤B<sub>0</sub></sub> ∫<sub>a</sub><sup>b</sup>|h(t)−h<sub>*</sub>(t)|dt　&gt;　0.</div>
+<p>従って、この固定時間帯での誤差が 0 に収束する任意の回路列は B<sub>n</sub>→∞ を満たします。この定理では近似側の ∫h を固定する必要もありません。固定するのは目標 h<sub>*</sub> です。<strong>非構成的な正の誤差床</strong>であり、その大きさはこの証明だけでは計算できません。</p>
+
+<details><summary>定理Aの完全な証明：容量が複素時間応答を一様に抑える</summary>
+<div class="proof">
+<p>z=Q<sup>−1</sup>(u+v)=C<sup>1/2</sup>1、y=Q<sup>−1</sup>(u−v) と置きます。正定値Stieltjes行列の逆は成分ごとに非負なので |y|≤z。従って ∥z∥²=B、∥y∥²≤B です。実対称性により、複素数 s についても</p>
+<div class="eq">4h(s)=z<sup>T</sup>Q²e<sup>−Qs</sup>z−y<sup>T</sup>Q²e<sup>−Qs</sup>y.</div>
+<p>Re s=x&gt;0 とすると、直交対角化と max<sub>λ&gt;0</sub> λ²e<sup>−λx</sup>=4/(e²x²) より</p>
+<div class="eq">|h(x+iξ)|≤2B/(e²x²).</div>
+<p>仮に B≤B<sub>0</sub> の回路列 h<sub>n</sub> が h<sub>*</sub> へ L¹([a,b]) 収束するとします。h<sub>n</sub> は右半平面で正則であり、上の評価によってその任意のコンパクト集合上一様に有界です。Montelの定理から、ある部分列は右半平面のコンパクト集合上一様に正則関数 H へ収束します。</p>
+<p>特に [a,b] 上で一様収束するので、その部分列は L¹([a,b]) でも H へ収束します。もとの L¹ 極限と合わせると H=h<sub>*</sub> がほとんど至る所で成立します。両者は連続だから区間全体で一致します。恒等定理により右半平面全体で H(s)=h<sub>*</sub>(s) となります。</p>
+<p>一方、極限にも |H(x+iξ)|≤2B<sub>0</sub>/(e²x²) が残ります。x&gt;0 を一つ固定すると、目標の絶対値は</p>
+<div class="eq">|h<sub>*</sub>(x+iξ)|=κρ<sup>k</sup>|x+iξ|<sup>k−1</sup>e<sup>−ρx</sup>/(k−1)!</div>
+<p>であり、k≥2 なら |ξ|→∞ で発散します。これは一様上界に矛盾します。よって誤差の下限は正です。</p>
+<p>さらに、誤差が 0 に収束する列で B<sub>n</sub> が ∞ に収束しないなら、容量がある有限値以下にとどまる部分列が存在します。その部分列に同じ矛盾を適用すれば B<sub>n</sub>→∞ が従います。□</p>
+<p>用いた道具は古典的なスペクトル定理・Montelの定理・恒等定理です。新しい複素解析の定理を主張しているわけではありません。</p>
+</div></details>
+
+<h3>抽象化：資源が制限する関数族の閉包を調べる</h3><p>上の固有基底の計算は、応答が次の符号付き測度で表せることを示している。</p><div class="eq">h(s)=∫₀∞ λ²e<sup>−λs</sup>ν(dλ),　‖ν‖<sub>TV</sub>≤B/2.</div><p>νは固有値λⱼに重み(zⱼ²−yⱼ²)/4を置いた測度である。λ²を積分核の側へ置いたこの表示で、測度の大きさが容量により抑えられる。通常の指数和の残差係数をそのままB/2で抑えているのではない。</p><p>従って、同じ複素時間上界を持つどの応答族でも、固定資源のもとでのL¹近似極限は縦線上で有界な正則関数へ延長されなければならない。これが再利用できる一般的な障害である。単に「有限状態では厳密実現できない」から一歩進み、状態数を際限なく増やす近似列まで、資源予算で排除する。</p><h3>定理B：二段の場合は、有限個の測定窓から数式で証明できる</h3>
+<p>定量化のため、ここでは追加で<strong>近似側の動的定常結合 ∫h=κ</strong>を固定します。端子間の直接枝はこの積分に含めません。二段の目標 f<sub>*</sub>(t)=ρ²te<sup>−ρt</sup> と f=h/κ を比べ、全時間の全変動距離 η=(1/2)∫<sub>0</sub><sup>∞</sup>|f−f<sub>*</sub>|dt を誤差とします。</p>
+<p>奇数 N≥1 ごとに、次の保証下界が成立します。T<sub>N</sub> は第一種Chebyshev多項式です。</p>
+<div class="eq">Bρ/κ ≥ A N − D η T<sub>N</sub>(3),<br>A=e²(log 2)²/8≈0.443762,　D=e²log 2/2≈2.560852,<br>T<sub>N</sub>(3)=[(3+√8)<sup>N</sup>+(3−√8)<sup>N</sup>]/2.</div>
+<p>任意の容量上限 R=Bρ/κ に対して AN&gt;R となる奇数 N を選べるため、</p>
+<div class="eq">η ≥ sup<sub>N≥1, N奇数</sub> (AN−R)<sub>+</sub> / [D T<sub>N</sub>(3)]　&gt;　0.</div>
+<p>N の選択から Bρ/κ=Ω(log(1/η)) も得られます。これは<strong>全方式に共通する保証下界</strong>です。最適増大率の決定ではなく、既存の道回路構成の費用との間には大きな隔たりが残ります。</p>
+
+<details><summary>定理Bの完全な証明：窓の線形結合を容量で抑える</summary>
+<div class="proof">
+<p>τ=(log 2)/ρ、I<sub>m</sub>=∫<sub>(m+1)τ</sub><sup>(m+2)τ</sup>h(t)dt と置きます。奇数 N に対し P<sub>N</sub>(x)=T<sub>N</sub>(2x−1)=Σ<sub>m=0</sub><sup>N</sup>c<sub>m</sub>x<sup>m</sup> を使います。</p>
+<p>定理Aの z,y を使って積分すると、</p>
+<div class="eq">4Σc<sub>m</sub>I<sub>m</sub>=z<sup>T</sup>F<sub>N</sub>(Q)z−y<sup>T</sup>F<sub>N</sub>(Q)y,<br>F<sub>N</sub>(λ)=λe<sup>−λτ</sup>(1−e<sup>−λτ</sup>)P<sub>N</sub>(e<sup>−λτ</sup>).</div>
+<p>[0,1] 上で |P<sub>N</sub>|≤1 であり、1−e<sup>−λτ</sup>≤λτ より |F<sub>N</sub>(λ)|≤τλ²e<sup>−λτ</sup>≤4/(e²τ)。従って</p>
+<div class="eq">|Σc<sub>m</sub>I<sub>m</sub>|≤2B/(e²τ).</div>
+<p>目標の窓積分は I<sub>m</sub><sup>*</sup>=κ2<sup>−m</sup>(1+m log 2)/4。P<sub>N</sub>(1/2)=0、|P<sub>N</sub>′(1/2)|=2N なので、|Σc<sub>m</sub>I<sub>m</sub><sup>*</sup>|=κ(log 2)N/4 となります。</p>
+<p>全変動距離の定義から各窓で |I<sub>m</sub>−I<sub>m</sub><sup>*</sup>|≤κη。P<sub>N</sub> の係数は交代符号なので Σ|c<sub>m</sub>|=|P<sub>N</sub>(−1)|=T<sub>N</sub>(3)。従って</p>
+<div class="eq">κ(log 2)N/4≤2B/(e²τ)+κηT<sub>N</sub>(3).</div>
+<p>τ=(log 2)/ρ を代入すると表示の下界です。q=3+√8 とし、N を log(1/η)/(2 log q) 以下の最大の正の奇数に選ぶと、ηT<sub>N</sub>(3)≤√η であり、N は log(1/η) に比例します。十分小さい η で対数型の容量下界が従います。□</p>
+<p>この証明に使う観測区間は τ から (N+2)τ までです。定量評価で N を増やす場合は観測時間も長くなります。固定区間の定理Aと混同しません。</p>
+</div></details>
+
+<h3>何に使えるか、どこまで分かったか</h3>
+<p>応用先そのものは実在します。<a href="https://fscdn.rohm.com/en/products/databook/applinote/discrete/sic/common/how_to_use_thermal_models_an-e.pdf">ROHMの熱モデル資料</a>は、設計初期の熱評価にCauer型RC模型を使う方法を説明しています。また、<a href="https://web.stanford.edu/~boyd/papers/rc.html">Vandenberghe・Boyd・El Gamal（1998）</a>は、容量・伝導・遅延・面積の制約を含むRC回路設計を扱います。これらは研究分野の需要を裏付けますが、今回の定理を求めている実務者を特定したものではありません。</p>
+<p>熱マクロモデル、受動RC遅延回路、相反な拡散系の近似では、内部状態数を増やす設計と、実際に置ける容量を増やす設計を区別する必要があります。今回の結果は、<strong>一定の容量予算の下では、状態数だけの増加に限界がある</strong>ことを波形全体の近似問題で示します。内部の配線を知らず、窓積分だけから総容量を下から認証する方法にもなります。</p>
+<p>ただし、定理Bの係数 T<sub>N</sub>(3) は指数的に大きくなります。この明示証明は雑音に厳しく、今すぐ高精度の実機診断に使えるとは主張しません。定理Aの誤差床の計算、最適な容量対誤差の増大率、測定雑音を含めた安定な証明器が次の具体的な課題です。</p>
+<div class="note">適用範囲：能動素子・変圧器・非相反素子・非対角容量・時間変化系は扱っていません。一般の正値状態空間モデルは対象外です。ここでの「不可能」は明記した物理的部品クラスと固定した目標に対する主張です。</div>
+
+<h3>証明の状態と先行研究</h3>
+<p>解析的証明を導出し、別担当が式・定数・前提を独立に点検しました。さらに Chebyshev 多項式の次数1〜31の奇数16件を有理数で検算し、内部1〜12状態の240回路について960件の窓積分・スペクトル恒等式を確認しました。最大の容量で規格化した恒等式誤差は約4.09×10<sup>−13</sup>でした。数値実験は証明の代用ではありません。</p>
+<p>相反過程の吸収時間とスペクトル分解の基礎は <a href="https://www.numdam.org/item/PS_2010__14__117_0/">Miclo（2010）</a> などの既知理論です。また <a href="https://arxiv.org/abs/2207.03982">Fisher・Hug・Dörfler（2022）の単純極近似</a>は、伝達関数の近似可能性を扱います。今回の物理容量予算による障害と一般の単純極近似可能性は両立します。後者は今回要旨までの確認であり、同じ定理の有無を本文照合したわけではありません。</p>
+<p>古典的な総容量最小化、特に Hagopian–Frisch（1970）、Boesch–Hagopian（1971）の中心本文との比較は未完了です。従って、今回の位置づけは<strong>既存成果を強めた、自足的に証明した研究候補</strong>です。歴史的な新規性や一般の最小正値実現問題の解決を認定してはいません。</p>
+</section>
+
+<section id="w2">
+<h2>進めた研究②：分散を保ったまま、最悪のずれを最小にする</h2>
+<p>分布の形は見えず、値の範囲・平均・分散だけが分かる。その情報から「どの形が真実でも、大きく外さない代表」を選ぶのが既存研究E02だった。そこで得た最適代表は、入力より分散が小さくなる。今回は<strong>代表にも元の分散を保たせたい場合</strong>を解いた。シミュレーションの入力や比較用の基準分布では、測定したばらつきを勝手に縮めないことに意味がある。</p>
+<p>今回の進展は、既存の計算を「同じ半径の球面に載った対象群」という一般構造へ移し、制約を変えて再利用した点にある。抽象的な幾何は既知であり、以下の明示式の<strong>学術的新規性は未確定</strong>。プロジェクトで未処理だった拡張について、証明を記録した段階と位置づける。</p>
+
+<h3>前提：入力の分布族と距離</h3>
+<p>0&lt;μ&lt;1、0&lt;v&lt;M=μ(1−μ) とする。𝒦<sub>μ,v</sub> は、支持が [0,1] に含まれ、平均μ・分散vを持つ全確率分布。分位関数 f<sub>P</sub>(u) は「下からuの割合まで来た値」を表す。一次元のWasserstein-2距離は、同じ順位の値の差を二乗して積分すれば計算できる。</p>
+<div class="eq">W₂(P,Q)² = ∫₀¹ |f<sub>P</sub>(u)−f<sub>Q</sub>(u)|² du<br>κ = 2 / [2+log(M/v)]<br>H(u) = min{μu, (1−μ)(1−u), √[vu(1−u)]}</div>
+<p>logは自然対数。既存E02は、分散を自由に選べる最適代表Cの分位関数が f<sub>C</sub>=μ−κH′、分散がκv、最悪二乗距離が R<sub>free</sub>²=v(1−κ) であることを証明している。</p>
+
+<h3>結果1：同じ分散を保つ最適代表の明示式</h3>
+<p>代表も𝒦<sub>μ,v</sub>の中から選ぶ問題には、一意な解Dがある。その分位関数と最悪二乗距離は次になる。導関数は、存在するほとんどすべてのuで読む。</p>
+<div class="eq">f<sub>D</sub>(u) = μ−√κ H′(u)<br>min<sub>Q∈𝒦<sub>μ,v</sub></sub> sup<sub>P∈𝒦<sub>μ,v</sub></sub> W₂(P,Q)²<br>= R<sub>keep</sub>² = 2v(1−√κ)</div>
+<p>Dは平均μ・分散vを持ち、支持も[0,1]に収まる。最も遠い入力は、既存E02と同じく、条件を満たす全二点分布と、{0,c,1}に支持を持つ分布に限られる。</p>
+<div class="eq">R<sub>keep</sub>² − R<sub>free</sub>² = v(1−√κ)²<br>R<sub>keep</sub>² / R<sub>free</sub>² = 2/(1+√κ) ∈ (1,2)</div>
+<p>つまり、ばらつきを保存するために必要な最悪二乗誤差の増加は、自由な代表の2倍未満。距離そのものの倍率は√2未満である。例としてμ=0.5、v=0.125なら、最悪距離は約0.179365から0.185905へ、二乗誤差は約7.43%増える。</p>
+
+<h3>結果2：代表分散を選ぶための、連続した設計曲線</h3>
+<p>代表の平均をμ、分散をw&gt;0に指定した場合も解ける。実数上の分布を許すなら全w&gt;0で、支持を[0,1]に制限するなら少なくともw≤v/κで、次が一意な最適解となる。</p>
+<div class="eq">f<sub>Qw</sub> = μ−√(κw/v) H′<br>R<sub>w</sub>² = v+w−2√(κvw)<br>= v(1−κ) + (√w−√(κv))²</div>
+<p>代表分散を区間[w<sub>−</sub>,w<sub>＋</sub>]から選べるなら、κvをその区間に収めた値が最適。選んだwがv/κ以下なら支持制約も満たす。w=0では代表は一点分布δ<sub>μ</sub>となり、最悪二乗距離はv。入力側のv=0またはMは族が一つに決まる退化例で、上の誤差倍率は定義しない。</p>
+
+<details><summary>一般のHilbert空間での完全証明と、分布への適用</summary>
+<div class="proof">
+<h3>補題：球面上の族の中心と、中心の長さの指定</h3>
+<p>実Hilbert空間の非空集合Aが ‖a‖=r&gt;0 の球面に含まれるとする。K=閉凸包(A)、p=Kの最小ノルム点、d=‖p‖と置く。閉凸集合への射影の特徴づけから、すべてのa∈Aで ⟨p,a⟩≥d²。線形汎関数の下限は閉凸包に移っても変わらないため、inf<sub>a∈A</sub>⟨p,a⟩=d²である。</p>
+<p>F(x)=sup<sub>a∈A</sub>‖x−a‖² と置く。任意のxについて、p∈Kより inf<sub>a∈A</sub>⟨x,a⟩≤⟨x,p⟩。従って</p>
+<div class="eq">F(x)=r²+‖x‖²−2 inf<sub>a∈A</sub>⟨x,a⟩<br>≥ r²−d²+‖x−p‖².</div>
+<p>x=pでは等号となり、F(p)=r²−d²。よってpが一意な自由中心である。Aが有限集合である必要はない。</p>
+<p>次にd&gt;0、ρ&gt;0とし、中心に ‖x‖=ρ を課す。Cauchy–Schwarz不等式によって ⟨x,p⟩≤ρd。候補 x<sub>ρ</sub>=(ρ/d)p は ⟨p,a⟩≥d² によりこの下界を達成するので、</p>
+<div class="eq">min<sub>‖x‖=ρ</sub> F(x)=r²+ρ²−2ρd,<br>x<sub>ρ</sub>=(ρ/d)p.</div>
+<p>さらに ‖x−x<sub>ρ</sub>‖²=2ρ²−2(ρ/d)⟨x,p⟩ を使えば、</p>
+<div class="eq">F(x)−F(x<sub>ρ</sub>) ≥ (d/ρ)‖x−x<sub>ρ</sub>‖².</div>
+<p>これが一意性と安定性を示す。最遠点はちょうど ⟨p,a⟩=d² を満たす点で、ρ&gt;0を変えても変わらない。d=0の場合にはこの正規化と一意性を主張しない。</p>
+<h3>E02に適用する</h3>
+<p>H=L₂(0,1)、A={f<sub>P</sub>−μ:P∈𝒦<sub>μ,v</sub>}とすればr²=v。既存E02の証明1・2が、p=−κH′、d²=κv、およびpがAの閉凸包に入ることを与える。最後の事実は、二点入力の分位関数を明示された確率測度で平均する重心恒等式から従う。</p>
+<p>ρ=√wを代入すると x<sub>ρ</sub>=−√(κw/v)H′。この関数は非減少かつ平均0で、ノルムが√wなので、μを加えると正しい分位関数になる。Hilbert空間全体へ広げて得た下界を、実際の分布が達成したことになる。</p>
+<p>支持も確認する。既存の補助分布Sは f<sub>S</sub>=μ−H′∈[0,1]。t=√(κw/v)≤1なら f<sub>Qw</sub>=μ+t(f<sub>S</sub>−μ)∈[0,1]。w=vではt=√κ&lt;1なので、必ず可行。これで結果1・2が示された。w&gt;v/κの支持制約付き問題は、この証明では解けていない。</p>
+<p>同平均・指定分散w&gt;0の任意の候補Qには、次の誤差保証も従う。</p>
+<div class="eq">sup<sub>P∈𝒦<sub>μ,v</sub></sub>W₂(P,Q)²−R<sub>w</sub>²<br>≥ √(κv/w) W₂(Q,Q<sub>w</sub>)².</div>
+<p>抽象補題の中身は既知の最小包含球・最小ノルム問題の幾何である。再利用できる一般形としては、共通平均μ・共通分散vを持つ任意の一次元分布族について、自由中心Cの分散s&gt;0が分かれば、指定分散wの代表はCを平均の周りで√(w/s)倍すればよい。追加の支持制約の可行性は、族ごとに確認する必要がある。</p>
+</div>
+</details>
+
+<figure aria-label="代表分散と最悪二乗誤差の曲線"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="252pt" viewBox="0 0 576 252" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-06T23:41:35.648322</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 252 
+L 576 252 
+L 576 0 
+L 0 0 
+z
+" style="fill: #f3f6f3"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.139615 216.707885 
+L 564.253041 216.707885 
+L 564.253041 3.00024 
+L 42.139615 3.00024 
+z
+" style="fill: #f3f6f3"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 432.73081 216.707885 
+L 564.253041 216.707885 
+L 564.253041 3.00024 
+L 432.73081 3.00024 
+z
+" clip-path="url(#p232a111e0b)" style="opacity: 0.06; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 42.139615 216.707885 
+L 42.139615 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m235de034a5" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m235de034a5" x="42.139615" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="42.139615" y="232.066166" transform="rotate(-0 42.139615 232.066166)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 100.152218 216.707885 
+L 100.152218 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m235de034a5" x="100.152218" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="100.152218" y="232.066166" transform="rotate(-0 100.152218 232.066166)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 158.164821 216.707885 
+L 158.164821 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m235de034a5" x="158.164821" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="158.164821" y="232.066166" transform="rotate(-0 158.164821 232.066166)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 216.177424 216.707885 
+L 216.177424 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m235de034a5" x="216.177424" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="216.177424" y="232.066166" transform="rotate(-0 216.177424 232.066166)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 274.190027 216.707885 
+L 274.190027 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m235de034a5" x="274.190027" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="274.190027" y="232.066166" transform="rotate(-0 274.190027 232.066166)">0.8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 332.20263 216.707885 
+L 332.20263 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m235de034a5" x="332.20263" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="332.20263" y="232.066166" transform="rotate(-0 332.20263 232.066166)">1.0</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 390.215233 216.707885 
+L 390.215233 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m235de034a5" x="390.215233" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="390.215233" y="232.066166" transform="rotate(-0 390.215233 232.066166)">1.2</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 448.227835 216.707885 
+L 448.227835 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m235de034a5" x="448.227835" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="448.227835" y="232.066166" transform="rotate(-0 448.227835 232.066166)">1.4</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 506.240438 216.707885 
+L 506.240438 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m235de034a5" x="506.240438" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="506.240438" y="232.066166" transform="rotate(-0 506.240438 232.066166)">1.6</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_19">
+      <path d="M 564.253041 216.707885 
+L 564.253041 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m235de034a5" x="564.253041" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="564.253041" y="232.066166" transform="rotate(-0 564.253041 232.066166)">1.8</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="303.196328" y="246.712104" transform="rotate(-0 303.196328 246.712104)">Representative variance / input variance  (w/v)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_21">
+      <path d="M 42.139615 216.707885 
+L 564.253041 216.707885 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_22">
+      <defs>
+       <path id="m3f9ec81d5b" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="216.707885" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="220.887026" transform="rotate(-0 35.139615 220.887026)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_23">
+      <path d="M 42.139615 191.565809 
+L 564.253041 191.565809 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="191.565809" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="195.74495" transform="rotate(-0 35.139615 195.74495)">0.3</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_25">
+      <path d="M 42.139615 166.423733 
+L 564.253041 166.423733 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="166.423733" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="170.602874" transform="rotate(-0 35.139615 170.602874)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_27">
+      <path d="M 42.139615 141.281657 
+L 564.253041 141.281657 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="141.281657" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="145.460798" transform="rotate(-0 35.139615 145.460798)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_29">
+      <path d="M 42.139615 116.139581 
+L 564.253041 116.139581 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="116.139581" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="120.318722" transform="rotate(-0 35.139615 120.318722)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_31">
+      <path d="M 42.139615 90.997506 
+L 564.253041 90.997506 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="90.997506" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="95.176646" transform="rotate(-0 35.139615 95.176646)">0.7</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_33">
+      <path d="M 42.139615 65.85543 
+L 564.253041 65.85543 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="65.85543" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="70.03457" transform="rotate(-0 35.139615 70.03457)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_35">
+      <path d="M 42.139615 40.713354 
+L 564.253041 40.713354 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="40.713354" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="44.892494" transform="rotate(-0 35.139615 44.892494)">0.9</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_37">
+      <path d="M 42.139615 15.571278 
+L 564.253041 15.571278 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.14; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m3f9ec81d5b" x="42.139615" y="15.571278" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="35.139615" y="19.750419" transform="rotate(-0 35.139615 19.750419)">1.0</text>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="11.358521" y="109.854062" transform="rotate(-90 11.358521 109.854062)">Worst squared distance / v</text>
+    </g>
+   </g>
+   <g id="line2d_39">
+    <path d="M 42.139615 15.571278 
+L 43.185934 40.690028 
+L 44.232254 50.563288 
+L 45.278573 57.92829 
+L 46.324893 63.994921 
+L 47.371212 69.231821 
+L 49.463851 78.080251 
+L 51.55649 85.485956 
+L 53.649129 91.912474 
+L 55.741768 97.618125 
+L 57.834407 102.764369 
+L 59.927046 107.460114 
+L 63.066005 113.823079 
+L 66.204963 119.52669 
+L 69.343922 124.696578 
+L 72.48288 129.422917 
+L 75.621839 133.773034 
+L 78.760797 137.798768 
+L 81.899756 141.541049 
+L 86.085034 146.145952 
+L 90.270312 150.367303 
+L 94.45559 154.254187 
+L 98.640868 157.846032 
+L 102.826146 161.175083 
+L 107.011423 164.268104 
+L 112.243021 167.836423 
+L 117.474618 171.107625 
+L 122.706216 174.112179 
+L 127.937813 176.875677 
+L 133.169411 179.41986 
+L 139.447328 182.209474 
+L 145.725245 184.73758 
+L 152.003162 187.027623 
+L 158.281079 189.099743 
+L 165.605315 191.264938 
+L 172.929551 193.181137 
+L 180.253788 194.868986 
+L 187.578024 196.346429 
+L 195.94858 197.797359 
+L 204.319136 199.014432 
+L 212.689692 200.015539 
+L 222.106568 200.903135 
+L 231.523443 201.556899 
+L 240.940318 201.994068 
+L 251.403513 202.244236 
+L 261.866708 202.264188 
+L 272.329903 202.070185 
+L 283.839418 201.626843 
+L 295.348932 200.959103 
+L 307.904766 199.992479 
+L 320.4606 198.794245 
+L 333.016434 197.37991 
+L 346.618587 195.619877 
+L 360.22074 193.638198 
+L 374.869213 191.272318 
+L 389.517686 188.681419 
+L 405.212479 185.671733 
+L 420.907271 182.435434 
+L 437.648383 178.749294 
+L 454.389495 174.836383 
+L 472.176926 170.445721 
+L 489.964357 165.829267 
+L 508.798108 160.70994 
+L 527.631859 155.366686 
+L 547.511929 149.4979 
+L 564.253041 144.383534 
+L 564.253041 144.383534 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke: #096e66; stroke-width: 2.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 432.73081 216.707885 
+L 432.73081 3.00024 
+" clip-path="url(#p232a111e0b)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #7e8781"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 42.139615 216.707885 
+L 42.139615 3.00024 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 42.139615 216.707885 
+L 564.253041 216.707885 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 151.990262 126.619491 
+Q 203.955653 163.868091 255.921043 201.116691 
+" style="fill: none; stroke: #096e66; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #096e66" x="103.052848" y="121.167997" transform="rotate(-0 103.052848 121.167997)">Free variance</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 389.917002 109.526674 
+Q 361.608462 152.666179 333.299921 195.805683 
+" style="fill: none; stroke: #b14e30; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #b14e30" x="340.90452" y="103.568544" transform="rotate(-0 340.90452 103.568544)">Keep input variance</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #68736a" transform="translate(439.982385 30.635323)">Support constraint</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #68736a" transform="translate(439.982385 40.713354)">needs a different solution</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_bb1e233757" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 -0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+"/>
+    </defs>
+    <g clip-path="url(#p232a111e0b)">
+     <use xlink:href="#C0_0_bb1e233757" x="257.547831" y="202.282766" style="fill: #096e66; stroke: #096e66"/>
+    </g>
+    <g clip-path="url(#p232a111e0b)">
+     <use xlink:href="#C0_0_bb1e233757" x="332.20263" y="197.47785" style="fill: #b14e30; stroke: #b14e30"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p232a111e0b">
+   <rect x="42.139615" y="3.00024" width="522.113426" height="213.707645"/>
+  </clipPath>
+ </defs>
+</svg>
+<figcaption>解析式の設計曲線。入力は μ=0.5、v=0.125（最大分散の半分）。横軸は代表の分散、縦軸は最悪二乗距離をそれぞれ入力分散vで割ったもの。灰色の領域では表示式の代表が[0,1]をはみ出すため、支持付き問題の解とはしない。</figcaption></figure><h3>結果3：入力の分散に幅があるときも、保証を付ける</h3>
+<p>実測では、分散が厳密値ではなく[a,b]としか分からないことが多い。平均μと支持[0,1]は既知とし、0≤a≤b≤M。任意の基準分散v₀∈[a,b]を選べば、既存の中心C<sub>v₀</sub>をそのまま使い、次の半径ですべての入力を収められる。</p>
+<div class="eq">保証半径 = R<sub>v₀</sub> + max{√(v₀−a), √b−√v₀}.</div>
+<p>これは証明付きの上界であり、分散に幅のある族の厳密な最小半径ではない。基準v₀だけを一次元で最適化すれば、この方式の最も小さな保証半径を選べる。</p>
+<details><summary>分散を動かす結合による短い証明</summary>
+<div class="proof">
+<p>平均μ・分散sのXから、平均を変えず分散tのYを作る。t≤s、s&gt;0なら Y=μ+√(t/s)(X−μ)。支持を保ち、W₂(Law(X),Law(Y))≤√s−√t となる。</p>
+<p>t≥s、s&lt;Mなら、Xを観測したときに確率Xで1、残りで0を取る変数Bを用意する。独立な確率 λ=(t−s)/(M−s) でXをBに置き換え、それ以外はXのままとする。E[B|X]=X、E[X(1−X)]=M−s だから、Yは平均μ・分散tで、結合の二乗費用は E[(Y−X)²]=t−s。従ってW₂≤√(t−s)。等しい退化分散では同じ分布を使う。</p>
+<p>これをt=v₀に適用する。s≤v₀なら必要な距離は高々√(v₀−a)、s≥v₀なら高々√b−√v₀。移した分布は𝒦<sub>μ,v₀</sub>に属するので、C<sub>v₀</sub>までの距離はR<sub>v₀</sub>以下。三角不等式が表示した保証を与える。分散の信頼区間に適用する場合、その区間を作った統計手法の仮定・被覆確率を引き継ぐのであり、本結果だけで統計的な信頼度が生まれるわけではない。</p>
+</div>
+</details>
+
+<h3>使い道と、まだ解いていない問い</h3>
+<p>L-Lipschitzな評価関数ℓなら、|E<sub>P</sub>ℓ−E<sub>Q</sub>ℓ|≤L W₂(P,Q)。したがって上の半径は、代表分布で計算した評価値の誤差保証に使える。個々の損失関数に対する最適な意思決定を証明したものではない。次の研究課題は、入力の平均・分散に幅がある族の厳密中心、ほとんど最遠な入力の定量的な分類、そして多次元への拡張。一次元の分位関数の幾何を、そのまま多次元へ移すことはできない。</p>
+<div class="note"><p><strong>一次資料との関係。</strong> <a href="https://proceedings.mlr.press/r5/tsang05a/tsang05a.pdf">Tsang–Kwok–Cheung（AISTATS 2005）</a> §3.1–3.2、式(2)–(5)は、等ノルムの特徴量に対する最小包含球と最小ノルム凸結合の対応を示す。抽象部分の先行例である。<a href="https://proceedings.mlr.press/v267/wang25be.html">Wangほか（ICML 2025）</a>は有限個の分布のWasserstein球中心を計算し、公平性への応用を検討している。最悪の距離で代表を選ぶ目的に具体的な需要がある根拠となるが、今回の無限モーメント族の明示解との一致を示すものではない。既存E02のStoyan・Hürlimann等への帰属も維持する。</p></div>
+</section>
+
+<section id="dynamic">
+<h2>進めた研究③：評価が変わるとき、改善の往復をどう抑えるか</h2>
+<p>以前の共有誤差ゲームでは、評価表が固定されていれば、適切な閾値を超える変更だけを採用すると循環を防げた。今回は仕様や評価器が改訂される場合へ進めた。結論は、<strong>採用した改善の総量は、最初の改善余地と、評価の変動量の和を超えない</strong>という形になる。この会計から停止条件と、その条件がない場合の反例が得られる。</p>
+<div class="note"><strong>位置づけ。</strong>以下は既知のポテンシャル法と望遠鏡和を組み合わせた応用補題。証明を得たことは、新しい一般原理を発見したことを意味しない。数学的新規性は未確定であり、大規模AI開発での効果もまだ実証していない。</div>
+
+<h3>D1　一般の進捗予算</h3>
+<p>状態集合を X、採用前後の状態列を x₀,…,x<sub>N</sub>、各採用時点の共通評価を W₀,…,W<sub>N−1</sub> とする。振幅 osc(f)=sup<sub>X</sub>f−inf<sub>X</sub>f を用い、次の右辺が有限であると仮定する。X 自体は有限でなくてもよい。</p>
+<div class="eq">Σ<sub>t=0,…,N−1</sub>[W<sub>t</sub>(x<sub>t+1</sub>)−W<sub>t</sub>(x<sub>t</sub>)] ≤ R＋V<sub>N</sub><br>R＝osc(W₀),　V<sub>N</sub>＝Σ<sub>t=1,…,N−1</sub>osc(W<sub>t</sub>−W<sub>t−1</sub>).</div>
+<p>つまり「変更による改善」と「評価器自体の改訂」を別勘定にできる。全状態に同じ定数を足す再校正は、どの状態が優れるかを変えないため V<sub>N</sub> に加算されない。さらに x<sub>N</sub>=x₀ という閉路なら、上界から R を除ける。</p>
+<details><summary>D1の証明と係数の鋭さ</summary><div class="proof">
+<p>D<sub>t</sub>=W<sub>t</sub>−W<sub>t−1</sub> と置くと、項を整理して厳密な恒等式</p>
+<div class="eq">Σ<sub>t</sub>[W<sub>t</sub>(x<sub>t+1</sub>)−W<sub>t</sub>(x<sub>t</sub>)]<br>＝W₀(x<sub>N</sub>)−W₀(x₀)＋Σ<sub>t=1,…,N−1</sub>[D<sub>t</sub>(x<sub>N</sub>)−D<sub>t</sub>(x<sub>t</sub>)]</div>
+<p>を得る。各二点差をその関数の振幅で抑えればよい。閉路では最初の差が0になる。□</p>
+<p>係数1は改善できない。三状態 a,b,c で W₀=(0,1,1)、W₁=(0,1,2)、経路 a→b→c とすると、改善和2=R1+V1。閉路版も、二状態で W₀=(0,1)、W₁=(1,0)、a→b→a とすれば改善和2=V2になる。初期振幅項は固定された二状態評価の一回の変更で等号になる。</p>
+</div></details>
+
+<h3>D2　共有誤差ゲームから、採用回数の上限へ</h3>
+<p>以前の G04 と同じ有効プレイヤー集合 I≠∅ を固定し、各時点の評価を U<sub>i,t</sub>(s)=Φ<sub>t</sub>(s)+⟨a<sub>i</sub>,h<sub>t</sub>(s)⟩、‖h<sub>t</sub>(s)‖≤ε とする。感度 a<sub>i</sub> と非負閾値 γ<sub>i</sub> は固定し、全 i,j∈I について次を要求する。</p>
+<div class="eq">γ<sub>i</sub>＋γ<sub>j</sub> ≥ 2ε‖a<sub>i</sub>−a<sub>j</sub>‖<sub>*</sub>.<br>W<sub>t</sub>(s)＝max<sub>i∈I</sub>[U<sub>i,t</sub>(s)−γ<sub>i</sub>/2].</div>
+<p>時点 t に一人 i<sub>t</sub> が変更を採用し、その評価改善を ΔU<sub>i<sub>t</sub>,t</sub> と書く。このとき、閾値を超えた改善幅の総和は R+V<sub>N</sub> 以下になる。したがって、各採用に<strong>正の余裕 η</strong>を設けると、</p>
+<div class="eq">ΔU<sub>i<sub>t</sub>,t</sub> &gt; γ<sub>i<sub>t</sub></sub>＋η　（η&gt;0）<br>⇒　Nη &lt; R＋V<sub>N</sub>.</div>
+<p>評価変動の総量 V<sub>∞</sub> が有限なら、採用回数は有限である。同じ状態へ戻る長さ N の閉路には Nη&lt;V<sub>N</sub> が必要で、往復は評価変動の予算を消費する。</p>
+<details><summary>D2の証明</summary><div class="proof">
+<p>閾値のペア条件と双対ノルムの不等式から、各 i について U<sub>i,t</sub>−γ<sub>i</sub>/2≤W<sub>t</sub>≤U<sub>i,t</sub>+γ<sub>i</sub>/2。よって変更前後で差を取れば、ΔW<sub>t</sub>≥ΔU<sub>i,t</sub>−γ<sub>i</sub>。D1へ代入すると</p>
+<div class="eq">Σ<sub>t</sub>(ΔU<sub>i<sub>t</sub>,t</sub>−γ<sub>i<sub>t</sub></sub>) ≤ R＋V<sub>N</sub></div>
+<p>を得る。各項が η より大きいため、採用回数の上限が従う。評価や提案の生成が過去の履歴へ適応しても、実際の各時点で仮定を満たす限り、この経路ごとの証明は変わらない。□</p>
+</div></details>
+
+<h3>D3　「評価が落ち着けば停止する」は、そのままでは偽</h3>
+<p>二状態0,1と一人だけでも反例がある。γ=0として U<sub>t</sub>(0)=0、U<sub>t</sub>(1)=(−1)<sup>t</sup>2<sup>−t</sup> とする。偶数時点は0→1、奇数時点は1→0へ変更すると、毎回の改善は2<sup>−t</sup>&gt;0。それでも往復は永遠に続く。</p>
+<p>この評価は一様に0へ収束し、総変動も Σ<sub>t≥1</sub>3·2<sup>−t</sup>=3 と有限である。<strong>改善の総量が有限でも、改善回数が有限とは限らない。</strong>したがって、評価の収束だけで停止を結論することはできない。D2の正の余裕は、この一般的保証では省けない。</p>
+
+<h3>D4　古い評価器を使った提案には、変動分を上乗せする</h3>
+<p>採用時点 k の実際の前後状態 s,t を、古い時点 τ の評価器で比較する場合を考える。δ≥osc(U<sub>i,k</sub>−U<sub>i,τ</sub>) が保証されていれば、誤差関数の二点差から ΔU<sub>i,k</sub>≥ΔU<sub>i,τ</sub>−δ。従って古い評価でも、</p>
+<div class="eq">ΔU<sub>i,τ</sub> &gt; γ<sub>i</sub>＋η＋δ</div>
+<p>なら、現在必要な採用条件を満たす。この補正も評価全体への定数加算に影響されない。古いブランチと現在のマージ結果で比較対象の状態自体が違う場合は、この式では足りず、実際の採用前後を評価し直す必要がある。</p>
+
+<h3>誰に、どう使えるか</h3>
+<p>複数のAIが同じコードを異なる観点で修正する仕組みでは、仕様・評価器のバージョン、採用前後の状態、同じ状態を再評価した差を記録する設計につながる。これにより、変更の往復が「評価の変更で説明できるか」「共有評価への近さという仮定が破れているか」を切り分ける研究ができる。最初の実験は、検証済みテストや実行時間などの評価項目を持つ小規模の改善器が適している。</p>
+<div class="note">保証するのは採用回数であり、待機時間、未採用提案数、最終コードの正しさ、大域最適性ではない。状態全体での誤差・変動上界は仮定であり、観測した数例だけで認証できるとは限らない。実用化では上界をどう検証し、有用な変更を止めすぎずに η を選ぶかが残る。</div>
+<p>有限検査では有理数演算を用い、一般の500経路、定数シフト不変性500例、共有誤差ゲーム200試行・採用5,264件・閉部分経路9,376件、反例の最初の100項と鋭さ2例を確認した。これは上記の一般証明を補助する計算で、証明支援系による形式検証ではない。</p>
+
+<h3>既知研究との境界</h3>
+<p><a href="https://www.mit.edu/~parrilo/pubs/files/CandoganOzdaglarParrilo-Dynamics%20in%20near-potential%20games.pdf">Candogan–Ozdaglar–Parrilo（2013）</a>の Definition 2.3 と Theorem 3.1 は、単独変更の効用差を基準に近いポテンシャルゲームを定め、固定ゲームの近似均衡集合への到達を扱う。近似ポテンシャルによる改善追跡は既知の土台である。</p>
+<p><a href="https://business.columbia.edu/sites/default/files-efs/pubfiles/6022/Besbes_Gur_Zeevi_nonstationary.pdf">Besbes–Gur–Zeevi（2015）</a>は非定常最適化を変動予算で分析し、<a href="https://arxiv.org/abs/2309.00307">Wangほか（2023）</a>は時間変動する強単調ゲームの均衡追跡と動的リグレットを扱う。今回はそれらの未解決問題を解いたという主張ではなく、以前の共有誤差モデルに使える採用条件を、一般の会計恒等式・反例・古い評価補正とともに整理した。</p>
+</section>
+
+<section id="matrix">
+  <h2>進めた研究④：ほぼ射影の行列には、どんな形が残るか</h2>
+  <p>X01では、0か1に近い数値列を、総和と二乗和で調べた。行列の固有値にも同じ不等式が使える。ただし、固定された座標を持つ数値列の「島」を、そのまま行列の島と数えることはできない。行列では固有ベクトルを連続的に回せるからである。今回、この違いを埋める具体的な結論を導いた。</p>
+  <div class="note"><strong>証拠の位置づけ。</strong>以下は今回の通常の数学的証明で、独立した論理確認も行った。Leanによる形式検証は未実施。スペクトル丸め・Grassmann多様体・部分空間摂動の原理は既知であり、学術的新規性は未確定である。</div>
+
+  <h3>M1：欠損が小さい行列集合は、射影の空間へ連続的に戻せる</h3>
+  <p>実対称行列、または複素エルミート行列を考える。整数 <i>n</i>≥2、1≤<i>s</i>&lt;<i>n</i>、0≤δ&lt;1/2 に対し、次の集合を置く。0≤X≤I は、すべての固有値が0以上1以下であることを意味する。</p>
+  <div class="eq">D(X) = Tr(X − X²),<br>M<sub>s,δ</sub> = { X : 0 ≤ X ≤ I, Tr X = s, D(X) ≤ δ }.</div>
+  <p><strong>命題 M1。</strong>M<sub>s,δ</sub> は、階数sの直交射影全体へ強変形収縮する。従って、実行列では実Grassmann多様体、複素行列では複素Grassmann多様体と同じホモトピー型を持つ。</p>
+  <p>ここで直交射影Pとは P²=P、P*=P を満たす行列で、s次元の部分空間への射影を表す。「強変形収縮」は、許容集合から出ずに全行列を射影まで連続的に動かせ、最初から射影である点は一切動かさない、という意味である。</p>
+  <div class="eq">P<sub>s</sub>(X) = 上位s個の固有値に対応するスペクトル射影,<br>H<sub>t</sub>(X) = (1 − t)X + tP<sub>s</sub>(X),　0 ≤ t ≤ 1.</div>
+  <div class="proof">
+    <p><strong>完全な証明。</strong>固有値を λ₁≥⋯≥λ<sub>n</sub> と並べる。既存X01の不等式に Tr X=s を代入すると、</p>
+    <div class="eq">g := λ<sub>s</sub> − λ<sub>s+1</sub> ≥ √(1 − 2D(X)) ≥ √(1 − 2δ) &gt; 0.</div>
+    <p>従って、上位s次元の部分空間は一意に決まり、P<sub>s</sub>(X) はXに関して連続である。上位s個の内部で固有値が重複していても、この部分空間全体の一意性には影響しない。</p>
+    <p>u=λ<sub>s</sub>、v=λ<sub>s+1</sub> とし、上位の1からの不足量と、下位の0からの余剰量を</p>
+    <div class="eq">σ = ∑<sub>i≤s</sub>(1 − λᵢ),　ρ = ∑<sub>i&gt;s</sub>λᵢ</div>
+    <p>と置く。Tr X=s によりσ=ρである。P=P<sub>s</sub>(X)と略記すれば、PはXと可換なので、同じ固有基底でH<sub>t</sub>を計算できる。その欠損の初期微分は</p>
+    <div class="eq">a := (d/dt)D(H<sub>t</sub>(X))|<sub>t=0</sub><br>= 2[ ∑<sub>i&gt;s</sub>λᵢ² − ∑<sub>i≤s</sub>λᵢ(1 − λᵢ) ]<br>≤ 2(vρ − uσ) = −2gσ ≤ 0.</div>
+    <p>最初の等号ではσ−ρ=0を使った。不等式は、下位でλᵢ≤v、上位でλᵢ≥uであることによる。二次関数を展開すると、すべての0≤t≤1について</p>
+    <div class="eq">D(H<sub>t</sub>(X)) = D(X) + ta − t²‖P − X‖<sub>F</sub>² ≤ D(X) ≤ δ.</div>
+    <p>‖·‖<sub>F</sub>はフロベニウスノルムである。また凸結合だから0≤H<sub>t</sub>≤I、Tr H<sub>t</sub>=s。H₀(X)=X、H₁(X)=P<sub>s</sub>(X)であり、X自身が階数s射影ならH<sub>t</sub>(X)=X。連続性と合わせて強変形収縮の全条件を満たす。□</p>
+  </div>
+
+  <h3>数値列の島は、行列では部分空間の幾何になる</h3>
+  <p>元のラベル付き数値列では、δ&lt;1/2、総和sの領域は「どのs座標が上位か」によって <i>n</i> choose <i>s</i> 個の成分に分かれる。一方、行列の射影は部分空間を回転させて互いに結べる。今回のM1は、この連続な自由度をGrassmann多様体として正確に残す。</p>
+  <p>最小例 n=2、s=1 の複素エルミート行列では、階数1射影の集合は球面S²である。δ&lt;1/2の許容集合は球殻に対応し、δ=1/2では球全体になって可縮になる。実対称行列なら、同じ例は円周S¹から円板への変化である。</p>
+  <div class="note">δ=1/2では固有値 (1,…,1,1/2,1/2,0,…,0) が許され、境目の固有値差がゼロになる。上位s射影を選ぶ上記の写像は、この境界へ一意・連続には延長できない。一般のn,sについて、δ≥1/2の位相を全部分類したという主張はしていない。</div>
+
+  <h3>M2：二つの集計量から、部分空間の変化を抑える</h3>
+  <p>行列X,Yの上位s射影をP,Q、それぞれの正の固有値差をg<sub>X</sub>,g<sub>Y</sub>とする。このとき、既知の変分原理から次の評価を直接示せる。</p>
+  <div class="eq">‖P − Q‖<sub>F</sub> ≤ 2‖X − Y‖<sub>F</sub> / (g<sub>X</sub> + g<sub>Y</sub>).</div>
+  <details><summary>短い証明と、X01の証明書との接続</summary>
+    <div class="proof">
+      <p>r=Tr(P(I−Q))=‖P−Q‖<sub>F</sub>²/2 と置く。Xの固有基底でQの対角成分を見ると、上位から失う対角質量と下位へ入る対角質量はいずれもrである。上位固有値は少なくともλ<sub>s</sub>(X)、下位は高々λ<sub>s+1</sub>(X)なので、Tr X(P−Q)≥g<sub>X</sub>r。同様にTr Y(Q−P)≥g<sub>Y</sub>r。加算してフロベニウス内積のCauchy–Schwarz不等式を使うと、</p>
+      <div class="eq">(g<sub>X</sub> + g<sub>Y</sub>)‖P − Q‖<sub>F</sub>²/2<br>≤ Tr((X − Y)(P − Q)) ≤ ‖X − Y‖<sub>F</sub>‖P − Q‖<sub>F</sub>.</div>
+      <p>P=Qなら自明、それ以外では割り算して結論を得る。□</p>
+    </div>
+    <p>0≤Z≤Iについて e<sub>Z</sub>=Tr Z−s、D<sub>Z</sub>=Tr(Z−Z²)とし、γ<sub>Z</sub>=√(1−2D<sub>Z</sub>−e<sub>Z</sub>²)が正なら、X01によりg<sub>Z</sub>≥γ<sub>Z</sub>。したがって、X,Yの両方でこの条件を確認できれば、分母をγ<sub>X</sub>+γ<sub>Y</sub>に置き換えた保証を得る。この安定性評価には、M1と違って正確な整数traceは不要である。</p>
+  </details>
+  <p>これは新しい部分空間摂動定理を主張するものではない。以前の「総和・二乗和から順位の間隔を保証する結果」を、部分空間の誤差という利用しやすい量へ接続した系である。</p>
+
+  <h3>誰が使うか：密度行列の浄化と数値誤差の監査</h3>
+  <p>電子構造計算では、占有軌道の部分空間への射影を、大規模な行列の多項式反復で求める密度行列浄化（purification）が研究・実装されている。既にTr(X−X²)などを用いる停止基準があり、疎な行列演算で生じる誤差の厳密な制御も研究対象である。実際の需要は、<a href="https://arxiv.org/html/1507.02087v3">Kruchinina・Rudberg・Rubenssonの一次論文</a>と、<a href="https://arxiv.org/abs/2005.10680">Artemov・Rubenssonの誤差制御研究</a>で確認した。</p>
+  <p>今回の接続は、<strong>反復中の二つのtrace量を、順位の分離と部分空間の安定性の証明書に変換する</strong>ことである。新しい浄化アルゴリズムや高速化を実装・実証したわけではない。実計算で役立つかを決める次の作業は、既存の誤差推定と比較し、trace計算自体の丸め誤差を含めても追加コストに見合う保証になるか調べることである。</p>
+  <div class="note">任意の近似行列Xが十分な固有値差を持っていても、それだけで物理的に正しい占有部分空間へ向いているとは分からない。Hamiltonianとの関係や残差の情報が別途必要である。また、ここでの射影行列のtrace sは、traceを1に規格化する量子状態の慣習と区別する。</div>
+
+  <h3>失敗した拡張も残す：traceに幅を許すと同じ直線は使えない</h3>
+  <p>M1のTr X=sを |Tr X−s|≤η へ置き換えたとき、同じ直線補間が欠損を減らすとは限らない。具体的にX=diag(0.45,0.05)、s=1、η=0.5 とするとD(X)=0.295で、X01の正の順位差の閾値δ<sub>c</sub>=0.375より小さい。しかしP=diag(1,0)への直線では、</p>
+  <div class="eq">D((1 − t)X + tP) = 0.295 + 0.01t − 0.305t².</div>
+  <p>小さい正のtで欠損が増えるため、δ=0.295の許容集合から出てしまう。これはM1の証明に正確なtraceを使う箇所が本質的であることを示す。別の経路による変形収縮が存在しないという反例ではなく、誤差帯全体の位相は次の具体的な研究課題として残る。</p>
+</section>
+<section id="next"><h2>次に取り組む問いを、判定可能な形にする</h2><p>新しい名前を増やすより、以下の順で差分を詰める。今回の証明済み結果を出発点にし、未証明の拡張は依存先へ混ぜない。</p><ol class="steps">
+<li><strong>主研究：物理容量と近似精度の曲線。</strong> κ・ρと観測窓を固定し、誤差εに必要な最少容量 B<sub>min</sub>(ε) の上下界を同じ尺度で比較する。今回の発散定理には、既存の道回路による上界を対置できる。全時間TVで得た対数下界が鋭いか、有限窓で有効な明示下界を作れるかが中心課題。</li>
+<li><strong>閉じやすい理論：不確かなモーメントを持つ分布族。</strong> 入力分散の幅[a,b]の厳密な中心を求め、今回の包含半径の過大分を評価する。[0,1]支持を持つ代表の分散がv/κを超える場合も、解けていない領域として残る。</li>
+<li><strong>応用試験：将来を壊さない候補保持。</strong> 小さな実際のquery-plan集合またはテスト資産を、候補―需要の被覆行列へ明示的に落とす。既存のΛ=max<sub>r</sub>τ<sub>T</sub>(S(r))を計算し、現在の最小保持・極大正規化・乱択保持を比較する。元のシステムの費用と被覆個数の対応が成立するかを最初に確認する。</li>
+<li><strong>改善過程の計測。</strong> 評価バージョン、採用前後、変更の大きさを記録した小規模実験で、余裕ηが往復を減らす効果と、有益な変更を止める損失を測る。全状態の変動上界が得られない場合は、停止定理を適用済みとは扱わない。</li></ol>
+<div class="note"><strong>実験に人間の役割が必要になる場所。</strong>数学側の反例探索・証明・シミュレーションは進められる。実機のRC/熱測定、実業務の候補群、利用者が許せる誤差と資源費用の選定は、現場の観測が価値を決める。今回の報告は、その観測で何を測ればよいかまで指定する足場にした。</div></section>
+<section id="evidence"><h2>検証と出典を切り分ける</h2><p>4方向の数式は通常の証明によって支える。有限検査は式・係数・実装の取り違えを探す補助であり、一般命題の証明や新規性認定の代用ではない。</p>
+<div class="table-wrap"><table><tr><th>方向</th><th>今回の検証</th><th>残る確認</th></tr><tr><td>分布</td><td>独立の論理点検。区分積分でモーメント60、二点等号540、三点等号540、支持60、ランダム上界400、安定性12を確認。最大絶対誤差4.17×10⁻¹⁶</td><td>同じ具体的な制約付き公式の先行研究。高分散の支持制約付き領域</td></tr><tr><td>物理</td><td>スペクトル表示、Chebyshev定数、正規族による有限窓版を別担当と主担当が論理点検。有限計算の詳細は下記ログ</td><td>古典的容量最小化文献との全文照合、最適増大率、実測による有効性</td></tr><tr><td>改善過程</td><td>一般恒等式を主担当が再確認。有理数で500経路、定数シフト500例、G04 200試行・採用5264件を検算</td><td>実際の評価器変動の認証。既知の動的ポテンシャル結果との詳しい対応</td></tr><tr><td>行列</td><td>変形収縮の全条件と欠損の単調性を独立に論理点検。安定性の式は変分原理から証明</td><td>同一部分準位集合の位相に関する先行例。計算費用と数値誤差の比較</td></tr></table></div>
+<p class="small">分布のランダム入力は各々自身の平均・分散を使っており、一つの固定モーメント族の400標本ではない。改善過程の有理数検査は人工的な有限例。物理の有限計算は合成回路であり実機データではない。</p>
+<h3>読んだプロジェクト資料</h3><div class="table-wrap"><table><tr><th>資料</th><th>今回の使い方</th></tr>
+<tr><td>数学探索プロジェクト_説明と成果台帳(1).md</td><td>2026 09 08時点の初期台帳。E01/E02の位置づけと留保</td></tr>
+<tr><td><a href="https://nikki.yokoda.okinawa/works/wasserstein-center/">wasserstein-center.html</a></td><td>既存の中心・重心恒等式・最遠入力分類の証明全文。取得公開版と保存版の一致を確認</td></tr>
+<tr><td>physical-memory-reduction-2026-09-20.html</td><td>2026 10 03更新の容量予算・有限最適回路まで。今回の全構成下界との差分を確認</td></tr>
+<tr><td>formal-semantics-exploration-2026-09-17.html</td><td>A0–A3、C1–C3と既知研究への帰属</td></tr>
+<tr><td>game-theory-illustrated.html</td><td>共有誤差・個人閾値・共通ポテンシャルのG04、監査ゲーム</td></tr>
+<tr><td>moment-rank-gap_ja-en.html</td><td>X01統合版1.2。固有値差の系と、行列の位相への留保</td></tr>
+<tr><td>spatial_novelty_2026-09-14.html</td><td>距離観測の有限誤差曲線、固定／可変接続の比</td></tr>
+<tr><td>one-exception-symmetry-2026-09-15-v5.html</td><td>本文第6版のT1・M・R、反証されたKを含む</td></tr></table></div>
+<h3>先行研究の照合範囲</h3><p>今回は各節にリンクした一次資料を、抽象原理・需要・具体定理の差分に分けて照合した。検索語には “Wasserstein Chebyshev center variance”、“minimax same variance center”、 “moment constraints Wasserstein center”、可逆吸収時間、RCの総容量最小化、near-potential games、robust query coresets、density matrix purification、k-resolving setsを含む。用語を変えた未読文献と被引用追跡が残るため、検索で同じ式を見つけなかったことは不存在の証拠にしない。</p>
+<div class="note caution"><strong>未解決問題の更新。</strong>一般Arc Kaylesについては、Bonnetの2026 09のプレプリント <a href="https://arxiv.org/abs/2609.23777">Arc Kayles is PSPACE-complete</a> が解決を報告しており、<a href="https://perso.ens-lyon.fr/edouard.bonnet/papers.htm">著者本人の論文一覧</a>でも確認した。今回は証明本文を取得して独立監査できていない。古い資料の「一般の計算困難性は未解決」という記載を、そのまま現在へ持ち越さない。P対NPは<a href="https://www.claymath.org/millennium/p-vs-np/">Clay Mathematics Institute</a>で未解決として掲載されている。今回の4方向の結果は、この問題の解決を含まない。</div>
+<h3>再現コードと実行記録</h3><p>下記のコードとログは、このHTML内に収録した。展開して読むか、ボタンで取り出せる。動的ポテンシャルのコードはPython標準ライブラリ、分布・物理のコードはNumPy・SciPy等を使用する。各コードのimportと実行記録が依存関係の根拠となる。実行時にはコード自身と同じフォルダーへ結果ファイルを書き出す。今回の実行環境は Python 3.12.14、NumPy 2.3.5、SciPy 1.17.0。図は Matplotlib 3.10.8 で解析式から描画した。</p>
+<details><summary>w2_validation.py</summary><p><button data-download="payload-0" data-filename="w2_validation.py">このファイルを取り出す</button></p><pre id="payload-0">&quot;&quot;&quot;Independent numeric audit of fixed-variance W2 minimax representatives.
+Python 3 + NumPy + SciPy.  No optimization/search is treated as a proof.
+&quot;&quot;&quot;
+import json, math
+from pathlib import Path
+import numpy as np
+from scipy.integrate import quad
+
+SEED=20261006
+rng=np.random.default_rng(SEED)
+worst={}
+counts={}
+def record(k,val):
+    worst[k]=max(worst.get(k,0.0),float(abs(val)))
+def inc(k,n=1): counts[k]=counts.get(k,0)+n
+
+def pars(mu,v):
+    M=mu*(1-mu); k=2/(2+math.log(M/v))
+    return k,v/(mu*mu+v),(1-mu)**2/((1-mu)**2+v)
+def hp(u,mu,v):
+    k,a,b=pars(mu,v)
+    if u&lt;a:return mu
+    if u&gt;b:return -(1-mu)
+    return math.sqrt(v)*(1-2*u)/(2*math.sqrt(u*(1-u)))
+def qw(u,mu,v,w):return mu-math.sqrt(pars(mu,v)[0]*w/v)*hp(u,mu,v)
+def integrate(fun,breaks):
+    bs=sorted(set([0.,1.]+[float(z) for z in breaks if 0&lt;z&lt;1]))
+    # Almost coincident analytically identical cuts differ at machine precision.
+    # Midpoint integration of these tiny intervals avoids QUADPACK roundoff warnings.
+    return sum((r-l)*fun((l+r)/2) if r-l&lt;1e-13 else
+               quad(fun,l,r,epsabs=3e-13,epsrel=3e-12,limit=150)[0]
+               for l,r in zip(bs[:-1],bs[1:]))
+def atoms(x,p):
+    order=np.argsort(x);x=np.asarray(x)[order];p=np.asarray(p)[order];p=p/p.sum()
+    mask=p&gt;1e-15;x=x[mask];p=p[mask];p=p/p.sum()
+    cp=np.cumsum(p);cp[-1]=1.
+    return x,p,cp
+
+def two(mu,v,p):
+    return atoms([mu-math.sqrt(v*(1-p)/p),mu+math.sqrt(v*p/(1-p))],[p,1-p])
+def three(mu,v,c):
+    D=mu*(1-mu)-v
+    return atoms([0,c,1],[1-mu-D/c,D/(c*(1-c)),mu-D/(1-c)])
+def at(u,dist):
+    x,p,cp=dist;return x[min(np.searchsorted(cp,u,side=&#x27;right&#x27;),len(x)-1)]
+def dist_to_opt(dist,mu,v,w):
+    k,a,b=pars(mu,v)
+    return integrate(lambda u:(at(u,dist)-qw(u,mu,v,w))**2,[a,b,*dist[2]])
+def steploss(d1,d2):
+    bs=sorted(set([0.,1.,*d1[2],*d2[2]]))
+    return sum((r-l)*(at((l+r)/2,d1)-at((l+r)/2,d2))**2 for l,r in zip(bs[:-1],bs[1:]))
+
+cases=[(mu,mu*(1-mu)*s) for mu in (.08,.3,.5,.91) for s in (.02,.4,.93)]
+for mu,v in cases:
+    k,a,b=pars(mu,v)
+    for w in (.15*v,k*v,v,v/k,1.4*v/k):
+        R=v+w-2*math.sqrt(k*v*w)
+        alpha=math.sqrt(k*w/v)
+        m=integrate(lambda u:qw(u,mu,v,w),[a,b])
+        var=integrate(lambda u:(qw(u,mu,v,w)-mu)**2,[a,b])
+        record(&#x27;mean_absolute_error&#x27;,m-mu);record(&#x27;variance_absolute_error&#x27;,var-w)
+        inc(&#x27;moment_checks&#x27;)
+        cmin=(mu*(1-mu)-v)/(1-mu)
+        cmax=1-(mu*(1-mu)-v)/mu
+        for p in np.linspace(a,b,9):
+            record(&#x27;two_point_equality_absolute_error&#x27;,dist_to_opt(two(mu,v,p),mu,v,w)-R)
+            inc(&#x27;two_point_equality_checks&#x27;)
+        for c in np.linspace(cmin,cmax,9):
+            record(&#x27;three_point_equality_absolute_error&#x27;,dist_to_opt(three(mu,v,c),mu,v,w)-R)
+            inc(&#x27;three_point_equality_checks&#x27;)
+        supportlo=mu*(1-alpha);supporthi=mu+alpha*(1-mu)
+        assert ((supportlo&gt;=-1e-12 and supporthi&lt;=1+1e-12)==(w&lt;=v/k+1e-12))
+        inc(&#x27;support_threshold_checks&#x27;)
+
+# Every random input is assessed against its own exact first two moments.
+min_slack=math.inf
+for j in range(100):
+    x=np.sort(rng.uniform(0,1,int(rng.integers(4,11))))
+    p=rng.dirichlet(np.ones(len(x)))
+    dist=atoms(x,p);mu=float(p@x);v=float(p@((x-mu)**2));k,a,b=pars(mu,v)
+    for w in (.25*v,v,v/k,1.5*v/k):
+        R=v+w-2*math.sqrt(k*v*w)
+        d=dist_to_opt(dist,mu,v,w)
+        min_slack=min(min_slack,R-d)
+        assert d&lt;=R+2e-10
+        inc(&#x27;random_input_upper_bound_checks&#x27;)
+
+# Independently integrate the least-favorable two-point measure nu.
+# Test arbitrary monotone finite quantiles with specified mean and variance.
+min_cs_slack=math.inf
+for mu,v in cases:
+    k,a,b=pars(mu,v)
+    w=v
+    x=np.sort(rng.normal(size=7));p=rng.dirichlet(np.ones(7))
+    x=x-p@x;x*=math.sqrt(w/(p@(x*x)));x+=mu
+    q=atoms(x,p)
+    boundary=(k/2)*(steploss(two(mu,v,a),q)+steploss(two(mu,v,b),q))
+    breaks=sorted(set([a,b]+[float(t) for t in q[2] if a&lt;t&lt;b]))
+    middle=sum(quad(lambda t:steploss(two(mu,v,t),q)*k/(4*t*(1-t)),l,r,
+                    epsabs=2e-12,epsrel=2e-11,limit=150)[0] for l,r in zip(breaks[:-1],breaks[1:]))
+    meanloss=boundary+middle
+    R=v+w-2*math.sqrt(k*v*w)
+    d=dist_to_opt(q,mu,v,w)
+    target=R+math.sqrt(k*v/w)*d
+    record(&#x27;least_favorable_stability_identity_error&#x27;,meanloss-target)
+    min_cs_slack=min(min_cs_slack,meanloss-R)
+    inc(&#x27;arbitrary_representative_stability_checks&#x27;)
+
+assert max(worst.values())&lt;2e-10,worst
+out={&#x27;seed&#x27;:SEED,&#x27;method&#x27;:&#x27;piecewise adaptive quadrature; exact step-quantile distances; independently integrated witness measure&#x27;,
+     &#x27;counts&#x27;:counts,&#x27;max_absolute_errors&#x27;:worst,&#x27;minimum_random_upper_bound_slack&#x27;:min_slack,
+     &#x27;minimum_arbitrary_representative_stability_slack&#x27;:min_cs_slack,
+     &#x27;limitations&#x27;:[&#x27;Finite numerical checks are not a proof.&#x27;, &#x27;Random inputs each use their own moments, not one common class.&#x27;,
+       &#x27;Fixed-support high-variance regime w&gt;v/kappa is not claimed solved.&#x27;]}
+path=Path(__file__).with_name(&#x27;w2_validation_results.json&#x27;);path.write_text(json.dumps(out,indent=2)+&#x27;\n&#x27;)
+print(json.dumps(out,indent=2))
+</pre></details><details><summary>w2_validation_results.json</summary><p><button data-download="payload-1" data-filename="w2_validation_results.json">このファイルを取り出す</button></p><pre id="payload-1">{
+  &quot;seed&quot;: 20261006,
+  &quot;method&quot;: &quot;piecewise adaptive quadrature; exact step-quantile distances; independently integrated witness measure&quot;,
+  &quot;counts&quot;: {
+    &quot;moment_checks&quot;: 60,
+    &quot;two_point_equality_checks&quot;: 540,
+    &quot;three_point_equality_checks&quot;: 540,
+    &quot;support_threshold_checks&quot;: 60,
+    &quot;random_input_upper_bound_checks&quot;: 400,
+    &quot;arbitrary_representative_stability_checks&quot;: 12
+  },
+  &quot;max_absolute_errors&quot;: {
+    &quot;mean_absolute_error&quot;: 3.3306690738754696e-16,
+    &quot;variance_absolute_error&quot;: 1.1102230246251565e-16,
+    &quot;two_point_equality_absolute_error&quot;: 8.326672684688674e-17,
+    &quot;three_point_equality_absolute_error&quot;: 4.163336342344337e-16,
+    &quot;least_favorable_stability_identity_error&quot;: 6.938893903907228e-17
+  },
+  &quot;minimum_random_upper_bound_slack&quot;: 0.00030066197313196284,
+  &quot;minimum_arbitrary_representative_stability_slack&quot;: 0.0006344717629740476,
+  &quot;limitations&quot;: [
+    &quot;Finite numerical checks are not a proof.&quot;,
+    &quot;Random inputs each use their own moments, not one common class.&quot;,
+    &quot;Fixed-support high-variance regime w&gt;v/kappa is not claimed solved.&quot;
+  ]
+}
+</pre></details><details><summary>verify_dynamic_progress.py</summary><p><button data-download="payload-2" data-filename="verify_dynamic_progress.py">このファイルを取り出す</button></p><pre id="payload-2">&quot;&quot;&quot;Exact finite checks for the derived progress-budget lemma; not a proof assistant.&quot;&quot;&quot;
+from fractions import Fraction as Q
+from itertools import product
+from random import Random
+import json
+from pathlib import Path
+
+rng=Random(20261006)
+def osc(v): return max(v)-min(v)
+def sub(a,b): return [x-y for x,y in zip(a,b)]
+generic=closed=gauge=0
+for _ in range(500):
+    m=rng.randrange(2,8); n=rng.randrange(2,30)
+    w=[[Q(rng.randrange(-20,21),4) for _ in range(m)] for _ in range(n)]
+    path=[rng.randrange(m) for _ in range(n+1)]
+    if _%2==0: path[-1]=path[0]
+    gain=sum(w[t][path[t+1]]-w[t][path[t]] for t in range(n))
+    drift=sum(osc(sub(w[t],w[t-1])) for t in range(1,n))
+    telescoping=w[0][path[-1]]-w[0][path[0]]+sum((w[t][path[-1]]-w[t-1][path[-1]])-(w[t][path[t]]-w[t-1][path[t]]) for t in range(1,n))
+    assert gain==telescoping
+    assert gain&lt;=osc(w[0])+drift
+    generic+=1
+    if path[-1]==path[0]:
+        assert gain&lt;=drift;closed+=1
+    shifts=[rng.randrange(-1000,1001) for _ in range(n)]
+    shifted=[[x+c for x in row] for row,c in zip(w,shifts)]
+    assert osc(shifted[0])==osc(w[0])
+    assert sum(osc(sub(shifted[t],shifted[t-1])) for t in range(1,n))==drift
+    gauge+=1
+
+states=list(product([0,1],repeat=3)); idx={s:i for i,s in enumerate(states)}
+a=(-1,0,1); gamma=(Q(2),)*3; eta=Q(1,4)
+accepted=0;g04runs=0;g04closed=0
+for _ in range(200):
+    state=rng.randrange(8);path=[state]; ws=[];surpluses=[]
+    for tick in range(50):
+        phi=[Q(rng.randrange(-20,21),4) for _ in states]
+        h=[Q(rng.randrange(-4,5),4) for _ in states]
+        u=[[phi[s]+a[i]*h[s] for s in range(8)] for i in range(3)]
+        w=[max(u[i][s]-gamma[i]/2 for i in range(3)) for s in range(8)]
+        for i in range(3):
+            for s in range(8):
+                assert u[i][s]-gamma[i]/2&lt;=w[s]&lt;=u[i][s]+gamma[i]/2
+        moves=[]
+        for i in range(3):
+            target=list(states[state]);target[i]=1-target[i];dest=idx[tuple(target)]
+            diff=u[i][dest]-u[i][state]
+            if diff&gt;gamma[i]+eta: moves.append((i,dest,diff))
+        if not moves:continue
+        i,dest,diff=rng.choice(moves)
+        assert w[dest]-w[state]&gt;=diff-gamma[i]&gt;eta
+        ws.append(w);surpluses.append(diff-gamma[i]);path.append(dest);state=dest
+    if not ws:continue
+    n=len(ws);accepted+=n;g04runs+=1
+    potential_sum=sum(ws[t][path[t+1]]-ws[t][path[t]] for t in range(n))
+    drift=sum(osc(sub(ws[t],ws[t-1])) for t in range(1,n))
+    assert sum(surpluses)&lt;=potential_sum&lt;=osc(ws[0])+drift
+    assert n*eta&lt;osc(ws[0])+drift
+    for start in range(n):
+        for end in range(start+1,n+1):
+            if path[start]!=path[end]:continue
+            localdrift=sum(osc(sub(ws[t],ws[t-1])) for t in range(start+1,end))
+            assert (end-start)*eta&lt;localdrift
+            g04closed+=1
+
+# Infinite counterexample&#x27;s initial 100 terms, exactly.
+counter_n=100
+counter=[[Q(0),Q((-1)**t,2**t)] for t in range(counter_n)]
+path=[t%2 for t in range(counter_n+1)]
+for t in range(counter_n):
+    assert counter[t][path[t+1]]-counter[t][path[t]]==Q(1,2**t)&gt;0
+counter_drift=sum(osc(sub(counter[t],counter[t-1])) for t in range(1,counter_n))
+assert counter_drift==3*(1-Q(1,2**(counter_n-1)))&lt;3
+
+# Sharpness examples.
+assert (1-0)+(2-1)==1+osc([0,0,1])
+assert (1-0)+(1-0)==osc([1,-1])
+
+out={&quot;seed&quot;:20261006,&quot;arithmetic&quot;:&quot;fractions.Fraction&quot;,&quot;generic_paths&quot;:generic,&quot;closed_generic_paths&quot;:closed,&quot;gauge_invariance_cases&quot;:gauge,&quot;g04_runs&quot;:g04runs,&quot;g04_accepted_steps&quot;:accepted,&quot;g04_closed_subpaths&quot;:g04closed,&quot;counterexample_prefix&quot;:counter_n,&quot;sharpness_examples&quot;:2,&quot;status&quot;:&quot;passed&quot;}
+Path(__file__).with_name(&#x27;dynamic_progress_results.json&#x27;).write_text(json.dumps(out,indent=2)+&#x27;\n&#x27;)
+print(json.dumps(out))
+</pre></details><details><summary>dynamic_progress_results.json</summary><p><button data-download="payload-3" data-filename="dynamic_progress_results.json">このファイルを取り出す</button></p><pre id="payload-3">{
+  &quot;seed&quot;: 20261006,
+  &quot;arithmetic&quot;: &quot;fractions.Fraction&quot;,
+  &quot;generic_paths&quot;: 500,
+  &quot;closed_generic_paths&quot;: 320,
+  &quot;gauge_invariance_cases&quot;: 500,
+  &quot;g04_runs&quot;: 200,
+  &quot;g04_accepted_steps&quot;: 5264,
+  &quot;g04_closed_subpaths&quot;: 9376,
+  &quot;counterexample_prefix&quot;: 100,
+  &quot;sharpness_examples&quot;: 2,
+  &quot;status&quot;: &quot;passed&quot;
+}
+</pre></details><details><summary>verify_physical_capacity.py</summary><p><button data-download="payload-4" data-filename="verify_physical_capacity.py">このファイルを取り出す</button></p><pre id="payload-4">&quot;&quot;&quot;Reproducible implementation checks, not a substitute for the proof.
+Requires Python 3, NumPy. Run from any directory; writes sibling JSON.
+&quot;&quot;&quot;
+from fractions import Fraction
+from pathlib import Path
+import json
+import math
+import numpy as np
+
+def add(a,b):
+    out=[0]*max(len(a),len(b))
+    for i,v in enumerate(a): out[i]+=v
+    for i,v in enumerate(b): out[i]+=v
+    return out
+
+def cheby_shifted(n):
+    a,b=[1],[-1,2]
+    if n==0: return a
+    for _ in range(1,n):
+        twice_x_b=add([-2*v for v in b],[0]+[4*v for v in b])
+        a,b=b,add(twice_x_b,[-v for v in a])
+    return b
+
+def evaluate(c,x):
+    out=0
+    for v in reversed(c): out=out*x+v
+    return out
+
+exact=[]
+for N in range(1,32,2):
+    c=cheby_shifted(N)
+    assert evaluate(c,Fraction(1,2))==0
+    slope=evaluate([i*c[i] for i in range(1,len(c))],Fraction(1,2))
+    assert abs(slope)==2*N
+    assert sum(abs(x) for x in c)==abs(evaluate(c,-1))
+    # Target window I_m*=kappa*2^(-m)*(1+m*log(2))/4.
+    const=sum(Fraction(c[m],2**m) for m in range(N+1))
+    linear=sum(Fraction(m*c[m],2**m) for m in range(N+1))
+    assert const==0 and abs(linear)==N
+    exact.append({&#x27;N&#x27;:N,&#x27;l1_coefficient_norm&#x27;:sum(abs(x) for x in c)})
+
+rng=np.random.default_rng(20261006)
+a=math.log(2)
+worst_identity=0.
+max_resource_ratio=0.
+cases=0
+for rep in range(240):
+    n=1+rep%12
+    edge=rng.uniform(0,1,(n,n)); edge=np.triu(edge,1); edge+=edge.T
+    gl=rng.uniform(.01,2,n); gr=rng.uniform(.01,2,n)
+    cap=rng.uniform(.05,3,n)
+    L=np.diag(edge.sum(axis=1)+gl+gr)-edge
+    Q=L/np.sqrt(cap[:,None]*cap[None,:])
+    u=gl/np.sqrt(cap); v=gr/np.sqrt(cap)
+    z=np.linalg.solve(Q,u+v); y=np.linalg.solve(Q,u-v)
+    B=cap.sum()
+    assert np.all(np.abs(y)&lt;=z+1e-10)
+    assert abs(z@z-B)&lt;1e-9
+    rates,V=np.linalg.eigh(Q)
+    residues=(V.T@u)*(V.T@v)
+    for N in (1,3,5,7):
+        c=np.array(cheby_shifted(N),dtype=float)
+        times=a*np.arange(1,N+2)
+        windows=(np.exp(-times[:,None]*rates)-np.exp(-(times[:,None]+a)*rates))@(residues/rates)
+        direct=float(c@windows)
+        x=np.exp(-a*rates)
+        # recurrence evaluation of Chebyshev polynomial is better conditioned.
+        p=np.polynomial.chebyshev.chebval(2*x-1,[0]*N+[1])
+        mult=rates*x*(1-x)*p
+        spectral=float((((V.T@z)**2-(V.T@y)**2)*mult).sum()/4)
+        err=abs(direct-spectral)/max(1.,B)
+        worst_identity=max(worst_identity,err)
+        bound=2*B/(math.e**2*a)
+        max_resource_ratio=max(max_resource_ratio,abs(spectral)/bound)
+        assert abs(spectral)&lt;=bound*(1+1e-10)
+        assert err&lt;1e-8
+        cases+=1
+
+out={&#x27;date&#x27;:&#x27;2026 10 06&#x27;,&#x27;seed&#x27;:20261006,&#x27;exact_odd_degrees&#x27;:len(exact),
+     &#x27;random_circuits&#x27;:240,&#x27;window_certificate_checks&#x27;:cases,
+     &#x27;max_scaled_window_spectral_identity_error&#x27;:worst_identity,
+     &#x27;max_observed_certificate_to_bound_ratio&#x27;:max_resource_ratio,
+     &#x27;capacity_coefficient&#x27;:math.e**2*a*a/8,
+     &#x27;noise_coefficient&#x27;:math.e**2*a/2,
+     &#x27;exact_coefficient_checks&#x27;:exact,
+     &#x27;interpretation&#x27;:&#x27;Checks verify algebra/implementation; the analytic proof is primary. No novelty claim.&#x27;}
+Path(__file__).with_suffix(&#x27;.json&#x27;).write_text(json.dumps(out,indent=2)+&#x27;\n&#x27;)
+print(json.dumps({k:v for k,v in out.items() if k!=&#x27;exact_coefficient_checks&#x27;},indent=2))
+</pre></details><details><summary>verify_physical_capacity.json</summary><p><button data-download="payload-5" data-filename="verify_physical_capacity.json">このファイルを取り出す</button></p><pre id="payload-5">{
+  &quot;date&quot;: &quot;2026 10 06&quot;,
+  &quot;seed&quot;: 20261006,
+  &quot;exact_odd_degrees&quot;: 16,
+  &quot;random_circuits&quot;: 240,
+  &quot;window_certificate_checks&quot;: 960,
+  &quot;max_scaled_window_spectral_identity_error&quot;: 4.0849929668297073e-13,
+  &quot;max_observed_certificate_to_bound_ratio&quot;: 0.2231694453080822,
+  &quot;capacity_coefficient&quot;: 0.44376178409273725,
+  &quot;noise_coefficient&quot;: 2.560851700986524,
+  &quot;exact_coefficient_checks&quot;: [
+    {
+      &quot;N&quot;: 1,
+      &quot;l1_coefficient_norm&quot;: 3
+    },
+    {
+      &quot;N&quot;: 3,
+      &quot;l1_coefficient_norm&quot;: 99
+    },
+    {
+      &quot;N&quot;: 5,
+      &quot;l1_coefficient_norm&quot;: 3363
+    },
+    {
+      &quot;N&quot;: 7,
+      &quot;l1_coefficient_norm&quot;: 114243
+    },
+    {
+      &quot;N&quot;: 9,
+      &quot;l1_coefficient_norm&quot;: 3880899
+    },
+    {
+      &quot;N&quot;: 11,
+      &quot;l1_coefficient_norm&quot;: 131836323
+    },
+    {
+      &quot;N&quot;: 13,
+      &quot;l1_coefficient_norm&quot;: 4478554083
+    },
+    {
+      &quot;N&quot;: 15,
+      &quot;l1_coefficient_norm&quot;: 152139002499
+    },
+    {
+      &quot;N&quot;: 17,
+      &quot;l1_coefficient_norm&quot;: 5168247530883
+    },
+    {
+      &quot;N&quot;: 19,
+      &quot;l1_coefficient_norm&quot;: 175568277047523
+    },
+    {
+      &quot;N&quot;: 21,
+      &quot;l1_coefficient_norm&quot;: 5964153172084899
+    },
+    {
+      &quot;N&quot;: 23,
+      &quot;l1_coefficient_norm&quot;: 202605639573839043
+    },
+    {
+      &quot;N&quot;: 25,
+      &quot;l1_coefficient_norm&quot;: 6882627592338442563
+    },
+    {
+      &quot;N&quot;: 27,
+      &quot;l1_coefficient_norm&quot;: 233806732499933208099
+    },
+    {
+      &quot;N&quot;: 29,
+      &quot;l1_coefficient_norm&quot;: 7942546277405390632803
+    },
+    {
+      &quot;N&quot;: 31,
+      &quot;l1_coefficient_norm&quot;: 269812766699283348307203
+    }
+  ],
+  &quot;interpretation&quot;: &quot;Checks verify algebra/implementation; the analytic proof is primary. No novelty claim.&quot;
+}
+</pre></details></section></main><footer>2026 10 06 · 横田さんとAIによる探索的な数学的発見。今回の研究判断・証明・反例・検証を記録した新しい報告。元の成果台帳・公開研究ノートは変更していない。式の記号は各節で独立に定義する。</footer><script>
+document.querySelectorAll('[data-download]').forEach(button=>button.addEventListener('click',()=>{const text=document.getElementById(button.dataset.download).textContent;const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=button.dataset.filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}));
+</script></body></html>

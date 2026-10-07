@@ -1,0 +1,6 @@
+python verify_nextbit_patch.py --max-n 4 --output nextbit_patch_verification.json
+python verify_ordered_patch.py --output ordered_patch_experiment.json
+python tiny_wc_synthesis.py --n 2 --size 4 --out tiny_wc_synthesis_n2.json
+python tiny_wc_synthesis.py --n 3 --size 5 --out tiny_wc_synthesis_n3.json
+python tiny_wc_synthesis.py --n 4 --size 4 --out tiny_wc_synthesis_n4.json
+python verify_tiny_wc_synthesis.py

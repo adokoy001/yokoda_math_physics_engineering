@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "scope": "Exact rational coefficient normalization of listed polynomial identities only.",
+  "not_checked": [
+    "Lean parsing/elaboration/kernel",
+    "inequality inference",
+    "finite induction validity",
+    "integer casts",
+    "sqrt branch semantics",
+    "topology",
+    "novelty"
+  ],
+  "checks": [
+    {
+      "name": "packing_induction_affine_identity",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "packing_base_integer_product",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "packing_negative_offset",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "half_coordinate_barrier",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "pair_sum",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "pair_gap",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "pair_defect",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "first_branch_defect_mod_root",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "first_branch_bound_mod_root",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "first_branch_endpoint_order",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "middle_branch_box_order",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "half_scaled_packing",
+      "passed": true,
+      "nonzero_coefficients": {}
+    },
+    {
+      "name": "rounding_barrier_attainment",
+      "passed": true,
+      "nonzero_coefficients": {}
+    }
+  ]
+}

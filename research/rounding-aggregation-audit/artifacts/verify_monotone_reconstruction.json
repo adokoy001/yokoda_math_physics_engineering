@@ -1,0 +1,25 @@
+{
+  "seed": 20260908,
+  "constraint_systems": 600,
+  "monotone_weight_queries": 12000,
+  "feasible_grid_vectors": 3899,
+  "arithmetic": "exact integers and Fraction",
+  "all_assertions_passed": true,
+  "example": {
+    "xstar": [
+      "1/2",
+      "0",
+      "0",
+      "1/2"
+    ],
+    "query_interval": [
+      "1/15",
+      "8/15"
+    ],
+    "minimax_answer": "3/10",
+    "uniform_fill_answer": "1/4",
+    "minimax_error": "7/30",
+    "uniform_fill_error": "17/60"
+  },
+  "scope": "Finite grid verification and counterexamples support but do not replace the written real-valued proof."
+}

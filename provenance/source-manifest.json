@@ -1,0 +1,333 @@
+{
+  "assembled_on": "2026 10 07",
+  "files": [
+    {
+      "source_filename": "P_vs_NP_research_note.html",
+      "path": "research/incremental-circuits/report.html",
+      "bytes": 394384,
+      "sha256": "319b5e69524c047358e30ce3673b0773c305d400c6c44b290133b7da39c4ba7d",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "P_vs_NP_candidate_original_results.md",
+      "path": "research/incremental-circuits/notes/candidate-ledger.md",
+      "bytes": 72943,
+      "sha256": "8dd082c9e83c9edcbe27c85e82e0551e619f4f6e7c123e2887ee5f7c955207e4",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "P_vs_NP_semantic_compression_research.md",
+      "path": "research/incremental-circuits/notes/semantic-compression-research.md",
+      "bytes": 253844,
+      "sha256": "c2bcc067c35407d114215a43a299c3ecb0ddc08a24863b2ecf65b075dfbf32b0",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "P_vs_NP_restart_2026-09-05.md",
+      "path": "research/incremental-circuits/notes/restart-2026-09-05.md",
+      "bytes": 22894,
+      "sha256": "1479bcac64e6281aa65827739e09d9ce051eab9d6486e5d2434cd4802b097716",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "P_vs_NP_research_pack_2026-09-05.zip",
+      "path": "research/incremental-circuits/archives/research-pack-2026-09-05.zip",
+      "bytes": 454399,
+      "sha256": "9d38d4d7ffb4d234c715bca7983dd939d66c4c63f4f8655fb52ec50739fe3db2",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "wasserstein-center.html",
+      "path": "research/wasserstein-center/report.html",
+      "bytes": 137341,
+      "sha256": "e661f2a5f421372075d96f52de9bae33b78ae5046ae9e289b278213ef088a0b0",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "数学探索_第2回_証明と再現資料.zip",
+      "path": "research/moment-rank-gap/archives/proofs-and-reproduction-2026-09-08.zip",
+      "bytes": 71551,
+      "sha256": "e9ea8060482e928607b135123648a594ad4dcf4fb02e6856f9d64cff29b57c6a",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "数学探索_第2回_順位間隔と形式証明.md",
+      "path": "research/moment-rank-gap/notes/rank-gap-and-formalization.md",
+      "bytes": 20361,
+      "sha256": "648883fa121478f3c99a38ff9e0c81a507fe2d3543f67c0ccf2387decb41add6",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "MomentIslands.lean",
+      "path": "research/moment-rank-gap/formal/MomentIslands.lean",
+      "bytes": 11010,
+      "sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "数学探索_平均と分散に隠れた島.md",
+      "path": "research/moment-rank-gap/notes/moment-islands.md",
+      "bytes": 29138,
+      "sha256": "c0d294fce301e20e114075b8bd068bd96ff609b2162e73fdb254eee7b144b783",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "spatial_discovery_2026-09-14.md",
+      "path": "research/spatial/notes/discovery-2026-09-14.md",
+      "bytes": 47054,
+      "sha256": "1b114e4cc8b971ac81247ec362ebd822d8d6aab34e383a67a34baec20c13e5c3",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "数学探索_独立候補3件と再現コード.md",
+      "path": "research/rounding-aggregation-audit/report.md",
+      "bytes": 32762,
+      "sha256": "fb3f3aadb6ca0f73af2feb00f470b1688f4bb1edbe9c305218035d9589c996dc",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "research-deepening-2026-10-06.html",
+      "path": "reports/research-deepening-2026-10-06.html",
+      "bytes": 103574,
+      "sha256": "f42f8e639eb17f4c43aa634608c333d14337b59bb80f4d555afd52af73e97142",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "who_wants_this_research.html",
+      "path": "research/physical-memory/notes/who-wants-this-research.html",
+      "bytes": 10124,
+      "sha256": "d1083ec2c72a6b586096a7f23e8c55f848d64560ef212b5d2579adeeeb80c9ec",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "2026-09-20-prior-art-check.md",
+      "path": "research/physical-memory/reviews/prior-art-check-2026-09-20.md",
+      "bytes": 8484,
+      "sha256": "7f7376d3648bb3b0e86aed92c9a0b59e91a8ad11fac3fc941e9f3a87909060bb",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "review-physical-memory-reduction-2026-09-20.md",
+      "path": "research/physical-memory/reviews/review-2026-09-20.md",
+      "bytes": 9042,
+      "sha256": "6ffc7e4c95ad2ec82b60523be1ffab115f92fb5b4b016732ac46c4e7a719f226",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "physical-memory-reduction-2026-09-20.html",
+      "path": "research/physical-memory/report.html",
+      "bytes": 759997,
+      "sha256": "1995238c856c8b736d38320b0231a14dc4953aeb79222b63ee4aeb8474562ddb",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "formal-semantics-exploration-2026-09-17.html",
+      "path": "research/formal-semantics/report.html",
+      "bytes": 330956,
+      "sha256": "249fb4e7745cc61bd72dd2470949748b95b9f18f575af14894e6b9b50940790a",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "one-exception-symmetry-2026-09-15-v5.html",
+      "path": "research/one-exception-symmetry/report.html",
+      "bytes": 221747,
+      "sha256": "e898fff36d3a3e42c823c265928a87e171746084ae47997124707f26e6ffcc15",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "review-one-exception-symmetry-2026-09-15.md",
+      "path": "research/one-exception-symmetry/reviews/review-2026-09-15.md",
+      "bytes": 3470,
+      "sha256": "1c4a393eda50358290ae0cca45f67cef66048b593af4d8c96ba9de409d8d549a",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "one-exception-symmetry-2026-09-15.html",
+      "path": "research/one-exception-symmetry/archive/earlier-report.html",
+      "bytes": 134627,
+      "sha256": "e57e3ee0f13b473e990552249cac17fc41c8cea42851e5d560afcebe1875192f",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "review_spatial_novelty_2026-09-14.html",
+      "path": "research/spatial/reviews/review-2026-09-14.html",
+      "bytes": 18781,
+      "sha256": "db2e270f7726c0a88ccf2dfd03df7b52dfa4d55f33e62aa71447131b2c966678",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "spatial_novelty_2026-09-14.html",
+      "path": "research/spatial/report.html",
+      "bytes": 223323,
+      "sha256": "be40ca691166517ccebe8b70e951253983c8a4f3d9180b0d91d783a7b10a74c7",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "game-theory-illustrated.html",
+      "path": "research/game-theory/report.html",
+      "bytes": 938431,
+      "sha256": "a11a58ab835278b049df76a8177a464235e5b6a93a5d84a36d69ea679e6fddb7",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "game-theory-exploration-03.md",
+      "path": "research/game-theory/notes/exploration-03.md",
+      "bytes": 37889,
+      "sha256": "349c3f6acff36cd470290ac510d1c5b93a56f9c5f29713502d53446fd2f3ffa5",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "game-theory-exploration-02.md",
+      "path": "research/game-theory/notes/exploration-02.md",
+      "bytes": 47723,
+      "sha256": "27b46f883d20b7dbdccd2c132849168caf53edf7aa481154d369b13d421d7701",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "x01-formal-proof-supplement_2026-09-09.html",
+      "path": "research/moment-rank-gap/formal/proof-supplement-2026-09-09.html",
+      "bytes": 1757592,
+      "sha256": "38f08d068e4c8e02829f074073014afff880eac41dfffa04dde0c620f2ef1049",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "x01-novelty-audit_2026-09-09.md",
+      "path": "research/moment-rank-gap/reviews/novelty-audit-2026-09-09.md",
+      "bytes": 16295,
+      "sha256": "1fb3196f6ea27ca01ec671f1ecae83e028dafcf10c2861ddaa28fdae23ef9e3b",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "memo-to-astra_x01-review.html",
+      "path": "research/moment-rank-gap/reviews/independent-review.html",
+      "bytes": 17577,
+      "sha256": "052691a3b59709557e63fbc2617be9ed4544bbd0d49e87b2ed4747948efef115",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "moment-rank-gap_ja-en.html",
+      "path": "research/moment-rank-gap/report.html",
+      "bytes": 3544987,
+      "sha256": "bdb727e958812b16fa5ed675332f2e93c359987be9a158606fe21c43549be4ff",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "数学探索プロジェクト_説明と成果台帳.md",
+      "path": "project/initial-ledger-2026-09-08.md",
+      "bytes": 11886,
+      "sha256": "6c8d589ef700492b649cd33257974b4afd28e082503df55b66b2f5ff7b5fc448",
+      "origin": "preserved research artifact",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "verify_physical_capacity.py",
+      "path": "research/physical-memory/experiments/2026-10-06/verify_physical_capacity.py",
+      "bytes": 3251,
+      "sha256": "53ebc39a90593b241e8fc6afdfa635fae20126d6a236eeab355a6a614fcaae1f",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "verify_physical_capacity.json",
+      "path": "research/physical-memory/experiments/2026-10-06/verify_physical_capacity.json",
+      "bytes": 1629,
+      "sha256": "5a2fce56d02931c413272fd63a0673e9af1b35d6192593728a705312ba124f47",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "w2_validation.py",
+      "path": "research/wasserstein-center/experiments/2026-10-06/w2_validation.py",
+      "bytes": 5064,
+      "sha256": "aa4bd9f20039925ae15dde06cbb0933f0155395dae792e117f4b7245b3c5d3d3",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "w2_validation_results.json",
+      "path": "research/wasserstein-center/experiments/2026-10-06/w2_validation_results.json",
+      "bytes": 1089,
+      "sha256": "f17ff1070757a16040a198aa90cf4e494f9bea69b360e5812a6198968e72b285",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "verify_dynamic_progress.py",
+      "path": "research/game-theory/experiments/2026-10-06/verify_dynamic_progress.py",
+      "bytes": 3725,
+      "sha256": "f226cf3af21ee0d863d7e14f74a1fa5f9b27e4e9d4cc674678e93ea6784d8f3b",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "dynamic_progress_results.json",
+      "path": "research/game-theory/experiments/2026-10-06/dynamic_progress_results.json",
+      "bytes": 310,
+      "sha256": "d3ca20c98e91657a33220dee9b3c06ae9b3a05c874560edacd81dbc3cc9b2c83",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "e02-deepening-audit.md",
+      "path": "research/wasserstein-center/notes/deepening-audit-2026-10-06.md",
+      "bytes": 9954,
+      "sha256": "323503ce619993a6e04febc3937085175575dba87893dfec8f3ddaeb46557186",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "semantics-game-extension.md",
+      "path": "research/game-theory/notes/dynamic-extension-2026-10-06.md",
+      "bytes": 9361,
+      "sha256": "4a8f2d6352e225383bf55ab45db801548d45a15feb11e467f7b59d664ecea658",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "geometry-next-2026-10-06.md",
+      "path": "research/moment-rank-gap/notes/geometry-extension-2026-10-06.md",
+      "bytes": 9614,
+      "sha256": "50c3ef2b525b7828ceadbc9254ab6cf3ad4396c9a50375856b26526a5943fd11",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    },
+    {
+      "source_filename": "physical-capacity-obstruction.md",
+      "path": "research/physical-memory/notes/capacity-obstruction-2026-10-06.md",
+      "bytes": 6884,
+      "sha256": "542be157f86439cf158b8b85e134a35adc0bb1de15dbcb7dfaa0e13f06faac24",
+      "origin": "2026 10 06 research session",
+      "modifications": "none"
+    }
+  ]
+}

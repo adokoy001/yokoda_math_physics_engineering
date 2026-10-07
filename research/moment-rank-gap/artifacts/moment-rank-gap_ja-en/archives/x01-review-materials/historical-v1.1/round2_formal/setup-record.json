@@ -1,0 +1,145 @@
+{
+  "lean_download_url": "https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+  "lean_archive_bytes": 343842845,
+  "lean_archive_sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+  "mathlib_git_url": "https://github.com/leanprover-community/mathlib4.git",
+  "mathlib_ref": "v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "commands": [
+    {
+      "command": "curl -fL --max-time 180 --connect-timeout 30 --silent --show-error https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o lean-4.19.0-linux.tar.zst",
+      "exit_code": 28,
+      "note": "247373290 bytes received; timeout, resumed below"
+    },
+    {
+      "command": "curl -fL -C - --max-time 180 --connect-timeout 30 --silent --show-error https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o lean-4.19.0-linux.tar.zst",
+      "exit_code": 0
+    },
+    {
+      "command": "tar --no-same-owner --zstd -xf lean-4.19.0-linux.tar.zst",
+      "exit_code": 0
+    },
+    {
+      "command": "git clone --depth 1 --branch v4.19.0 https://github.com/leanprover-community/mathlib4.git mathlib4",
+      "exit_code": 0
+    },
+    {
+      "command": "./lean-4.19.0-linux/bin/lean --version",
+      "exit_code": 1,
+      "output": "error: failed to locate application"
+    },
+    {
+      "command": "gcc -shared -fPIC -O2 -o proc_self_compat.so proc_self_compat.c -ldl",
+      "exit_code": 0
+    },
+    {
+      "command": "LD_PRELOAD=./proc_self_compat.so ./lean-4.19.0-linux/bin/lean --version",
+      "exit_code": 0,
+      "output": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)"
+    },
+    {
+      "command": "PATH=<lean-4.19.0-linux>/bin:$PATH LD_PRELOAD=<formal_env>/proc_self_compat.so TAR_OPTIONS=--no-same-owner lake exe cache get Mathlib/Data/Real/Sqrt.lean Mathlib/Algebra/Order/BigOperators/Ring/Finset.lean Mathlib/Tactic/Linarith.lean Mathlib/Tactic/NormNum.lean Mathlib/Tactic/Ring.lean",
+      "cwd": "formal_env/mathlib4",
+      "exit_code": 0,
+      "output": "Downloaded: 1332 file(s) [attempted 1332/1332 = 100%] (100% success). Decompressing 1332 file(s). Unpacked in 6400 ms. Completed successfully!"
+    }
+  ],
+  "mathlib_dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c4919189477c3221e6a204008998b0d724f49904",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v0.0.57",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": false,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ]
+}

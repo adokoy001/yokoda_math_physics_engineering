@@ -1,0 +1,78 @@
+{
+  "date": "2026 10 06",
+  "seed": 20261006,
+  "exact_odd_degrees": 16,
+  "random_circuits": 240,
+  "window_certificate_checks": 960,
+  "max_scaled_window_spectral_identity_error": 4.0849929668297073e-13,
+  "max_observed_certificate_to_bound_ratio": 0.2231694453080822,
+  "capacity_coefficient": 0.44376178409273725,
+  "noise_coefficient": 2.560851700986524,
+  "exact_coefficient_checks": [
+    {
+      "N": 1,
+      "l1_coefficient_norm": 3
+    },
+    {
+      "N": 3,
+      "l1_coefficient_norm": 99
+    },
+    {
+      "N": 5,
+      "l1_coefficient_norm": 3363
+    },
+    {
+      "N": 7,
+      "l1_coefficient_norm": 114243
+    },
+    {
+      "N": 9,
+      "l1_coefficient_norm": 3880899
+    },
+    {
+      "N": 11,
+      "l1_coefficient_norm": 131836323
+    },
+    {
+      "N": 13,
+      "l1_coefficient_norm": 4478554083
+    },
+    {
+      "N": 15,
+      "l1_coefficient_norm": 152139002499
+    },
+    {
+      "N": 17,
+      "l1_coefficient_norm": 5168247530883
+    },
+    {
+      "N": 19,
+      "l1_coefficient_norm": 175568277047523
+    },
+    {
+      "N": 21,
+      "l1_coefficient_norm": 5964153172084899
+    },
+    {
+      "N": 23,
+      "l1_coefficient_norm": 202605639573839043
+    },
+    {
+      "N": 25,
+      "l1_coefficient_norm": 6882627592338442563
+    },
+    {
+      "N": 27,
+      "l1_coefficient_norm": 233806732499933208099
+    },
+    {
+      "N": 29,
+      "l1_coefficient_norm": 7942546277405390632803
+    },
+    {
+      "N": 31,
+      "l1_coefficient_norm": 269812766699283348307203
+    }
+  ],
+  "interpretation": "Checks verify algebra/implementation; the analytic proof is primary. No novelty claim."
+}

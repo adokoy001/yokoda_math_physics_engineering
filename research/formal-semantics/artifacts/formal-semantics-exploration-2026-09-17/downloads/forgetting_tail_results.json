@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "exhaustive": [
+    {
+      "n": 2,
+      "all_total_maps": 4,
+      "C_z_P_cases": 32,
+      "max_by_k": [
+        1
+      ]
+    },
+    {
+      "n": 3,
+      "all_total_maps": 27,
+      "C_z_P_cases": 1944,
+      "max_by_k": [
+        2,
+        2
+      ]
+    },
+    {
+      "n": 4,
+      "all_total_maps": 256,
+      "C_z_P_cases": 114688,
+      "max_by_k": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "n": 5,
+      "all_total_maps": 3125,
+      "C_z_P_cases": 7500000,
+      "max_by_k": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "six_world_first_strict_improvement": [
+    {
+      "t": 0,
+      "C_mask": 1,
+      "D_mask": 33,
+      "mismatch": false
+    },
+    {
+      "t": 1,
+      "C_mask": 2,
+      "D_mask": 6,
+      "mismatch": false
+    },
+    {
+      "t": 2,
+      "C_mask": 1,
+      "D_mask": 9,
+      "mismatch": false
+    },
+    {
+      "t": 3,
+      "C_mask": 2,
+      "D_mask": 18,
+      "mismatch": false
+    },
+    {
+      "t": 4,
+      "C_mask": 1,
+      "D_mask": 5,
+      "mismatch": false
+    },
+    {
+      "t": 5,
+      "C_mask": 2,
+      "D_mask": 10,
+      "mismatch": false
+    },
+    {
+      "t": 6,
+      "C_mask": 1,
+      "D_mask": 17,
+      "mismatch": true
+    }
+  ],
+  "scope": "The finite verification does not establish novelty."
+}

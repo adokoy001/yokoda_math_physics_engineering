@@ -1,0 +1,104 @@
+{
+  "record_type": "combined_script_outputs",
+  "date": "2026-09-15",
+  "main_theorem": [
+    {
+      "pairs": 0,
+      "exhaustive_labeled_graphs": 1
+    },
+    {
+      "pairs": 1,
+      "exhaustive_labeled_graphs": 4
+    },
+    {
+      "pairs": 2,
+      "exhaustive_labeled_graphs": 64
+    },
+    {
+      "pairs": 3,
+      "exhaustive_labeled_graphs": 4096
+    },
+    {
+      "pairs": 4,
+      "random_graphs": 2000,
+      "seed": 20260915
+    },
+    {
+      "pairs": 5,
+      "random_graphs": 1000,
+      "seed": 20260915
+    },
+    {
+      "pairs": 6,
+      "random_graphs": 300,
+      "seed": 20260915
+    },
+    {
+      "pairs": 7,
+      "random_graphs": 30,
+      "seed": 20260915
+    }
+  ],
+  "weighted_corollary": {
+    "method": "capacity tuple dynamic programming with mex; no clone reduction used by verifier",
+    "seed": 20260915,
+    "exhaustive": [
+      {
+        "pairs": 1,
+        "capacities": "each c_i in 1..3",
+        "symmetric_core_count": 1,
+        "exception_neighbor_count": 4,
+        "cases": 12,
+        "grundy_histogram": {
+          "1": 8,
+          "0": 4
+        }
+      },
+      {
+        "pairs": 2,
+        "capacities": "each c_i in 1..3",
+        "symmetric_core_count": 4,
+        "exception_neighbor_count": 16,
+        "cases": 576,
+        "grundy_histogram": {
+          "0": 320,
+          "1": 256
+        }
+      }
+    ],
+    "random": {
+      "pairs": 3,
+      "cases": 200,
+      "capacities": "each c_i in 1..3",
+      "sampling": "uniform draws without duplicate parameter tuples",
+      "grundy_histogram": {
+        "1": 102,
+        "0": 98
+      }
+    },
+    "counterexample": {
+      "graph": "triangle",
+      "capacities": [
+        1,
+        1,
+        2
+      ],
+      "core_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "exception": 2,
+      "actual_grundy": 2,
+      "claimed_parity_if_generalized": 1,
+      "option_grundy_values": [
+        0,
+        1
+      ]
+    },
+    "total_checked": 788,
+    "violations": [],
+    "sum_dp_states_across_cases": 130057
+  }
+}

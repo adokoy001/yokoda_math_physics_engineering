@@ -1,0 +1,413 @@
+{
+  "scope": "Exact rational enumeration of small-dimensional polytope vertices/edges; not a proof and not a point-grid connectivity test.",
+  "geometries": 45,
+  "sample_counts": 444,
+  "status": "PASS",
+  "records": [
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 6,
+      "edges": 6,
+      "samples": 8,
+      "status": "PASS"
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 6,
+      "edges": 6,
+      "samples": 8,
+      "status": "PASS"
+    },
+    {
+      "n": 2,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 6,
+      "edges": 6,
+      "samples": 8,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 12,
+      "edges": 18,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 60,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 60,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 60,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 20,
+      "edges": 40,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 60,
+      "edges": 150,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "3/5",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "3/4",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "s": 4,
+      "eta": "9/10",
+      "vertices": 30,
+      "edges": 75,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "3/5",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "3/4",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 1,
+      "eta": "9/10",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "3/5",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "3/4",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 2,
+      "eta": "9/10",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "3/5",
+      "vertices": 140,
+      "edges": 420,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "3/4",
+      "vertices": 140,
+      "edges": 420,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 3,
+      "eta": "9/10",
+      "vertices": 140,
+      "edges": 420,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "3/5",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "3/4",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 4,
+      "eta": "9/10",
+      "vertices": 105,
+      "edges": 315,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "3/5",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "3/4",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "s": 5,
+      "eta": "9/10",
+      "vertices": 42,
+      "edges": 126,
+      "samples": 10,
+      "status": "PASS"
+    }
+  ]
+}

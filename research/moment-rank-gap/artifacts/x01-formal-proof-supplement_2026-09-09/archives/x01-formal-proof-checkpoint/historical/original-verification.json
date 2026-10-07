@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "lean_version": {
+    "command": [
+      "/workspace/scratch/969dff4f4f1c/formal_env/lean-4.19.0-linux/bin/lean",
+      "--version"
+    ],
+    "cwd": "/workspace/scratch/969dff4f4f1c/round2_formal",
+    "exit_code": 0,
+    "output": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)\n"
+  },
+  "mathlib_commit": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/workspace/scratch/969dff4f4f1c/formal_env/mathlib4",
+    "exit_code": 0,
+    "output": "c44e0c8ee63ca166450922a373c7409c5d26b00b\n"
+  },
+  "proof_check": {
+    "command": [
+      "/workspace/scratch/969dff4f4f1c/formal_env/lean-4.19.0-linux/bin/lake",
+      "env",
+      "lean",
+      "--root=/workspace/scratch/969dff4f4f1c/round2_formal",
+      "-o",
+      "/workspace/scratch/969dff4f4f1c/round2_formal/MomentIslands.olean",
+      "/workspace/scratch/969dff4f4f1c/round2_formal/MomentIslands.lean"
+    ],
+    "cwd": "/workspace/scratch/969dff4f4f1c/formal_env/mathlib4",
+    "exit_code": 0,
+    "output": "'MomentIslands.pair_square_upper' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.pair_square_upper_complement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.four_variable_gap_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.four_variable_gap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.balanced_error_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.invert_defect_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.balanced_error_sharp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.concentration_from_square_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.rank_gap_core' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.rank_gap_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.rank_gap_slack' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.finite_rank_gap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.rank_gap_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'MomentIslands.rank_gap_partition_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]\nMomentIslands.rank_gap_partition_sqrt.{u_1} {ι : Type u_1} [Fintype ι] [DecidableEq ι] (I : Finset ι) (x : ι → ℝ)\n  (a b : ι) (ha : a ∈ I) (hb : b ∉ I) (hbox : ∀ (i : ι), 0 ≤ x i ∧ x i ≤ 1) (hmin : ∀ i ∈ I, x a ≤ x i)\n  (hmax : ∀ j ∉ I, x j ≤ x b) (hab : x b ≤ x a) : √(1 - 2 * ∑ i, x i * (1 - x i) - (∑ i, x i - ↑I.card) ^ 2) ≤ x a - x b\nMomentIslands.balanced_error_sharp_bound.{u_1, u_2} {ι : Type u_1} {κ : Type u_2} (I : Finset ι) (J : Finset κ)\n  (u : ι → ℝ) (v : κ → ℝ) (rho D : ℝ) (hu : ∀ i ∈ I, 0 ≤ u i) (hv : ∀ j ∈ J, 0 ≤ v j) (hsu : ∑ i ∈ I, u i = rho)\n  (hsv : ∑ j ∈ J, v j = rho) (hrho : rho ≤ 1 / 2) (hD : ∑ i ∈ I, u i * (1 - u i) + ∑ j ∈ J, v j * (1 - v j) = D) :\n  rho ≤ (1 - √(1 - 2 * D)) / 2\n"
+  },
+  "axiom_audit": {
+    "theorem_declarations": 14,
+    "axiom_print_commands": 14,
+    "sorry_axiom_in_output": false,
+    "new_axiom_declarations": false,
+    "placeholder_tokens": false
+  },
+  "source_sha256": "3f29d4e1daad5ed467c6ef2a832a067b03546a2ca35293983f3675e76e70c9fa",
+  "lean_binary_sha256": "92c3d35b5bfaa5e0fea413a775d504cf46cd95e1345df61c2274f76779e7e023",
+  "lean_shared_library_sha256": "2ab605c74c78f9ba4431a7b5305a4b28a9071d8a826f223eb14fe5530f78e14d",
+  "runtime_compatibility": {
+    "used": true,
+    "scope": "Only readlink(/proc/<getpid()>/exe) is resolved as /proc/self/exe.",
+    "lean_kernel_modified": false,
+    "source_sha256": "2f3fe42f8e76de61473891406a97503891bc057dbfc68e37406a6b6c0f30ce12"
+  }
+}

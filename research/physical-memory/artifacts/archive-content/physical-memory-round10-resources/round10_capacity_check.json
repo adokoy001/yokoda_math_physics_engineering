@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "random_networks": 300,
+  "worst": {
+    "moment_identity": 8.39184597617444e-14,
+    "spectral_identity": 7.871927262884788e-14,
+    "window_bound_ratio": 0.8914477308853147,
+    "point_bound_ratio": 0.8931480420493857,
+    "tail_bound_ratio": 0.9937918565015786,
+    "residue_bound_ratio": 0.999352770793526
+  },
+  "two_pole_constructions": 100,
+  "two_pole_max_error": 1.3322676295501878e-15,
+  "sharp_window_example": {
+    "interval": [
+      0.9,
+      1.1
+    ],
+    "capacity_budget": 1.0,
+    "total_static_conductance": 1.0,
+    "balanced_boundary_conductance_each": 1.006738626132881,
+    "internal_capacity": 1.0,
+    "direct_conductance": 0.4966306869335595,
+    "rate": 2.013477252265762,
+    "dynamic_static_conductance": 0.5033693130664405,
+    "optimal_window_signal": 0.027249083041614358,
+    "critical_capacity_budget": 1.9866129580052656
+  },
+  "finite_two_state_improvement": {
+    "interval": [
+      0.9,
+      1.1
+    ],
+    "capacity_budget": 5.0,
+    "total_static_conductance": 1.0,
+    "two_state_capacities": [
+      2.5,
+      2.5
+    ],
+    "two_state_left_conductances": [
+      3.75,
+      0.0
+    ],
+    "two_state_right_conductances": [
+      0.0,
+      3.75
+    ],
+    "two_state_internal_conductance": 1.875,
+    "two_state_direct_conductance": 0.0625,
+    "two_state_rates": [
+      1.5,
+      3.0
+    ],
+    "two_state_residues": [
+      2.8124999999999996,
+      -2.8124999999999996
+    ],
+    "two_state_dynamic_static_conductance": 0.9375,
+    "two_state_window_signal": 0.09755471129227976,
+    "optimal_one_state_rate": 1.0033534773107562,
+    "optimal_one_state_capacity_used": 3.9866309236511768,
+    "optimal_one_state_window_signal": 0.07369898721925505,
+    "relative_gain": 0.323691341945497,
+    "global_two_state_optimality_claimed": false
+  }
+}

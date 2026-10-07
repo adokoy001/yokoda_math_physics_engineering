@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>査読報告 — 空間の観測と接続</title>
+<meta name="description" content="研究ノート「空間の観測と接続 — 新規性照合と証明」に対する査読報告。独立実装による検証記録と指摘事項。">
+<style>
+:root{
+  color-scheme:light;
+  --ink:#14171a;
+  --sub:#585d63;
+  --paper:#fdfcfa;
+  --rule:#d9d4cc;
+  --rule-strong:#3a3f45;
+  --shu:#ab2a1e;
+  --ok:#1c5f47;
+  --band:#f3f1ec;
+  --mincho:"Hiragino Mincho ProN","Yu Mincho",YuMincho,"Noto Serif JP","Source Han Serif JP","Songti SC",serif;
+  --gothic:"Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP","Hiragino Sans",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--mincho);font-size:16.5px;line-height:2.05;
+  text-rendering:optimizeLegibility;
+}
+.sheet{max-width:940px;margin:0 auto;padding:clamp(28px,5vw,72px) clamp(18px,5vw,56px) 96px}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:1.5px solid var(--rule-strong);padding-bottom:22px}
+.mast h1{
+  font-size:clamp(1.85rem,4.6vw,2.7rem);line-height:1.45;margin:0 0 .5rem;
+  font-weight:600;letter-spacing:.04em;
+}
+.mast .target{font-size:.95rem;color:var(--sub);line-height:1.9;margin:0}
+.mast .target code{font-family:var(--gothic);font-size:.92em;word-break:break-all}
+
+/* ---------- verdict ---------- */
+.verdict{margin:34px 0 4px}
+.verdict dl{
+  margin:0;display:grid;grid-template-columns:auto 1fr;
+  gap:0;border-top:1px solid var(--rule);
+}
+.verdict dt{
+  font-family:var(--gothic);font-size:.86rem;font-weight:600;line-height:1.6;
+  padding:14px 22px 14px 0;border-bottom:1px solid var(--rule);
+  white-space:nowrap;color:var(--sub);
+}
+.verdict dd{
+  margin:0;padding:14px 0;border-bottom:1px solid var(--rule);line-height:1.8;
+}
+.verdict dd b{font-weight:600}
+.v-ok b{color:var(--ok)}
+.v-open b{color:var(--shu)}
+
+/* ---------- prose ---------- */
+h2{
+  font-size:1.3rem;font-weight:600;line-height:1.6;letter-spacing:.03em;
+  margin:60px 0 4px;padding-bottom:8px;border-bottom:1px solid var(--rule-strong);
+}
+h2 .n{color:var(--shu);font-family:var(--gothic);font-size:.8em;margin-right:.7em;font-weight:600}
+p{margin:16px 0}
+.lead{margin-top:18px}
+strong{font-weight:600}
+code{font-family:var(--gothic);font-size:.9em;background:var(--band);padding:.1em .35em;white-space:nowrap}
+a{color:var(--shu);text-underline-offset:3px}
+ul{padding-left:1.3em;margin:14px 0}
+li{margin:8px 0}
+
+/* ---------- ledger table ---------- */
+.scroll{overflow-x:auto;margin:26px 0 8px;border-top:1px solid var(--rule-strong)}
+table{width:100%;border-collapse:collapse;font-size:.92rem;line-height:1.75;min-width:600px}
+th{
+  font-family:var(--gothic);font-size:.8rem;font-weight:600;color:var(--sub);
+  text-align:left;padding:12px 16px 12px 0;border-bottom:1px solid var(--rule);
+  white-space:nowrap;
+}
+td{padding:14px 16px 14px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+td:last-child,th:last-child{padding-right:0}
+.res{font-family:var(--gothic);font-size:.85rem;color:var(--ok);white-space:nowrap;font-weight:600}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- findings with margin tags ---------- */
+.finding{
+  display:grid;grid-template-columns:8.5rem minmax(0,1fr);
+  gap:0 28px;padding:26px 0;border-bottom:1px solid var(--rule);
+}
+.finding:last-of-type{border-bottom:0}
+.mark{padding-top:4px}
+.mark .id{
+  font-family:var(--gothic);font-size:1.5rem;font-weight:600;color:var(--shu);
+  line-height:1;display:block;font-variant-numeric:tabular-nums;
+}
+.mark .tag{
+  font-family:var(--gothic);font-size:.76rem;line-height:1.5;font-weight:600;
+  display:inline-block;margin-top:10px;padding:2px 8px;
+  border:1px solid var(--shu);color:var(--shu);
+}
+.mark .tag.soft{border-color:var(--sub);color:var(--sub)}
+.finding .body{min-width:0}
+.finding h3{
+  font-size:1.06rem;font-weight:600;line-height:1.7;margin:0 0 2px;letter-spacing:.02em;
+}
+.finding p{margin:10px 0 0}
+.where{font-family:var(--gothic);font-size:.82rem;color:var(--sub);display:block;margin-top:2px}
+
+/* ---------- quoted fix ---------- */
+.fix{
+  margin:14px 0 0;padding:14px 18px;background:var(--band);
+  font-size:.93rem;line-height:1.95;
+}
+.fix span{font-family:var(--gothic);font-size:.78rem;color:var(--sub);display:block;margin-bottom:4px}
+
+/* ---------- closing ---------- */
+.method{
+  margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);
+  font-size:.86rem;line-height:1.9;color:var(--sub);
+}
+.method p{margin:8px 0}
+
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px}
+
+@media(max-width:640px){
+  body{font-size:15.5px;line-height:1.95}
+  .verdict dl{grid-template-columns:1fr}
+  .verdict dt{padding:14px 0 0;border-bottom:0}
+  .verdict dd{padding-top:2px}
+  .finding{grid-template-columns:1fr;gap:0}
+  .mark{padding-top:0;margin-bottom:10px;display:flex;align-items:center;gap:12px}
+  .mark .id{font-size:1.2rem}
+  .mark .tag{margin-top:0}
+  h2{margin-top:48px}
+}
+@media print{
+  body{font-size:10pt;line-height:1.7;background:#fff}
+  .sheet{padding:0;max-width:none}
+  .finding,tr{break-inside:avoid}
+  h2{break-after:avoid}
+  .scroll{overflow:visible}table{min-width:0}
+}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header class="mast">
+  <h1>査読報告</h1>
+  <p class="target">
+    対象：研究ノート「空間の観測と接続 — 新規性照合と証明」<br>
+    <code>spatial_novelty_2026-09-14.html</code>（HTML版 1.0）／ 査読日 2026年9月14日
+  </p>
+</header>
+
+<section class="verdict" aria-label="総合判定">
+  <dl>
+    <dt>数学</dt>
+    <dd class="v-ok"><b>受理相当。</b>独立実装による総当たり検証で、主張された等式・不等式はすべて一致した。証明としての穴は、下記 1・2 の数行を補えば埋まる。</dd>
+    <dt>新規性</dt>
+    <dd class="v-open"><b>未確定。</b>本文の慎重な書き方は妥当。ただし照合キーワードに重大な抜けがある（下記 6）。</dd>
+    <dt>提示</dt>
+    <dd><b>要再編。</b>S1とS2を1本に束ねているのが弱点。S2は単体で完結した短い論文になる。</dd>
+  </dl>
+</section>
+
+<p class="lead">同梱スクリプトを走らせるだけでは査読にならないため、すべて別実装を書いて突き合わせた。整数および <code>fractions.Fraction</code> のみを使用し、浮動小数の比較は行っていない。</p>
+
+<h2><span class="n">Ⅰ</span>独立検証の記録</h2>
+
+<div class="scroll">
+<table>
+<thead>
+<tr><th scope="col">対象</th><th scope="col">検証の範囲</th><th scope="col">結果</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td>S2 主定理と強化版<br><code>R_A≤R_F≤⌈n/2⌉R_A</code></td>
+  <td>端点0〜6の全区間から n=2,3,4 を網羅（<span class="num">35,931</span>族）。加えて端点0〜24で n=5〜8 をランダムに<span class="num">60,000</span>族。強化版 <code>⌈(m+1)/2⌉</code>、<code>m≥1</code>、長区間なしなら <code>R_F=R_A</code>、<code>R_A=0 ⟹ 全区間が同一点区間</code> も同時に検査</td>
+  <td class="res">反例なし</td>
+</tr>
+<tr>
+  <td>S2 等号例</td>
+  <td>n=2〜11 の鋭さ構成、および強化版を m=1〜6・k=1〜3 で再現</td>
+  <td class="res">予測値と一致</td>
+</tr>
+<tr>
+  <td>S2 相関反例</td>
+  <td>{0,…,n−1} の全順列に限定した相関モデル、n=2〜7</td>
+  <td class="res">R_F = n−1</td>
+</tr>
+<tr>
+  <td>(I-fast) 高速公式</td>
+  <td>本文の<em>表示式そのまま</em>を実装し、全cut定義（2ⁿ−2通り）と照合、<span class="num">35,931</span>族</td>
+  <td class="res">全件一致</td>
+</tr>
+<tr>
+  <td>(T1) 射影恒等式</td>
+  <td>ランダム重み付き木。辺の内部も分母4の格子点で展開し、全点対を検査</td>
+  <td class="res"><span class="num">272,802</span>点対／不一致0</td>
+</tr>
+<tr>
+  <td>(T5) 曖昧さ直径の閉形式</td>
+  <td>木 × δ の全組合せ。非単射・外向き分岐の項を含む</td>
+  <td class="res"><span class="num">4,992</span>設定／不一致0</td>
+</tr>
+<tr>
+  <td>(T7) 葉への優越</td>
+  <td>上と同じ木・同じ点対で新旧観測差を比較</td>
+  <td class="res">違反0</td>
+</tr>
+<tr>
+  <td>(T2) 最悪増幅率 c</td>
+  <td>木<span class="num">120</span>本。非単射で c=0 となる場合を含む</td>
+  <td class="res">不一致0</td>
+</tr>
+<tr>
+  <td>同梱 <code>spatial_research_verify.py</code></td>
+  <td><code>intervals</code>・<code>trees</code> の両方を完走</td>
+  <td class="res">報告値を再現</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>区間族数 C(30,3)=<span class="num">4,060</span>、C(31,4)=<span class="num">31,465</span>、C(32,5)=<span class="num">201,376</span>、合計 <span class="num">236,901</span> も合っている。§1.7 の21倍の例は手計算でも確認した。</p>
+
+<h2><span class="n">Ⅱ</span>指摘事項</h2>
+
+<div class="finding">
+  <div class="mark"><span class="id">01</span><span class="tag">要補筆</span></div>
+  <div class="body">
+    <h3>(T1) の「両側に基準点が存在する」は2行足りない</h3>
+    <span class="where">§1.2</span>
+    <p>結論は正しいが、現状の一文では詰め切れていない。査読者はここで止まる。</p>
+    <div class="fix"><span>補うべき内容</span>K∖{q} のうち p を含まない成分には S の点がある（なければ K の最小性に反する）。q が K の葉であれば q∈S なので s=q を取ればよい。これで <code>max_s(d(p,s)−d(q,s))=D</code> が言える。</div>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">02</span><span class="tag">要補筆</span></div>
+  <div class="body">
+    <h3>中点論法が圧縮されすぎている</h3>
+    <span class="where">§1.6</span>
+    <p>「d(z,u),d(z,v)≤D から d(z,m)≤D/2 と分かる」では、実木上で成り立つ理由が読み取れない。3行で埋まる。</p>
+    <div class="fix"><span>補うべき内容</span>p を z の [u,v] への射影、a=d(z,p)、t=d(p,u) とおく。a+t≤D と a+(D−t)≤D から a≤t。ゆえに d(z,m)=a+|t−D/2|≤D/2。</div>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">03</span><span class="tag">要補筆</span></div>
+  <div class="body">
+    <h3>「r 以上」と「r より大きい」が混在している</h3>
+    <span class="where">§2.2 補題1と直後の注、S の定義</span>
+    <p>補題1は「長さ r 以上」で削除可、直後の注で「厳密に r より大きい」に限定、S は「幅 r 以下」。論理的には整合しているが、初読では矛盾に見える。補題1の主張自体を <code>&gt; r</code> に統一するのが安全。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">04</span><span class="tag soft">要確認</span></div>
+  <div class="body">
+    <h3>道の辺数 L と中央頂点の選び方を明示する</h3>
+    <span class="where">§2.3</span>
+    <p>「全辺数 L は高々 m+1」の根拠（内部頂点が高々 m 個）と、中央頂点 <code>t=⌊L/2⌋</code> が <code>1≤t≤L−1</code> を満たすこと（L≥2 で成立）を一行ずつ足す。証明自体は正しい。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">05</span><span class="tag soft">要確認</span></div>
+  <div class="body">
+    <h3>(I-fast) の表示式とコードが違って見える</h3>
+    <span class="where">§3.1 と埋め込みコード</span>
+    <p>表示式の第3項は <code>max_j b_j − a_n</code>、コードは各 j ごとに <code>max_{i≠j} a_i</code> を使う。全体の最大値は一致する（j=n のcutは prefix 項 k=n−1 に吸収されるため。網羅照合で確認済み）が、読者はバグと判断する。その一文を入れるだけでよい。n=1 を除外する注記は適切。</p>
+  </div>
+</div>
+
+<h2><span class="n">Ⅲ</span>新規性の照合について</h2>
+
+<div class="finding">
+  <div class="mark"><span class="id">06</span><span class="tag">最重要</span></div>
+  <div class="body">
+    <h3>照合キーワードに adaptivity gap がない</h3>
+    <p><code>R_F/R_A</code> は、ロバスト最適化の言葉でいう <strong>adaptivity gap</strong>（static vs. adjustable、two-stage adjustable robust）そのものである。埋め込みコードの docstring には "interval adaptivity gap" と書いてあるのに、§出典の照合キーワード一覧にこの語がない。静的解と two-stage adjustable 解の比を adaptivity gap と呼び、その tight な特徴付けを与える系列（Awasthi–Goyal–Lu, <i>Mathematical Programming</i>／Bertsimas–Goyal–Lu ほか）が独立に存在する。</p>
+    <p>この語彙圏での再検索が、現時点で最も費用対効果の高い作業である。検索語として <code>adaptivity gap</code>／<code>static vs adjustable robust</code>／<code>a priori optimization</code>／<code>price of non-adaptivity</code>／<code>robust network design with node location uncertainty</code>。</p>
+    <p>あわせて、専門家が一瞥で照合できる英語一文の定型命題を冒頭に置くこと。現状の提示では、照合を頼まれた側が何と比較すればよいか掴むまでに時間がかかる。</p>
+    <div class="fix"><span>冒頭に置く一文の例</span>For n points with independent interval location uncertainty on the line, the adaptivity gap of the bottleneck spanning tree is exactly ⌈n/2⌉.</div>
+    <p>査読者自身も <code>adaptivity gap + bottleneck spanning tree + interval</code> で探したが同一定理は出なかった。ただしこれは不存在の証明ではない。</p>
+  </div>
+</div>
+
+<h2><span class="n">Ⅳ</span>抜けている問い</h2>
+
+<div class="finding">
+  <div class="mark"><span class="id">07</span><span class="tag soft">提案</span></div>
+  <div class="body">
+    <h3>次元・一般距離空間への拡張が未解決問題リストにない</h3>
+    <span class="where">§5 の (i)〜(v)</span>
+    <p>これは誰でも最初に訊く質問である。参考までに小規模な探索を行った。</p>
+    <ul>
+      <li>ランダム木距離（n=3〜6、各不確実集合は頂点の有限部分集合）：最悪比は 2 止まり。<code>⌈n/2⌉</code> を超える族は出なかった。</li>
+      <li>平面（ユークリッド、n=3,4）：最悪比は約 1.62。</li>
+    </ul>
+    <p>反例探索としては弱い規模なので証拠にはならないが、「木距離／ℝᵈ でも <code>⌈n/2⌉</code> は成り立つか」は載せる価値のある問いである。S1が木の話なので、S2を木距離へ持ち上げれば全体の統一感も出る。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">08</span><span class="tag soft">提案</span></div>
+  <div class="body">
+    <h3>R_F の計算量を素朴 O(n² log n) のままにしているのは惜しい</h3>
+    <span class="where">§3.1</span>
+    <p>直線上で <code>d_ij = max(b_i−a_j, b_j−a_i)</code> という構造なら O(n log n) に落ちる見込みが高く、R_A 側と揃う。少なくとも「容易な改善の余地がある」と書いておくべき。</p>
+  </div>
+</div>
+
+<h2><span class="n">Ⅴ</span>体裁と実装</h2>
+
+<div class="finding">
+  <div class="mark"><span class="id">09</span><span class="tag soft">体裁</span></div>
+  <div class="body">
+    <h3>埋め込みコードに連結時の残骸がある</h3>
+    <p>19行目と212行目に <code>#!/usr/bin/env python3</code> と孤立した module docstring が残っている。しかもその docstring には <code>Run: python interval_verify_author.py</code> とあり、本文が示す <code>python spatial_research_verify.py intervals</code> と矛盾する。実害はないが、再現性を売りにする文書では減点対象。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">10</span><span class="tag soft">体裁</span></div>
+  <div class="body">
+    <h3>付録Aの <code>lang="en"</code> が日本語部分まで含んでいる</h3>
+    <p>ラッパの <code>&lt;div lang="en"&gt;</code> が日本語の <code>&lt;h2&gt;</code> と導入段落まで覆っている。属性を英語本文だけに移す。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">11</span><span class="tag soft">体裁</span></div>
+  <div class="body">
+    <h3>MathML 39個に alttext がない</h3>
+    <p>せめて番号付き表示式 (T1)〜(T7) には <code>alttext</code> を付けたい。付録AだけASCII記法（<code>n &gt;= 2</code>, <code>ceil(n/2)</code>）で本文とスタイルが割れている点も、公開するなら統一を。</p>
+    <p>一方で、ID重複なし・内部アンカー切れなし・noscript フォールバック・<code>aria-live</code>・整数tickで閾値の浮動小数誤判定を回避・印刷時に <code>&lt;details&gt;</code> を開く処理まで入っている。この部分の作りは素直に良い。</p>
+  </div>
+</div>
+
+<div class="finding">
+  <div class="mark"><span class="id">12</span><span class="tag soft">提案</span></div>
+  <div class="body">
+    <h3>S1とS2は分割すべき。著者名とライセンスがない</h3>
+    <p>S2は単体で完結した短い論文になる（上界・全nの等号例・強化係数・必要十分条件・独立証明二本）。S1は §1.4／§1.5／§1.8 が既知原理の系であることを自認しているぶん、核は (T3)／(T5) の跳躍を含む厳密式に絞られる。二つを束ねると、どちらの主張も焦点がぼやける。</p>
+    <p>また文書に著者名とライセンス表記がない。公開するなら必要。</p>
+  </div>
+</div>
+
+<footer class="method">
+  <p>検証方法：査読者が別実装したコードによる有限検査。整数および <code>fractions.Fraction</code> のみを使用し、数学的な比較に浮動小数を用いていない。木の検査では格子抽出ではなく、辺の内部を含む点対を分母4の有理格子で展開した。</p>
+  <p>これらの検査は一般証明の代替ではない。本報告は、証明支援系による形式検証を含まない。新規性についての判断は、査読者が実施した範囲の文献照合に基づくものであり、先行発表の不存在を示すものではない。</p>
+</footer>
+
+</div>
+</body>
+</html>

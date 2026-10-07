@@ -1,0 +1,76 @@
+{
+  "basis": "fan-in 2 AND/OR; unary NOT charged; free fanout; no constants",
+  "model": "original C represented by a free opaque output port; all x,c tested",
+  "seed": 20260905,
+  "exhaustive": [
+    {
+      "n": 1,
+      "intervals": 3,
+      "patch_circuits": 8,
+      "evaluated_rows": 32,
+      "prefix_completion_circuits": 6,
+      "max_additional_gates": 4
+    },
+    {
+      "n": 2,
+      "intervals": 10,
+      "patch_circuits": 52,
+      "evaluated_rows": 416,
+      "prefix_completion_circuits": 30,
+      "max_additional_gates": 11
+    },
+    {
+      "n": 3,
+      "intervals": 36,
+      "patch_circuits": 1004,
+      "evaluated_rows": 16064,
+      "prefix_completion_circuits": 510,
+      "max_additional_gates": 24
+    },
+    {
+      "n": 4,
+      "intervals": 136,
+      "patch_circuits": 262108,
+      "evaluated_rows": 8387456,
+      "prefix_completion_circuits": 131070,
+      "max_additional_gates": 49
+    }
+  ],
+  "sampled": [
+    {
+      "n": 5,
+      "intervals": 111,
+      "patch_circuits": 426,
+      "evaluated_rows": 27264,
+      "prefix_completion_circuits": 76,
+      "max_additional_gates": 98
+    },
+    {
+      "n": 6,
+      "intervals": 112,
+      "patch_circuits": 432,
+      "evaluated_rows": 55296,
+      "prefix_completion_circuits": 62,
+      "max_additional_gates": 195
+    },
+    {
+      "n": 8,
+      "intervals": 114,
+      "patch_circuits": 445,
+      "evaluated_rows": 227840,
+      "prefix_completion_circuits": 49,
+      "max_additional_gates": 773
+    },
+    {
+      "n": 10,
+      "intervals": 116,
+      "patch_circuits": 451,
+      "evaluated_rows": 923648,
+      "prefix_completion_circuits": 45,
+      "max_additional_gates": 3079
+    }
+  ],
+  "status": "PASS",
+  "elapsed_seconds": 3.708,
+  "scope_note": "Finite checks supplement the proof; they are not asymptotic lower bounds, novelty evidence, or a P versus NP result."
+}

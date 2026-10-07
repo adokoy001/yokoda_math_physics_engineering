@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>誰がこの研究を欲しがっているか — 調査メモ</title>
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#262b36;--text:#e6e8ee;--muted:#9aa3b2;--accent:#6ee7b7;--warn:#fbbf24;--blue:#7dd3fc}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.75}
+  main{max-width:860px;margin:0 auto;padding:40px 20px 80px}
+  .tag{display:inline-block;font-size:12px;letter-spacing:.12em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 10px}
+  h1{font-size:28px;line-height:1.35;margin:14px 0 8px}
+  h2{font-size:19px;margin:0 0 10px}
+  p{margin:8px 0}
+  .lead{color:var(--muted)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:18px 0}
+  .card.hl{border-color:var(--accent)}
+  .card.warn{border-color:var(--warn)}
+  .rank{font-size:12px;color:var(--bg);background:var(--accent);border-radius:6px;padding:1px 8px;margin-right:8px;font-weight:700}
+  .warn .rank{background:var(--warn)}
+  .muted{color:var(--muted);font-size:14px}
+  a{color:var(--blue);text-decoration:none;border-bottom:1px dotted var(--blue)}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px}
+  th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600}
+  .pitch{background:#10251d;border-left:3px solid var(--accent);padding:12px 16px;border-radius:8px;margin-top:8px}
+  ol,ul{padding-left:20px;margin:6px 0}
+  li{margin:4px 0}
+  footer{margin-top:36px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <span class="tag">RESEARCH MEMO · 2026-10-03</span>
+  <h1>「見えない内部は、どこまで減らせる？」<br>この研究を欲しがっているのは誰か</h1>
+  <p class="lead">対象：<a href="https://nikki.yokoda.okinawa/works/physical-memory-reduction/">physical-memory-reduction</a> の研究ノート。<br>問い：「これは既知か」ではなく「誰がこれを必要としているか」をWeb検索で調べたメモ。</p>
+
+  <div class="card">
+    <h2>結論</h2>
+    <p>理論側には、この問題を<b>未解決と明言している研究コミュニティが二つ</b>ある（正値システムの最小実現、相型分布の最小表現）。さらに、ノートの照合記録になかった<b>非常に近い先行研究（Hughes）</b>が見つかった。実務側（建物・電子部品の熱モデル）にも需要はあるが、合成例の定理のままでは届かない。</p>
+  </div>
+
+  <div class="card hl">
+    <h2><span class="rank">1</span>最小正値実現問題（制御理論）</h2>
+    <p>「同じ応答を正の部品で最少何個で作れるか」は、最小正値実現問題の一種。Benvenuti の2022年サーベイは、正値実現の存在は解決済みだが<b>最小性の特徴づけは未解決</b>と整理している。最小次元が伝達関数の次数より大きくなる現象（ノートの「3と4」）も中心テーマ。</p>
+    <p class="muted">ノートとの対応：相反（対称）・多端子・単一極という部分クラスで最少数を cp-rank で決めた点が、未解決問題の部分解として位置づけられる。</p>
+    <ul class="muted">
+      <li><a href="https://www.diag.uniroma1.it/en/node/25841">Benvenuti, Minimal positive realizations: A survey, Automatica 143 (2022)</a></li>
+      <li><a href="https://www.kybernetika.cz/content/2003/2/217">Benvenuti–Farina, Kybernetika 39 (2003) 未解決問題のサーベイ</a></li>
+      <li><a href="https://iris.uniroma1.it/handle/11573/232104">Benvenuti–Farina, A tutorial on the positive realization problem, IEEE TAC</a></li>
+      <li><a href="https://iris.uniroma1.it/handle/11573/460481">Benvenuti–Farina, Positive and compartmental systems</a>（コンパートメント系＝熱回路に近い対称構造）</li>
+    </ul>
+  </div>
+
+  <div class="card hl">
+    <h2><span class="rank">2</span>相型分布の最小表現（応用確率）</h2>
+    <p>9節の「可逆な吸収時間」「Erlang混合」はこの分野の言葉そのもの。相型分布の最小相数を求める問題は未解決とされ、2024年の論文でも解決には程遠いと書かれている。Waterloo大学の Q.-M. He はこれを研究プログラムとして掲げ、正値実現問題への応用も明記している。</p>
+    <ul class="muted">
+      <li><a href="https://arxiv.org/html/2409.12673v2">A non-convex optimization approach … algebraic degree PH representations (arXiv 2409.12673)</a></li>
+      <li><a href="https://people.smp.uq.edu.au/YoniNazarathy/AMSIschool2016/CommaultMocanu_forAssignment.pdf">Commault–Mocanu, PH distributions and representations: open problems for system theory (IJC 2003)</a></li>
+      <li><a href="https://www.engineering.uwaterloo.ca/~q7he/Z_PDF_PS_Published/2008_JOC_Reprint_HE_Zhang.pdf">He–Zhang, An algorithm for computing minimal Coxian representations (2008)</a></li>
+    </ul>
+  </div>
+
+  <div class="card warn">
+    <h2><span class="rank">要確認</span>重複のおそれ：Hughes の相反系の研究</h2>
+    <p>相反系の実現で、<b>コンデンサ（偶パリティ状態）とインダクタの個数に下界を与える</b>論文。「相反な回路でコンデンサが最低何個必要か」という問いはノートと非常に近い。ノートの文献台帳で照合されていないなら、最優先で本文を読むべき。</p>
+    <ul class="muted">
+      <li><a href="https://www.arxiv.org/pdf/1804.01489">T.H. Hughes, On the internal signature and minimal electric network realizations of reciprocal behaviors, Systems &amp; Control Letters (2018), arXiv 1804.01489</a></li>
+    </ul>
+    <p class="muted">確認したい点：(1) 下界は符号（Bezoutian の慣性）由来か、非負性（cp-rank）由来か。(2) 多端子・RCのみ・対角容量という制約下の最小数を扱っているか。(3) 同著者の関連論文の引用をたどり、RC限定の最小性結果がないか。</p>
+  </div>
+
+  <div class="card">
+    <h2>実務側の需要（距離はまだ遠い）</h2>
+    <table>
+      <tr><th>分野</th><th>何を欲しがっているか</th><th>ノートとの距離</th></tr>
+      <tr><td>建物のグレーボックスRCモデル</td><td>レビューが「理論的な限界・前提が不明確」と指摘。次数は経験的に選ばれている。</td><td>次数選択の理論的指針になりうるが、実データでの検証が必要。</td></tr>
+      <tr><td>電子部品の多端子コンパクト熱モデル（DELPHI系）</td><td>境界条件非依存の過渡RC網を、最適化や遺伝的アルゴリズムで手間をかけてフィット。</td><td>「このノード数では原理的に合わない」という事前判定に使える可能性。</td></tr>
+      <tr><td>LSI配線の実現可能RC縮約（TICER, SparseRC 等）</td><td>多ポート・大規模網の疎化と速度。</td><td>最少個数の厳密決定とは関心がずれる。</td></tr>
+    </table>
+    <ul class="muted">
+      <li><a href="https://www.osti.gov/servlets/purl/1808373">Grey-box modeling and application for building energy (OSTI review)</a></li>
+      <li><a href="https://www.osti.gov/servlets/purl/2405068">Grey-box building model order reduction review (OSTI)</a></li>
+      <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0005109814000478">Structure-preserving model reduction of nonlinear building thermal models (Automatica)</a></li>
+      <li><a href="https://www.academia.edu/111806250/Multi_port_dynamic_compact_thermal_models_of_dual_chip_package_using_model_order_reduction_and_metaheuristic_optimization">Multi-port dynamic compact thermal models … (Microelectronics Reliability 2018)</a></li>
+    </ul>
+  </div>
+
+  <div class="card hl">
+    <h2>見せる相手と、売り込み方</h2>
+    <ol>
+      <li><b>T.H. Hughes（Exeter）</b>：重複確認を兼ねて最優先。</li>
+      <li><b>L. Benvenuti（Sapienza）</b>：最小正値実現の第一人者で、問題を未解決と明言している本人。</li>
+      <li><b>Q.-M. He（Waterloo）</b>：9節の相型分布の結果を評価できる。</li>
+    </ol>
+    <div class="pitch">最小正値実現の最小性は一般には未解決だが、<b>相反（対称）・多端子・単一極</b>という部分クラスでは最少内部容量数が <b>cp-rank</b> で決まる。さらに有限時間の非負観測に対し、可逆吸収時間の分解から鋭い上限 C<sub>k</sub> と Erlang 段数への厳密縮約を得て、観測値から最少状態数を数えられる。</div>
+  </div>
+
+  <div class="card">
+    <h2>astra への依頼（次のアクション案）</h2>
+    <ol>
+      <li>Hughes (2018) と関連論文の本文を読み、ノートの主張との重複・差分を表にする。</li>
+      <li>Benvenuti (2022) サーベイの未解決問題リストに、ノートの結果がどの問いの部分解に当たるかを対応づける。</li>
+      <li>相型分布側で、<b>可逆（reversible）PH分布の最小表現・集中度</b>に関する既知結果を検索し、9節と比較する。</li>
+      <li>上記を踏まえ、9節＋8節を軸にした1本の原稿の骨子（主定理・既知との差分・想定読者）を作る。</li>
+      <li>建物グレーボックスモデルの公開データで、下界が実際に効く例があるか小さく試す。</li>
+    </ol>
+  </div>
+
+  <footer>
+    注意：このメモはWeb検索の要旨・抄録レベルの情報に基づく。各論文の本文は未精読であり、重複の有無や未解決問題との正確な対応は未確認。<br>
+    作成：Claude（2026-10-03, 横田さんとの対話より）
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "status": "all_passed",
+  "arithmetic": "exact integers and fractions",
+  "graphs": {
+    "level_graph_cases": 1695,
+    "vertex_records": 46085,
+    "edge_records": 189430,
+    "example_n4_S5over4": [
+      {
+        "E": "0",
+        "components": 12
+      },
+      {
+        "E": "1/64",
+        "components": 12
+      },
+      {
+        "E": "1/32",
+        "components": 4
+      },
+      {
+        "E": "5/32",
+        "components": 4
+      },
+      {
+        "E": "9/32",
+        "components": 1
+      },
+      {
+        "E": "61/128",
+        "components": 1
+      },
+      {
+        "E": "43/64",
+        "components": 1
+      }
+    ]
+  },
+  "margins": {
+    "sorted_grid_vectors": 317353,
+    "upper_rank_inequalities": 316651,
+    "lower_rank_inequalities": 316651,
+    "grid_denominator": 10
+  },
+  "sharpness": {
+    "exact_extremizer_checks": 9900
+  }
+}

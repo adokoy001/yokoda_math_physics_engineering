@@ -1,0 +1,13 @@
+{
+  "verify_nextbit_patch.py": "265789cba35213feb3ecc2daaa2f7cf07023ec715487a892a36e8baefd03c562",
+  "verify_ordered_patch.py": "8a19f22709bb919a7460d2f2b22807205845b8234a56b8acc4a20dfbd66b8673",
+  "tiny_wc_synthesis.py": "f1fd6251d0d94a4a73f9bb76cdd33490e0e5f54779430bf40ca563889d6328a5",
+  "verify_tiny_wc_synthesis.py": "c41efd326cbf2acabbcc86f7c048f88639fd1d860343636c273de6effbf24818",
+  "nextbit_patch_verification.json": "27fa2c4a475ae8789b084a3221f450da53a8475575ca41c7f28c7a86d426e408",
+  "ordered_patch_experiment.json": "e2cb29d4cd351a0cac628f1a0ee0ac4dd48c8a40aad64d50607a3dcad817a349",
+  "tiny_wc_synthesis_n2.json": "9112995bce54c08ae05cbc57b363e8217345610a25a7d4a09edb0143ae2590e0",
+  "tiny_wc_synthesis_n3.json": "6dc8218c60a45e1ec018cecb7b0a5aa7b3b3b450ae63b582674e942a89f22c57",
+  "tiny_wc_synthesis_n4.json": "531f2824b02d242ebb1c3c9f5719e5decf98c667d0d79539146e463fb36e1fb8",
+  "tiny_wc_verification.json": "67b233c7de4dcd250e2c571366bd0d2c88c0b1980dcf2cec9ae240b9c58d6626",
+  "README.md": "559acfbf88208406f2951ed803164c8f4fae862290f4d3db319f4e058f121fbb"
+}

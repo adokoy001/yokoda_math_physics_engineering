@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "assertion_exhaustive": [
+    {
+      "n": 2,
+      "families": 16,
+      "max_family_size": null,
+      "models_each_tested_in_both_conventions": 128,
+      "finite_counts_vacuous_and_nonempty": [
+        48,
+        32
+      ]
+    },
+    {
+      "n": 3,
+      "families": 256,
+      "max_family_size": null,
+      "models_each_tested_in_both_conventions": 24576,
+      "finite_counts_vacuous_and_nonempty": [
+        11904,
+        6912
+      ]
+    },
+    {
+      "n": 4,
+      "families": 137,
+      "max_family_size": 2,
+      "models_each_tested_in_both_conventions": 109600,
+      "finite_counts_vacuous_and_nonempty": [
+        44046,
+        30094
+      ]
+    }
+  ],
+  "total_deterministic_exhaustive": [
+    {
+      "n": 2,
+      "families": 16,
+      "max_family_size": null,
+      "models": 128,
+      "finite_models": 48
+    },
+    {
+      "n": 3,
+      "families": 379,
+      "max_family_size": 2,
+      "models": 36384,
+      "finite_models": 18360
+    }
+  ],
+  "unrestricted_assertions": {
+    "n_range": [
+      2,
+      4
+    ],
+    "model_convention_cases": 1808
+  },
+  "sharp_assertion_examples": [
+    {
+      "bad_worlds": 1,
+      "empty_allowed_delay": 1,
+      "nonempty_preserved_delay": 1,
+      "world_counts": [
+        2,
+        3
+      ]
+    },
+    {
+      "bad_worlds": 2,
+      "empty_allowed_delay": 2,
+      "nonempty_preserved_delay": 2,
+      "world_counts": [
+        3,
+        4
+      ]
+    },
+    {
+      "bad_worlds": 3,
+      "empty_allowed_delay": 3,
+      "nonempty_preserved_delay": 3,
+      "world_counts": [
+        4,
+        5
+      ]
+    },
+    {
+      "bad_worlds": 4,
+      "empty_allowed_delay": 4,
+      "nonempty_preserved_delay": 4,
+      "world_counts": [
+        5,
+        6
+      ]
+    },
+    {
+      "bad_worlds": 5,
+      "empty_allowed_delay": 5,
+      "nonempty_preserved_delay": 5,
+      "world_counts": [
+        6,
+        7
+      ]
+    },
+    {
+      "bad_worlds": 6,
+      "empty_allowed_delay": 6,
+      "nonempty_preserved_delay": 6,
+      "world_counts": [
+        7,
+        8
+      ]
+    },
+    {
+      "bad_worlds": 7,
+      "empty_allowed_delay": 7,
+      "nonempty_preserved_delay": 7,
+      "world_counts": [
+        8,
+        9
+      ]
+    }
+  ],
+  "scope": "Finite checks detect definition and boundary mistakes; not a proof or novelty claim."
+}

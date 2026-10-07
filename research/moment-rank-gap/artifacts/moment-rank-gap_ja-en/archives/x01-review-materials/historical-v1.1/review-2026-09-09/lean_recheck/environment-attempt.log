@@ -1,0 +1,11 @@
+2026 09 09
+$ command -v lean; command -v lake; command -v elan
+[no executable found on PATH]
+
+$ curl -fIL --max-time 25 --connect-timeout 10 https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst
+write_stdin failed: Unified exec process failed: network approval was cancelled before a decision was returned
+No shell exit status was returned. No Lean archive was downloaded and no new Lean compilation was executed.
+
+$ git ls-remote https://github.com/leanprover-community/mathlib4.git refs/tags/v4.19.0
+c44e0c8ee63ca166450922a373c7409c5d26b00b	refs/tags/v4.19.0
+Exit code: 0

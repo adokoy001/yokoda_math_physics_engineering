@@ -1,0 +1,30 @@
+{
+  "seed": 20260922,
+  "status": "all_assertions_passed",
+  "caveat": "Numerical validation only; not a proof or novelty claim.",
+  "conventions": {
+    "n": "boundary ports per partition in physical cases",
+    "S": "sum over U x V block, each cross entry counted once",
+    "d": "S/n, average output on U under equal unit inputs on V",
+    "within_leak": "ordered off-diagonal sums, not unordered edge sums",
+    "K_budget": "-K_ij <= kappa + delta on cross entries",
+    "exact_bound": "d <= r*h*lambda/n^2 when kappa=lambda/n and delta=0",
+    "approximate_bound": "r >= n*max(a-epsilon,0)/(h*(kappa+delta))",
+    "ramp": "derivative is convolution of two uniform probability densities"
+  },
+  "summary": {
+    "physical_networks": 250,
+    "physical_protocol_checks": 500,
+    "exact_K_networks": 200,
+    "approximate_K_networks": 50,
+    "random_CP_cases": 750,
+    "deterministic_CP_edge_cases": 5,
+    "max_physical_bound_ratio": 0.24741946707742124,
+    "max_CP_leak_bound_ratio": 1.0,
+    "max_within_zero_error": 0.0,
+    "max_independent_factor_error": 9.28812582401406e-13,
+    "min_nonnegative_factor_entry": 0.0,
+    "min_entrywise_hM0_minus_D": 0.0,
+    "min_psd_hM0_minus_D": -6.243044435269559e-15
+  }
+}

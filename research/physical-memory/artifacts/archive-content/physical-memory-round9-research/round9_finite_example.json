@@ -1,0 +1,121 @@
+{
+  "boundary_path": [
+    "b0",
+    "b1",
+    "b2",
+    "b3"
+  ],
+  "static_edge_budgets": [
+    "1",
+    "1/2",
+    "1/10"
+  ],
+  "kernel": "indicator of [9/10,11/10]",
+  "unscaled_capacities": {
+    "x1": "55/9",
+    "x2": "55/9",
+    "x3": "2"
+  },
+  "unscaled_conductors": [
+    [
+      "b0",
+      "x1",
+      "11"
+    ],
+    [
+      "x1",
+      "x2",
+      "11/9"
+    ],
+    [
+      "x2",
+      "b1",
+      "11"
+    ],
+    [
+      "b1",
+      "x3",
+      "1"
+    ],
+    [
+      "x3",
+      "b2",
+      "1"
+    ],
+    [
+      "b2",
+      "b3",
+      "1/10"
+    ]
+  ],
+  "strong_edge_rates": [
+    "9/5",
+    "11/5"
+  ],
+  "weak_edge_rate": "1",
+  "strong_edge_statistic": "0.1078977504181911373005554374794629394488677421547337308899522048369025",
+  "total_statistic": "0.1447470384394509165978591040866181725594796694553165688664308356662453",
+  "margin_over_0.14": "0.0047470384394509165978591040866181725594796694553165688664308356662453",
+  "rational_certificate": {
+    "threshold": "7/50",
+    "proved_lower_bound": "1447470384394509/10000000000000000",
+    "check": true,
+    "series_upper_order": 60,
+    "series_lower_order": 61,
+    "interval_width_less_than": "1e-55",
+    "width_check": true
+  },
+  "exact_target_scaling": {
+    "theta_definition": "theta=(7/50)/S, with S given by the exact exponential expression",
+    "theta_decimal": "0.9672045902242300549756699488820534579513846259166773611200742176113707",
+    "capacities": {
+      "x1": "55 theta/9",
+      "x2": "55 theta/9",
+      "x3": "2 theta"
+    },
+    "conductors": [
+      [
+        "b0",
+        "x1",
+        "11 theta"
+      ],
+      [
+        "x1",
+        "x2",
+        "11 theta/9"
+      ],
+      [
+        "x2",
+        "b1",
+        "11 theta"
+      ],
+      [
+        "b1",
+        "x3",
+        "theta"
+      ],
+      [
+        "x3",
+        "b2",
+        "theta"
+      ],
+      [
+        "b0",
+        "b1",
+        "1-theta"
+      ],
+      [
+        "b1",
+        "b2",
+        "(1-theta)/2"
+      ],
+      [
+        "b2",
+        "b3",
+        "1/10"
+      ]
+    ],
+    "exact_total_statistic": "7/50",
+    "proof": "Dynamic conductances and capacities scale equally, preserving Q; static budgets and statistics scale by theta. Added direct edges restore K and contribute no transient statistic."
+  }
+}
